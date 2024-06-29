@@ -17,7 +17,7 @@ export default defineConfig({
         '/paths/java': { base: '/paths/java/', items: sidebarJava()},
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/ThaiProgrammer/tpa-path' }
     ]
   }
 })
