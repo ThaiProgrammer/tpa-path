@@ -5,7 +5,7 @@ export default defineConfig({
   title: "TPA Paths",
   description: "Paths of Thai Programmer",
   themeConfig: {
-    logo: 'assets/logo.svg',
+    logo: 'https://res.cloudinary.com/dqizuot8q/image/upload/v1719638409/logo_c9ju7d.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' }

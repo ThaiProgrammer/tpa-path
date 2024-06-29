@@ -11,9 +11,9 @@ hero:
       text: Home
       link: /
   image: {
-      light: '/assets/black-tpa.png',
-      dark: '/assets/white-tpa.png',
-      alt: Levis
+      light: 'https://res.cloudinary.com/dqizuot8q/image/upload/v1719638410/black-tpa_jehxeu.png',
+      dark: 'https://res.cloudinary.com/dqizuot8q/image/upload/v1719638410/white-tpa_ye4q4l.png',
+      alt: TPA Roadmaps
   }
 
 features:
