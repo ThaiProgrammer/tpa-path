@@ -8,11 +8,8 @@ hero:
   tagline: เส้นทางการเติบโตสำหรับโปรแกรมเมอร์ (Programmer Career Paths)
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Home
+      link: /
   image: {
       light: '/assets/black-tpa.png',
       dark: '/assets/white-tpa.png',
@@ -20,11 +17,14 @@ hero:
   }
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: ASP.Net Core
+    details: ขั้นตอนแนะนำในการเตรียมความพร้อมเพื่อพัฒนา Website ด้วย ASP.NET Core ในปี 2024
+    link: /paths/aspnet-core
+  - title: DevOps
+    details: ขั้นตอนแนะนำในการเตรียมความพร้อมในการเข้าสู่เส้นทาง DevOps, SRE และ operations ในปี 2024
+    link: /paths/devops
+  - title: Java
+    details: ขั้นตอนการเตรียมความพร้อมสู่การเป็นนักพัฒนา Java ในปี 2024
+    link: /paths/java
 ---
 
