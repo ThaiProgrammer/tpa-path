@@ -6,7 +6,7 @@ Python มักถูกแนะนำเป็นภาษาแรกสำ�
 
 เพื่อเรียนรู้เพิ่มเติม สามารถศึกษาได้จากแหล่งข้อมูลต่อไปนี้:
 
-- [Visit Dedicated Python Roadmap](/python)
+- [Visit Dedicated Python Roadmap](https://www.python.org/psf-landing)
 - [Python Website](https://www.python.org/)
 - [Python Getting Started](https://www.python.org/about/gettingstarted/)
 - [Automate the Boring Stuff](https://automatetheboringstuff.com/)
