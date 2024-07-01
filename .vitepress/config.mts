@@ -25,16 +25,55 @@ export default defineConfig({
 function sidebarASPNetCore(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'ASP.NET Core', link: 'index',
+      text: 'ASP.NET Core', 
       items: [
         { 
-          text: 'Basics of CSharp', 
-          collapsed: false,
+          text: '2024 Bonus Track', 
+          collapsed: true,
+          base: '/paths/aspnet-core/000-2024-bonus-track/',
+          items: [
+            { text: 'C# Fundamentals', link: '100-2024-bonus-track-01' },
+            { text: 'Test Driven Development (TDD)', link: '100-2024-bonus-track-02' },
+            { text: 'เริ่มต้นอีกครั้งกับ .NET 6 Web API', link: '100-2024-bonus-track-03' },
+            { text: 'Clean Architecture', link: '100-2024-bonus-track-04' },
+            { text: 'Beginner Playlist', link: '100-2024-bonus-track-05' },
+            { text: 'Awesome .NET', link: '100-2024-bonus-track-06' },
+          ]
+        },
+        { 
+          text: 'เรื่องพื้นฐานที่ควรรู้เกี่ยวกับ C#', 
+          collapsed: true,
           base: '/paths/aspnet-core/100-basics-of-csharp/',
           items: [
-            { text: 'CSharp', link: '100-csharp' },
-            { text: 'Dotnet', link: '101-dotnet' },
-            { text: 'Dotnet CLI', link: '102-dotnet-cli' },
+            { text: 'ภาษา C# คืออะไร', link: '100-csharp' },
+            { text: 'Dotnet คืออะไร', link: '101-dotnet' },
+            { text: 'Dotnet CLI คืออะไร', link: '102-dotnet-cli' },
+          ]
+        },
+        { 
+          text: 'ความรู้เบื้องต้นที่สำคัญที่ช่วยในการศึกษา C# ได้ดียิ่งขึ้น', 
+          collapsed: true,
+          base: '/paths/aspnet-core/101-general-development-skills/',
+          items: [
+            { text: 'ความรู้เบื้องต้นที่สำคัญที่ช่วยในการศึกษา C# ได้ดียิ่งขึ้น', link: '000-index' },
+            { text: 'Git', link: '100-git' },
+            { text: 'Azure Devops Services', link: '101-azure-devops-services' },
+            { text: 'Repo Hosting Services', link: '102-vcs-hosting-services' },
+            { text: 'HTTPS', link: '103-http-https' },
+            { text: 'Data Structures', link: '104-datastructures-and-algorithms' },
+          ]
+        },
+        { 
+          text: 'Database fundamentals', 
+          collapsed: true,
+          base: '/paths/aspnet-core/102-database-fundamentals/',
+          items: [
+            { text: 'Database fundamentals', link: '000-index' },
+            { text: 'Database design basics', link: '100-database-design-basics' },
+            { text: 'Sql basics', link: '101-sql-basics' },
+            { text: 'Stored Procedures', link: '102-stored-procedures' },
+            { text: 'Constraints', link: '103-constraints' },
+            { text: 'Triggers', link: '104-triggers' },
           ]
         },
       ]
@@ -45,7 +84,7 @@ function sidebarASPNetCore(): DefaultTheme.SidebarItem[] {
 function sidebarDevOps(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'DevOps', link: 'index',
+      text: 'DevOps',
       items: [
         { 
           text: 'Language', 
@@ -66,7 +105,7 @@ function sidebarDevOps(): DefaultTheme.SidebarItem[] {
 function sidebarJava(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'Java', link: 'index',
+      text: 'Java',
       items: [
         { 
           text: 'Java fundamentals', 
