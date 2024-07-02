@@ -15,6 +15,7 @@ export default defineConfig({
         '/paths/aspnet-core': { base: '/paths/aspnet-core/', items: sidebarASPNetCore()},
         '/paths/devops': { base: '/paths/devops/', items: sidebarDevOps()},
         '/paths/java': { base: '/paths/java/', items: sidebarJava()},
+        '/paths/azure': { base: '/paths/azure/', items: sidebarAzure()},
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ThaiProgrammer/tpa-path' }
@@ -88,7 +89,7 @@ function sidebarDevOps(): DefaultTheme.SidebarItem[] {
       items: [
         { 
           text: 'Language', 
-          collapsed: false,
+          collapsed: true,
           base: '/paths/devops/100-language/',
           items: [
             { text: 'python', link: '100-python' },
@@ -109,7 +110,7 @@ function sidebarJava(): DefaultTheme.SidebarItem[] {
       items: [
         { 
           text: 'Java fundamentals', 
-          collapsed: false,
+          collapsed: true,
           base: '/paths/java/100-java-fundamentals/',
           items: [
             { text: 'Basic Syntax', link: '100-basic-syntax' },
@@ -122,6 +123,37 @@ function sidebarJava(): DefaultTheme.SidebarItem[] {
             { text: 'Packages', link: '106-packages' },
             { text: 'loops', link: '107-loops' },
             { text: 'Exception Handling', link: '108-exception-handling' },
+          ]
+        },
+      ]
+    }
+  ]
+}
+function sidebarAzure(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: 'Azure',
+      items: [
+        { 
+          text: 'Fundamentals', 
+          collapsed: true,
+          base: '/paths/azure/fundamental/',
+          items: [
+            { text: 'Introduction', link: '000-index' },
+            { text: 'Cloud Concepts', link: '001-cloud-concepts' },
+            { text: 'Azure Account, Support Options, Architecture, Service Guarantees, Manage Services Tools', link: '002-architecture-service-guarantees' },
+            { text: 'Core Cloud Services (Compute Options, Data Storage Options, Networking Options)', link: '003-core-cloud-services' },
+            { text: 'Security, Responsibility and Trust in Azure', link: '004-security-responsibility-trust' },
+            { text: 'Standards Infrastructure, Resources Organization', link: '005-standards-infrastructure' },
+            { text: 'Predict Costs and Optimize Spending', link: '006-predict-optimize-costs' }
+          ]
+        },
+        { 
+          text: 'Certifications Path', 
+          collapsed: true,
+          base: '/paths/azure/certification/',
+          items: [
+            { text: 'Certifications Path', link: '000-index' }
           ]
         },
       ]

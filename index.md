@@ -17,6 +17,9 @@ hero:
   }
 
 features:
+  - title: Web Development Guideline
+    details: รวบรวมเนื้อหาที่คิดว่าเป็นประโยชน์ให้เห็นภาพกว้างในการเข้ามาทำงานในสาย Web Developers
+    link: /paths/web-guideline
   - title: ASP.Net Core
     details: ขั้นตอนแนะนำในการเตรียมความพร้อมเพื่อพัฒนา Website ด้วย ASP.NET Core ในปี 2024
     link: /paths/aspnet-core
@@ -26,5 +29,11 @@ features:
   - title: Java
     details: ขั้นตอนการเตรียมความพร้อมสู่การเป็นนักพัฒนา Java ในปี 2024
     link: /paths/java
+  - title: Cloud Computing
+    details: ทำความเข้าใจว่า Cloud Computing คืออะไร
+    link: /paths/intro-to-cloud
+  - title: Azure
+    details: รวบรวมเนื้อหาที่เกี่ยวกับการใช้งาน Microsoft Cloud - Azure ในการพัฒนาระบบ
+    link: /paths/azure
 ---
 
