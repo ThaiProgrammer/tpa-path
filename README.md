@@ -31,3 +31,8 @@ npm add -D vitepress
 ```bash
 npm run docs:dev
 ```
+## ขอบคุณผู้ร่วมพัฒนาทุกคน ❤
+
+ <a href = "https://contrib.rocks/image?repo=ThaiProgrammer/tpa-path">
+   <img src = "https://contrib.rocks/image?repo=ThaiProgrammer/tpa-path"/>
+ </a>
