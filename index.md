@@ -8,6 +8,9 @@ hero:
   tagline: เส้นทางการเติบโตสำหรับโปรแกรมเมอร์ (Programmer Career Paths)
   actions:
     - theme: brand
+      text: Contribute
+      link: /contrib/contributing.md
+    - theme: alt
       text: Home
       link: /
   image: {
