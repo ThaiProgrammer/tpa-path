@@ -2,7 +2,7 @@ import { defineConfig, type DefaultTheme } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "TPA Paths",
+  title: "Thai Programmer Paths",
   description: "Paths of Thai Programmer",
   themeConfig: {
     logo: 'https://res.cloudinary.com/dqizuot8q/image/upload/v1719638409/logo_c9ju7d.svg',
