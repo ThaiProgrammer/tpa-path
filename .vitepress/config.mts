@@ -16,6 +16,7 @@ export default defineConfig({
         '/paths/devops': { base: '/paths/devops/', items: sidebarDevOps()},
         '/paths/java': { base: '/paths/java/', items: sidebarJava()},
         '/paths/azure': { base: '/paths/azure/', items: sidebarAzure()},
+        '/paths/cloud-computing': { base: '/paths/cloud-computing/', items: sidebarCloudComputing()},
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ThaiProgrammer/tpa-path' }
@@ -31,20 +32,20 @@ function sidebarASPNetCore(): DefaultTheme.SidebarItem[] {
         { 
           text: '2024 Bonus Track', 
           collapsed: true,
-          base: '/paths/aspnet-core/000-2024-bonus-track/',
+          base: '/paths/aspnet-core/2024-bonus-track/',
           items: [
-            { text: 'C# Fundamentals', link: '100-2024-bonus-track-01' },
-            { text: 'Test Driven Development (TDD)', link: '100-2024-bonus-track-02' },
-            { text: 'เริ่มต้นอีกครั้งกับ .NET 6 Web API', link: '100-2024-bonus-track-03' },
-            { text: 'Clean Architecture', link: '100-2024-bonus-track-04' },
-            { text: 'Beginner Playlist', link: '100-2024-bonus-track-05' },
-            { text: 'Awesome .NET', link: '100-2024-bonus-track-06' },
+            { text: 'C# Fundamentals', link: 'fundamentals' },
+            { text: 'Test Driven Development (TDD)', link: 'tdd' },
+            { text: 'เริ่มต้นอีกครั้งกับ .NET 6 Web API', link: 'webapi' },
+            { text: 'Clean Architecture', link: 'clean-architecture' },
+            { text: 'Beginner Playlist', link: 'playlist' },
+            { text: 'Awesome .NET', link: 'awesome' },
           ]
         },
         { 
           text: 'เรื่องพื้นฐานที่ควรรู้เกี่ยวกับ C#', 
           collapsed: true,
-          base: '/paths/aspnet-core/100-basics-of-csharp/',
+          base: '/paths/aspnet-core/basics-of-csharp/',
           items: [
             { text: 'ภาษา C# คืออะไร', link: '100-csharp' },
             { text: 'Dotnet คืออะไร', link: '101-dotnet' },
@@ -54,7 +55,7 @@ function sidebarASPNetCore(): DefaultTheme.SidebarItem[] {
         { 
           text: 'ความรู้เบื้องต้นที่สำคัญที่ช่วยในการศึกษา C# ได้ดียิ่งขึ้น', 
           collapsed: true,
-          base: '/paths/aspnet-core/101-general-development-skills/',
+          base: '/paths/aspnet-core/general-development-skills/',
           items: [
             { text: 'ความรู้เบื้องต้นที่สำคัญที่ช่วยในการศึกษา C# ได้ดียิ่งขึ้น', link: '000-index' },
             { text: 'Git', link: '100-git' },
@@ -67,7 +68,7 @@ function sidebarASPNetCore(): DefaultTheme.SidebarItem[] {
         { 
           text: 'Database fundamentals', 
           collapsed: true,
-          base: '/paths/aspnet-core/102-database-fundamentals/',
+          base: '/paths/aspnet-core/database-fundamentals/',
           items: [
             { text: 'Database fundamentals', link: '000-index' },
             { text: 'Database design basics', link: '100-database-design-basics' },
@@ -81,7 +82,6 @@ function sidebarASPNetCore(): DefaultTheme.SidebarItem[] {
     }
   ]
 }
-
 function sidebarDevOps(): DefaultTheme.SidebarItem[] {
   return [
     {
@@ -156,6 +156,23 @@ function sidebarAzure(): DefaultTheme.SidebarItem[] {
             { text: 'Certifications Path', link: '000-index' }
           ]
         },
+      ]
+    }
+  ]
+}
+function sidebarCloudComputing(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: 'Cloud Computing',
+      items: [
+        { 
+          text: 'Fundamentals', 
+          collapsed: true,
+          base: '/paths/cloud-computing/fundamental/',
+          items: [
+            { text: 'Fundamental', link: 'fundamental' },
+          ]
+        }
       ]
     }
   ]
