@@ -194,6 +194,10 @@ function sidebarWebGuideline(): DefaultTheme.SidebarItem[] {
             { text: 'เตรียมเครื่องให้พร้อม', link: 'setupgear' },
             { text: 'Learning Path', link: 'learningpath' },
             { text: 'Software Engineer', link: 'softwareengineer' },
+            { text: 'Salary Report', link: 'devreport' },
+            { text: 'พิมพ์สัมผัส', link: 'typing' },
+            { text: 'Problem Solving', link: 'problemsolving' },
+            { text: 'Soft Skills', link: 'softskill' },
           ]
         },
         { 
