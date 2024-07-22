@@ -17,6 +17,8 @@ export default defineConfig({
         '/paths/java': { base: '/paths/java/', items: sidebarJava()},
         '/paths/azure': { base: '/paths/azure/', items: sidebarAzure()},
         '/paths/cloud-computing': { base: '/paths/cloud-computing/', items: sidebarCloudComputing()},
+        '/paths/web-guideline': { base: '/paths/web-guideline/', items: sidebarWebGuideline()},
+        '/paths/sourcecodecontrol': { base: '/paths/sourcecodecontrol/', items: sidebarSourceCodeControl()},
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ThaiProgrammer/tpa-path' }
@@ -171,6 +173,112 @@ function sidebarCloudComputing(): DefaultTheme.SidebarItem[] {
           base: '/paths/cloud-computing/fundamental/',
           items: [
             { text: 'Fundamental', link: 'fundamental' },
+          ]
+        }
+      ]
+    }
+  ]
+}
+function sidebarWebGuideline(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: 'Web Development Guideline',
+      items: [
+        { 
+          text: 'Introduction', 
+          collapsed: true,
+          base: '/paths/web-guideline/intro/',
+          items: [
+            { text: 'ทำเว็บต้องรู้อะไรบ้าง', link: 'intro' },
+            { text: 'ภาษาอังกฤษ', link: 'english' },
+            { text: 'เตรียมเครื่องให้พร้อม', link: 'setupgear' },
+            { text: 'Learning Path', link: 'learningpath' },
+            { text: 'Software Engineer', link: 'softwareengineer' },
+            { text: 'Salary Report', link: 'devreport' },
+            { text: 'พิมพ์สัมผัส', link: 'typing' },
+            { text: 'Problem Solving', link: 'problemsolving' },
+            { text: 'Soft Skills', link: 'softskill' },
+          ]
+        },
+        { 
+          text: 'Front End', 
+          collapsed: true,
+          base: '/paths/web-guideline/frontend/',
+          items: [
+            { text: 'Front End', link: 'frontend' },
+          ]
+        },
+        { 
+          text: 'Backend End', 
+          collapsed: true,
+          base: '/paths/web-guideline/backend/',
+          items: [
+            { text: 'Back End', link: 'backend' },
+          ]
+        },
+        { 
+          text: 'Database', 
+          collapsed: true,
+          base: '/paths/web-guideline/database/',
+          items: [
+            { text: 'Database', link: 'database' },
+          ]
+        },
+        { 
+          text: 'Source Code Control', 
+          collapsed: true,
+          base: '/paths/web-guideline/scm/',
+          items: [
+            { text: 'Source Code Control', link: 'scm' },
+          ]
+        },
+        { 
+          text: 'Deployment', 
+          collapsed: true,
+          base: '/paths/web-guideline/deployment/',
+          items: [
+            { text: 'Deployment', link: 'deployment' },
+          ]
+        },
+        { 
+          text: 'Cloud Computing', 
+          collapsed: true,
+          base: '/paths/web-guideline/cloudcomputing/',
+          items: [
+            { text: 'Cloud Computing', link: 'cloudcomputing' },
+          ]
+        },
+        { 
+          text: 'SSH', 
+          collapsed: true,
+          base: '/paths/web-guideline/ssh/',
+          items: [
+            { text: 'SSH', link: 'ssh' },
+          ]
+        },
+        { 
+          text: 'Community', 
+          collapsed: true,
+          base: '/paths/web-guideline/community/',
+          items: [
+            { text: 'Community', link: 'community' },
+          ]
+        }
+      ]
+    }
+  ]
+}
+function sidebarSourceCodeControl(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: 'Source Code Control',
+      items: [
+        { 
+          text: 'Source Control Management', 
+          collapsed: true,
+          base: '/paths/sourcecodecontrol/scm/',
+          items: [
+            { text: 'Source Control Management', link: 'scm' },
           ]
         }
       ]
