@@ -8,6 +8,9 @@ hero:
   tagline: เส้นทางการเติบโตสำหรับโปรแกรมเมอร์ (Programmer Career Paths)
   actions:
     - theme: brand
+      text: Contribute
+      link: /contrib/contributing.md
+    - theme: alt
       text: Home
       link: /
   image: {
@@ -20,6 +23,9 @@ features:
   - title: Web Development Guideline
     details: รวบรวมเนื้อหาที่คิดว่าเป็นประโยชน์ให้เห็นภาพกว้างในการเข้ามาทำงานในสาย Web Developers
     link: /paths/web-guideline
+  - title: Source Code Control
+    details: แนวทางการดูแลและควบคุม Source Code ที่เราทำงานกันเป็นทีมได้อย่างมีประสิทธิภาพครับ
+    link: /paths/sourcecodecontrol 
   - title: ASP.Net Core
     details: ขั้นตอนแนะนำในการเตรียมความพร้อมเพื่อพัฒนา Website ด้วย ASP.NET Core ในปี 2024
     link: /paths/aspnet-core
