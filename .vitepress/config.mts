@@ -223,7 +223,7 @@ function sidebarWebGuideline(): DefaultTheme.SidebarItem[] {
             { text: 'RESTful Web API', link: 'restful' },
             { text: 'Node.js', link: 'nodejs' },
             { text: 'ASP.NET', link: 'aspnet' },
-
+            { text: 'Typescript', link: 'typescript' },
             { text: 'Database', link: 'database' },
           ]
         },
@@ -233,6 +233,7 @@ function sidebarWebGuideline(): DefaultTheme.SidebarItem[] {
           base: '/paths/web-guideline/scm/',
           items: [
             { text: 'Source Code Control', link: 'scm' },
+            { text: 'Git and GitHub', link: 'git' },
           ]
         },
         { 
@@ -241,6 +242,9 @@ function sidebarWebGuideline(): DefaultTheme.SidebarItem[] {
           base: '/paths/web-guideline/deployment/',
           items: [
             { text: 'Deployment', link: 'deployment' },
+            { text: 'FTP/SFTP', link: 'ftp' },
+            { text: 'CI/CD', link: 'cicd' },
+            { text: 'Git', link: 'git' },
           ]
         },
         { 
