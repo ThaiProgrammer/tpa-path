@@ -209,6 +209,7 @@ function sidebarWebGuideline(): DefaultTheme.SidebarItem[] {
             { text: 'HTML', link: 'html' },
             { text: 'CSS', link: 'css' },
             { text: 'JavaScript', link: 'javascript' },
+            { text: 'Typescript', link: 'typescript' },
           ]
         },
         { 
