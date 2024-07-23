@@ -196,7 +196,6 @@ function sidebarWebGuideline(): DefaultTheme.SidebarItem[] {
             { text: 'Software Engineer', link: 'softwareengineer' },
             { text: 'Salary Report', link: 'devreport' },
             { text: 'พิมพ์สัมผัส', link: 'typing' },
-            { text: 'Problem Solving', link: 'problemsolving' },
             { text: 'Soft Skills', link: 'softskill' },
           ]
         },
@@ -215,18 +214,16 @@ function sidebarWebGuideline(): DefaultTheme.SidebarItem[] {
           ]
         },
         { 
-          text: 'Backend End', 
+          text: 'Back End', 
           collapsed: true,
           base: '/paths/web-guideline/backend/',
           items: [
-            { text: 'Back End', link: 'backend' },
-          ]
-        },
-        { 
-          text: 'Database', 
-          collapsed: true,
-          base: '/paths/web-guideline/database/',
-          items: [
+            { text: 'Back End', link: 'intro' },
+            { text: 'Problem Solving', link: 'problemsolving' },
+            { text: 'RESTful Web API', link: 'restful' },
+            { text: 'Node.js', link: 'nodejs' },
+            { text: 'ASP.NET', link: 'aspnet' },
+
             { text: 'Database', link: 'database' },
           ]
         },
