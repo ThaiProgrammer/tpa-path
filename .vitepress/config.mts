@@ -210,6 +210,8 @@ function sidebarWebGuideline(): DefaultTheme.SidebarItem[] {
             { text: 'CSS', link: 'css' },
             { text: 'JavaScript', link: 'javascript' },
             { text: 'Typescript', link: 'typescript' },
+            { text: 'React', link: 'react' },
+            { text: 'Next.js', link: 'nextjs' },
           ]
         },
         { 
