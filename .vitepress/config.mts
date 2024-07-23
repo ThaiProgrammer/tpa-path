@@ -205,7 +205,13 @@ function sidebarWebGuideline(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           base: '/paths/web-guideline/frontend/',
           items: [
-            { text: 'Front End', link: 'frontend' },
+            { text: 'Front End', link: 'intro' },
+            { text: 'HTML', link: 'html' },
+            { text: 'CSS', link: 'css' },
+            { text: 'JavaScript', link: 'javascript' },
+            { text: 'Typescript', link: 'typescript' },
+            { text: 'React', link: 'react' },
+            { text: 'Next.js', link: 'nextjs' },
           ]
         },
         { 
