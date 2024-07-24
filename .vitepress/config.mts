@@ -245,6 +245,9 @@ function sidebarWebGuideline(): DefaultTheme.SidebarItem[] {
             { text: 'FTP/SFTP', link: 'ftp' },
             { text: 'CI/CD', link: 'cicd' },
             { text: 'Git', link: 'git' },
+            { text: 'Cloud', link: 'cloud' },
+            { text: 'Container', link: 'container' },
+            { text: 'Static Site', link: 'staticsite' },
           ]
         },
         { 
