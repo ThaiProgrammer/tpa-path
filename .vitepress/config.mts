@@ -223,8 +223,23 @@ function sidebarWebGuideline(): DefaultTheme.SidebarItem[] {
             { text: 'RESTful Web API', link: 'restful' },
             { text: 'Node.js', link: 'nodejs' },
             { text: 'ASP.NET', link: 'aspnet' },
-            { text: 'Typescript', link: 'typescript' },
-            { text: 'Database', link: 'database' },
+            { text: 'Typescript', link: 'typescript' }
+          ]
+        },
+        { 
+          text: 'Database', 
+          collapsed: true,
+          base: '/paths/web-guideline/database/',
+          items: [
+            { text: 'Fundamental', link: 'database' },
+            { text: 'Microsoft SQL Server', link: 'mssql' },
+            { text: 'Database Design', link: 'design' },
+            { text: 'SQL', link: 'sql' },
+            { text: 'Stored Procedures', link: 'storedprocedures' },
+            { text: 'Constraint', link: 'constraint' },
+            { text: 'Trigger', link: 'trigger' },
+            { text: 'PostgreSQL', link: 'postgresql' },
+            { text: 'MongoDB', link: 'mongodb' },
           ]
         },
         { 
