@@ -256,6 +256,7 @@ function sidebarWebGuideline(): DefaultTheme.SidebarItem[] {
           base: '/paths/web-guideline/cloudcomputing/',
           items: [
             { text: 'Cloud Computing', link: 'cloudcomputing' },
+            { text: 'Microsoft Azure', link: 'azure' },
           ]
         },
         { 
