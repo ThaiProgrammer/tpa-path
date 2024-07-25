@@ -22,7 +22,10 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ThaiProgrammer/tpa-path' }
-    ]
+    ],
+    search: {
+      provider: "local"
+    }
   }
 })
 
