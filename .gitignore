@@ -9,3 +9,4 @@ dist
 
 # Mac Configuration
 .DS_Store
+.direnv
