@@ -303,11 +303,17 @@ function sidebarSourceCodeControl(): DefaultTheme.SidebarItem[] {
       text: 'Source Code Control',
       items: [
         { 
-          text: 'Source Control Management', 
+          text: 'Git ขั้นพื้นฐาน', 
           collapsed: true,
-          base: '/paths/sourcecodecontrol/scm/',
+          base: '/paths/sourcecodecontrol/git-basics/',
           items: [
-            { text: 'Source Control Management', link: 'scm' },
+            { text: 'Version Control คืออะไร', link: 'what-is-version-control' },
+            { text: 'Git คืออะไร', link: 'what-is-git' },
+            { text: 'Git common terms', link: 'git-common-terms' },
+            { text: 'การ Setup Git และ GitHub ให้พร้อมสำหรับการทำงานร่วมกับทีม', link: 'setup-git-and-github' },
+            { text: 'คำสั่ง Git ที่จำเป็น', link: 'git-essential-commands' },
+            { text: 'Conventional Commits', link: 'conventional-commits' },
+            { text: 'เริ่มต้นสร้าง Pull Request แรกกัน!', link: 'create-first-pull-request' }
           ]
         }
       ]
