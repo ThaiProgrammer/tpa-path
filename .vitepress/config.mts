@@ -417,6 +417,14 @@ function sidebarPractices(): DefaultTheme.SidebarItem[] {
     {
       text: "Software Development Practices",
       items: [
+          {
+              text: "Design Practices",
+              collapsed: true,
+              base: "/paths/practices/design/",
+              items: [
+                  { text: "Design Patterns", link: "design-patterns" }
+              ]
+          },
       ]
     }
   ]
