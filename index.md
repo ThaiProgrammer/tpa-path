@@ -26,6 +26,9 @@ features:
   - title: AI Application Development Guideline
     details: รวบรวมพื้นฐานสำหรับนักพัฒนาโปรแกรมที่ต้องการเริ่มต้นสร้าง หรือเพิ่มความสามารถให้แอพตัวเองเป็น AI Application
     link: /paths/ai-application-development
+  - title: Mobile Development Guideline
+    details: รวบรวมเนื้อหา/ขั้นตอนแนะนำในการเตรียมความพร้อมในการเข้าสู่เส้นทาง Mobile Application Development (Framework ต่างๆ) ในปี 2024
+    link: /paths/mobile-development
   - title: Source Code Control
     details: แนวทางการดูแลและควบคุม Source Code ที่เราทำงานกันเป็นทีมได้อย่างมีประสิทธิภาพครับ
     link: /paths/sourcecodecontrol 
