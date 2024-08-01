@@ -40,6 +40,7 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/ThaiProgrammer/tpa-path" },
+      { icon: "facebook", link: "https://www.facebook.com/ThaiProgrammerSociety" },
     ],
     search: {
       provider: "local",
