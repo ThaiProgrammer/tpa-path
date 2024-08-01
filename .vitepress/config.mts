@@ -1,4 +1,4 @@
-import { defineConfig, type DefaultTheme } from "vitepress";
+import { defineConfig, type DefaultTheme } from "vitepress"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -36,6 +36,10 @@ export default defineConfig({
       "/paths/mobile-development": {
         base: "/paths/mobile-development/",
         items: sidebarMobileApplicationDevelopment(),
+      },
+      "/paths/practices": {
+        base: "/paths/practices/",
+        items: sidebarPractices()
       },
     },
     socialLinks: [
@@ -406,4 +410,14 @@ function sidebarMobileApplicationDevelopment(): DefaultTheme.SidebarItem[] {
       ],
     },
   ];
+}
+
+function sidebarPractices(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "Software Development Practices",
+      items: [
+      ]
+    }
+  ]
 }

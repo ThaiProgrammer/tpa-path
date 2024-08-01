@@ -47,5 +47,7 @@ features:
   - title: Azure
     details: รวบรวมเนื้อหาที่เกี่ยวกับการใช้งาน Microsoft Cloud - Azure ในการพัฒนาระบบ
     link: /paths/azure
+  - title: Practices
+    details: กระบวนการ วิธีการ และหลักการที่ใช้ในการพัฒนาและดูแลรักษาซอฟต์แวร์ที่ใช้กันอย่างแพร่หลายในปัจจุบัน
+    link: /paths/practices
 ---
-
