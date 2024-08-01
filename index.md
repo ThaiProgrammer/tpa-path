@@ -41,5 +41,8 @@ features:
   - title: Azure
     details: รวบรวมเนื้อหาที่เกี่ยวกับการใช้งาน Microsoft Cloud - Azure ในการพัฒนาระบบ
     link: /paths/azure
+  - title: AI Application Development Guideline
+    details: รวบรวมพื้นฐานสำหรับนักพัฒนาโปรแกรมที่ต้องการเริ่มต้นสร้าง หรือเพิ่มความสามารถให้แอพตัวเองเป็น AI Application
+    link: /paths/ai-appliation-development
 ---
 
