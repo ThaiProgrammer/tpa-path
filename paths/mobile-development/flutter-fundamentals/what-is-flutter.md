@@ -16,4 +16,4 @@ Flutter มีคุณสมบัติหลัก ๆ ดังนี้:
 
 นอกจากนี้ Flutter ยังมีเครื่องมือที่ช่วยในการทดสอบและดีบักแอพ ทำให้กระบวนการพัฒนามีความสะดวกและรวดเร็วมากขึ้น
 
-- [ติดตั้ง Flutter](https://flutter.dev)
+- [ติดตั้ง Flutter](https://docs.flutter.dev/get-started/install)

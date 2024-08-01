@@ -44,5 +44,8 @@ features:
   - title: Azure
     details: รวบรวมเนื้อหาที่เกี่ยวกับการใช้งาน Microsoft Cloud - Azure ในการพัฒนาระบบ
     link: /paths/azure
+  - title: Mobile Development
+    details: รวบรวมเนื้อหา/ขั้นตอนแนะนำในการเตรียมความพร้อมในการเข้าสู่เส้นทาง Mobile Application Development (Framework ต่างๆ) ในปี 2024
+    link: /paths/mobile-development
 ---
 

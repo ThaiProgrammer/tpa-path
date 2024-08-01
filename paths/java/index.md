@@ -1,6 +1,6 @@
 ---
 outline: deep
-title: 'Mobile Development'
+title: 'Java'
 description: ขั้นตอนแนะนำในการเตรียมความพร้อมในการเข้าสู่เส้นทาง DevOps, SRE และ operations ในปี 2024
 ---
 

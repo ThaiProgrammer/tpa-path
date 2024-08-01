@@ -33,6 +33,10 @@ export default defineConfig({
         base: "/paths/ai-application-development/",
         items: sidebarAIApplicationDevelopment(),
       },
+      "/paths/mobile-development": {
+        base: "/paths/mobile-development/",
+        items: sidebarMobileApplicationDevelopment(),
+      },
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/ThaiProgrammer/tpa-path" },
@@ -374,6 +378,29 @@ function sidebarAIApplicationDevelopment(): DefaultTheme.SidebarItem[] {
           items: [
             { text: "Introduction", link: "introduction" },
             { text: "Tools and Services", link: "tools-and-services" },
+          ],
+        },
+      ],
+    },
+  ];
+}
+
+function sidebarMobileApplicationDevelopment(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "Mobile Application Development",
+      items: [
+        {
+          text: "Frameworks",
+          collapsed: true,
+          base: "/paths/mobile-application-development/",
+          items: [
+            {
+              text: "Flutter Development",
+              collapsed: true,
+              base: "/paths/mobile-development/flutter-fundamentals/",
+              items: [{ text: "Flutter คืออะไร", link: "what-is-flutter" }],
+            },
           ],
         },
       ],
