@@ -19,6 +19,7 @@ export default defineConfig({
         '/paths/cloud-computing': { base: '/paths/cloud-computing/', items: sidebarCloudComputing()},
         '/paths/web-guideline': { base: '/paths/web-guideline/', items: sidebarWebGuideline()},
         '/paths/sourcecodecontrol': { base: '/paths/sourcecodecontrol/', items: sidebarSourceCodeControl()},
+        '/paths/ai-application-development': { base: '/paths/ai-application-development/', items: sidebarAIApplicationDevelopment()},
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ThaiProgrammer/tpa-path' }
@@ -314,6 +315,24 @@ function sidebarSourceCodeControl(): DefaultTheme.SidebarItem[] {
             { text: 'คำสั่ง Git ที่จำเป็น', link: 'git-essential-commands' },
             { text: 'Conventional Commits', link: 'conventional-commits' },
             { text: 'เริ่มต้นสร้าง Pull Request แรกกัน!', link: 'create-first-pull-request' }
+          ]
+        }
+      ]
+    }
+  ]
+}
+function sidebarAIApplicationDevelopment(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: 'AI Application Developer',
+      items: [
+        { 
+          text: 'Introduction', 
+          collapsed: true,
+          base: '/paths/ai-application-development/',
+          items: [
+            { text: 'Introduction', link: 'introduction' },
+            { text: 'Tools and Services', link: 'tools-and-services' },
           ]
         }
       ]
