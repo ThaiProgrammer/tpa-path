@@ -37,9 +37,14 @@ export default defineConfig({
         base: "/paths/mobile-development/",
         items: sidebarMobileApplicationDevelopment(),
       },
+      "/paths/practices": {
+        base: "/paths/practices/",
+        items: sidebarPractices()
+      },
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/ThaiProgrammer/tpa-path" },
+      { icon: "facebook", link: "https://www.facebook.com/ThaiProgrammerSociety" },
     ],
     search: {
       provider: "local",
@@ -406,4 +411,22 @@ function sidebarMobileApplicationDevelopment(): DefaultTheme.SidebarItem[] {
       ],
     },
   ];
+}
+
+function sidebarPractices(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "Software Development Practices",
+      items: [
+          {
+              text: "Design Practices",
+              collapsed: true,
+              base: "/paths/practices/design/",
+              items: [
+                  { text: "Design Patterns", link: "design-patterns" }
+              ]
+          },
+      ]
+    }
+  ]
 }

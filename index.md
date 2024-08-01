@@ -29,6 +29,9 @@ features:
   - title: Mobile Development Guideline
     details: รวบรวมเนื้อหา/ขั้นตอนแนะนำในการเตรียมความพร้อมในการเข้าสู่เส้นทาง Mobile Application Development (Framework ต่างๆ) ในปี 2024
     link: /paths/mobile-development
+  - title: Practices
+    details: กระบวนการ วิธีการ และหลักการที่ใช้ในการพัฒนาและดูแลรักษาซอฟต์แวร์ที่ใช้กันอย่างแพร่หลายในปัจจุบัน
+    link: /paths/practices
   - title: Source Code Control
     details: แนวทางการดูแลและควบคุม Source Code ที่เราทำงานกันเป็นทีมได้อย่างมีประสิทธิภาพครับ
     link: /paths/sourcecodecontrol 
@@ -48,4 +51,3 @@ features:
     details: รวบรวมเนื้อหาที่เกี่ยวกับการใช้งาน Microsoft Cloud - Azure ในการพัฒนาระบบ
     link: /paths/azure
 ---
-
