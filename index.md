@@ -23,6 +23,9 @@ features:
   - title: Web Development Guideline
     details: รวบรวมเนื้อหาที่คิดว่าเป็นประโยชน์ให้เห็นภาพกว้างในการเข้ามาทำงานในสาย Web Developers
     link: /paths/web-guideline
+  - title: AI Application Development Guideline
+    details: รวบรวมพื้นฐานสำหรับนักพัฒนาโปรแกรมที่ต้องการเริ่มต้นสร้าง หรือเพิ่มความสามารถให้แอพตัวเองเป็น AI Application
+    link: /paths/ai-application-development
   - title: Source Code Control
     details: แนวทางการดูแลและควบคุม Source Code ที่เราทำงานกันเป็นทีมได้อย่างมีประสิทธิภาพครับ
     link: /paths/sourcecodecontrol 
@@ -41,8 +44,5 @@ features:
   - title: Azure
     details: รวบรวมเนื้อหาที่เกี่ยวกับการใช้งาน Microsoft Cloud - Azure ในการพัฒนาระบบ
     link: /paths/azure
-  - title: AI Application Development Guideline
-    details: รวบรวมพื้นฐานสำหรับนักพัฒนาโปรแกรมที่ต้องการเริ่มต้นสร้าง หรือเพิ่มความสามารถให้แอพตัวเองเป็น AI Application
-    link: /paths/ai-appliation-development
 ---
 

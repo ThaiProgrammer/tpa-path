@@ -329,7 +329,7 @@ function sidebarAIApplicationDevelopment(): DefaultTheme.SidebarItem[] {
         { 
           text: 'Introduction', 
           collapsed: true,
-          base: '/paths/ai-application-development/',
+          base: '/paths/ai-application-development/introduction/',
           items: [
             { text: 'Introduction', link: 'introduction' },
             { text: 'Tools and Services', link: 'tools-and-services' },
