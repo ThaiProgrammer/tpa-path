@@ -27,10 +27,23 @@ https://roadmap.thaiprogrammer.org/
 npm add -D vitepress
 ```
 
+### จากนั้นตั้งค่าเริ่มต้น สร้างสคริปต์ VitePress 
+```bash
+npx vitepress init
+```
+
 ### พร้อมรัน VitePress ล้าวววว
 ```bash
 npm run docs:dev
 ```
+
+### <สรุปคำสั่งในการติดตั้งและรันเว็บ VitePress ตามนี้>
+![image](https://github.com/user-attachments/assets/de4cfa28-a916-4e47-9b99-09c98ebf6b11)
+
+ได้เว็บสไตล์ Knowledge Base สวยงามพร้อมใส่คอนเทนท์กันแล้วค่ะ ❤
+![image](https://github.com/user-attachments/assets/b0f95fa8-5297-4d40-8758-4554e7264237)
+
+
 ## ขอบคุณผู้ร่วมพัฒนาทุกคน ❤
 
  <a href = "https://contrib.rocks/image?repo=ThaiProgrammer/tpa-path">
