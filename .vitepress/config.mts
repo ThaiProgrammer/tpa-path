@@ -41,6 +41,10 @@ export default defineConfig({
         base: "/paths/practices/",
         items: sidebarPractices()
       },
+      "/paths/software-architecture": {
+        base: "/paths/software-architecture/",
+        items: sidebarSoftwareArchitecture()
+      }
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/ThaiProgrammer/tpa-path" },
@@ -426,6 +430,25 @@ function sidebarPractices(): DefaultTheme.SidebarItem[] {
                   { text: "Design Patterns", link: "design-patterns" }
               ]
           },
+      ]
+    }
+  ]
+}
+
+function sidebarSoftwareArchitecture(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "Software Architecture",
+      items: [
+        {
+          text: "Introduction",
+          collapsed: true,
+          base: "/paths/software-architecture/introduction/",
+          items: [
+            { text: "What is software architecture?", link: "software-architecture-intro" },
+            { text: "Styles & Patterns", link: "styles-n-patterns" },
+          ]
+        }
       ]
     }
   ]
