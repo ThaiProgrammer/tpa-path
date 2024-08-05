@@ -50,4 +50,7 @@ features:
   - title: Azure
     details: รวบรวมเนื้อหาที่เกี่ยวกับการใช้งาน Microsoft Cloud - Azure ในการพัฒนาระบบ
     link: /paths/azure
+  - title: Software Architecture
+    details: เนื้อหาเกี่ยวกับ Software Architecture รูปแบบต่างๆที่ใช้ในการพัฒนาซอฟต์แวร์
+    link: /paths/software-architecture
 ---
