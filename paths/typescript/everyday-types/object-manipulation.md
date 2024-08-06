@@ -12,7 +12,7 @@ nameRecord.john = 1; // ❌ Error: Property 'john' does not exist on type '{}'.
 
 เราไม่สามารถเพิ่มคุณสมบัติ 'john' ให้กับ `nameRecord` ได้เนื่องจากวัตถุไม่มีคุณสมบัตินั้น
 
-ในการแก้ปัญหานี้ เราต้องใช้ [Mapped Types](/docs/basic/mapped-types) ในกรณีนี้คือ `Record`
+ในการแก้ปัญหานี้ เราต้องใช้ [Mapped Types](../handbook/mapped-types) ในกรณีนี้คือ `Record`
 
 ## Record<Keys, Type>
 

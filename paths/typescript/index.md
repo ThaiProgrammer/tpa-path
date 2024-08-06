@@ -10,3 +10,6 @@ TypeScript เป็นภาษาโปรแกรมที่ถูกพั
 
 เนื้อหาส่วนหนึ่งจากหนังสือ [คู่มือ TypeScript สำหรับคนไทย](https://typescript-th.thadaw.com/)
 และ [Official TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+
+สำหรับใครอยากเรียนรู้ TypeScript ขั้นสูง เพื่อสำหรับออกแบบ Type-safe Design Pattern ในหนังสือ [Type-safe Design Pattern
+in Modern TypeScript](https://type-safe.thadaw.com/)

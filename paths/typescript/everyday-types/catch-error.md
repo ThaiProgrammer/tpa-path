@@ -14,7 +14,7 @@ throw new Promise(() => {})
 throw undefined
 ```
 
-ดังนั้นเราสามารถใช้ [Type Narrowing](/docs/basic/narrowing-type)   ในการจัดการ Type ได้อย่างถูกต้อง
+ดังนั้นเราสามารถใช้ Type Narrowing   ในการจัดการ Type ได้อย่างถูกต้อง
 ```ts
 try {
   throw new Error('Oh no!');

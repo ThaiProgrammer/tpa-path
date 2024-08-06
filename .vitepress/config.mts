@@ -471,7 +471,22 @@ function sidebarTypeScript(): DefaultTheme.SidebarItem[] {
             { text: "จัดการ Try-Catch Error", link: "catch-error" },
             { text: "จัดการ Runtime Type", link: "runtime-type"},
           ],
-        },
+        },{
+          text: "คู่มือ TypeScript",
+          collapsed: true,
+          base: "/paths/typescript/handbook/",
+          items: [
+            { text: "Generics", link: "generics" },
+            { text: "Utility Types", link: "utility-types" },
+            { text: "conditional types (แบบมีเงื่อนไข)", link: "conditional-types" },
+            { text: "Function Overload", link: "function-overload" },
+            { text: "Enum", link: "enum" },
+            { text: "Keyof", link: "keyof" },
+            { text: "Narrowing Type", link: "narrowing-type" },
+            { text: "Mapped Types", link: "mapped-types" },
+            { text: "การปรับแต่ง Type", link: "type-manipulation" },
+          ]
+        }
       ],
     },
   ];
