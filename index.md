@@ -48,7 +48,7 @@ features:
     details: ขั้นตอนการเตรียมความพร้อมสู่การเป็นนักพัฒนา Java ในปี 2024
     link: /paths/java
   - title: TypeScript
-    details: เนื้อหาที่เกี่ยวกับ TypeScript ที่เราควรรู้ในการพัฒนาเว็บแอพพลิเคชั่น
+    details: เนื้อหาที่เกี่ยวกับ TypeScript การใช้งาน Type ในชีวิตจริง และคู่มือการใช้งานและ Cookbook
     link: /paths/typescript
   - title: Cloud Computing
     details: ทำความเข้าใจเกี่ยวกับ Cloud Computing เพื่อเตรียมความพร้อมในการใช้ Cloud ในปี 2024 

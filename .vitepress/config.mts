@@ -423,14 +423,14 @@ function sidebarPractices(): DefaultTheme.SidebarItem[] {
     {
       text: "Software Development Practices",
       items: [
-          {
-              text: "Design Practices",
-              collapsed: true,
-              base: "/paths/practices/design/",
-              items: [
-                  { text: "Design Patterns", link: "design-patterns" }
-              ]
-          },
+        {
+          text: "Design Practices",
+          collapsed: true,
+          base: "/paths/practices/design/",
+          items: [
+            { text: "Design Patterns", link: "design-patterns" }
+          ]
+        },
       ]
     }
   ]
@@ -465,13 +465,14 @@ function sidebarTypeScript(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           base: "/paths/typescript/everyday-types/",
           items: [
-            { text: "Type คือข้อมูลชนิดหนึ่ง", link: "type-is-data"},
+            { text: "Type คือข้อมูลชนิดหนึ่ง", link: "type-is-data" },
             { text: "การจัดการกับ Object", link: "object-manipulation" },
-            { text: "Type Assertions", link: "runtime-type"},
+            { text: "Type Assertions", link: "runtime-type" },
             { text: "จัดการ Try-Catch Error", link: "catch-error" },
-            { text: "จัดการ Runtime Type", link: "runtime-type"},
+            { text: "จัดการ Runtime Type", link: "runtime-type" },
           ],
-        },{
+        },
+        {
           text: "คู่มือ TypeScript",
           collapsed: true,
           base: "/paths/typescript/handbook/",
@@ -485,6 +486,19 @@ function sidebarTypeScript(): DefaultTheme.SidebarItem[] {
             { text: "Narrowing Type", link: "narrowing-type" },
             { text: "Mapped Types", link: "mapped-types" },
             { text: "การปรับแต่ง Type", link: "type-manipulation" },
+          ]
+        },
+        {
+          text: "Cookbook",
+          collapsed: true,
+          base: "/paths/typescript/cookbook/",
+          items: [
+            { text: "สร้าง enum ใช้เอง แบบที่ Key กับ Value เหมือกัน", link: "create-own-enum-string" },
+            { text: "เลือกบาง Property จาก Record", link: "filter-some-property-of-record" },
+            { text: "สร้าง Builder Pattern แบบ Type-Safe ", link: "type-safe-builder-pattern" },
+            { text: "สร้าง union type from array", link: "create-union-type-from-array" },
+            { text: "เพิ่ม Prefix ในแต่ละ Property Key ใน Object", link: "append-prefix-object-property-key" },
+            { text: "Data Validation ด้วย Zod ใช้คู่กับ TypeScript ได้", link: "zod-typescript-integration" },
           ]
         }
       ],
