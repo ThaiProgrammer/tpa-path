@@ -15,6 +15,7 @@ export default defineConfig({
         items: sidebarASPNetCore(),
       },
       "/paths/devops": { base: "/paths/devops/", items: sidebarDevOps() },
+      "/paths/typescript": { base: "/paths/typescript/", items: sidebarTypeScript() },
       "/paths/java": { base: "/paths/java/", items: sidebarJava() },
       "/paths/azure": { base: "/paths/azure/", items: sidebarAzure() },
       "/paths/cloud-computing": {
@@ -452,4 +453,26 @@ function sidebarSoftwareArchitecture(): DefaultTheme.SidebarItem[] {
       ]
     }
   ]
+}
+
+function sidebarTypeScript(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "TypeScript",
+      items: [
+        {
+          text: "Types ที่ใช้งานเป็นประจำ",
+          collapsed: true,
+          base: "/paths/typescript/everyday-types/",
+          items: [
+            { text: "Type คือข้อมูลชนิดหนึ่ง", link: "type-is-data"},
+            { text: "การจัดการกับ Object", link: "object-manipulation" },
+            { text: "Type Assertions", link: "runtime-type"},
+            { text: "จัดการ Try-Catch Error", link: "catch-error" },
+            { text: "จัดการ Runtime Type", link: "runtime-type"},
+          ],
+        },
+      ],
+    },
+  ];
 }
