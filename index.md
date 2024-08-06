@@ -20,6 +20,12 @@ hero:
   }
 
 features:
+  - title: Practices
+    details: กระบวนการ วิธีการ และหลักการที่ใช้ในการพัฒนาและดูแลรักษาซอฟต์แวร์ที่ใช้กันอย่างแพร่หลายในปัจจุบัน
+    link: /paths/practices
+  - title: Software Architecture
+    details: เนื้อหาเกี่ยวกับ Software Architecture รูปแบบต่างๆที่ใช้ในการพัฒนาซอฟต์แวร์
+    link: /paths/software-architecture
   - title: Web Development Guideline
     details: รวบรวมเนื้อหาที่คิดว่าเป็นประโยชน์ให้เห็นภาพกว้างในการเข้ามาทำงานในสาย Web Developers
     link: /paths/web-guideline
@@ -29,9 +35,6 @@ features:
   - title: Mobile Development Guideline
     details: รวบรวมเนื้อหา/ขั้นตอนแนะนำในการเตรียมความพร้อมในการเข้าสู่เส้นทาง Mobile Application Development (Framework ต่างๆ) ในปี 2024
     link: /paths/mobile-development
-  - title: Practices
-    details: กระบวนการ วิธีการ และหลักการที่ใช้ในการพัฒนาและดูแลรักษาซอฟต์แวร์ที่ใช้กันอย่างแพร่หลายในปัจจุบัน
-    link: /paths/practices
   - title: Source Code Control
     details: แนวทางการดูแลและควบคุม Source Code ที่เราทำงานกันเป็นทีมได้อย่างมีประสิทธิภาพครับ
     link: /paths/sourcecodecontrol 
@@ -50,7 +53,4 @@ features:
   - title: Azure
     details: รวบรวมเนื้อหาที่เกี่ยวกับการใช้งาน Microsoft Cloud - Azure ในการพัฒนาระบบ
     link: /paths/azure
-  - title: Software Architecture
-    details: เนื้อหาเกี่ยวกับ Software Architecture รูปแบบต่างๆที่ใช้ในการพัฒนาซอฟต์แวร์
-    link: /paths/software-architecture
 ---
