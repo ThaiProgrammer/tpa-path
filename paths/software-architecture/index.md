@@ -1,7 +1,7 @@
 ---
 outline: deep
 title: 'Software Architecture'
-description: รูปแบบของ Architecture ต่างๆที่นิยมใช้งาน
+description: เนื้อหาและรูปแบบต่างๆของ software architecture
 ---
 
 # Software Architecture Guideline
