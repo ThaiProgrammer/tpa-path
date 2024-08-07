@@ -32,8 +32,6 @@ npm add -D vitepress
 npm run docs:dev
 ```
 
-ถ้ารันขึ้นแล้วให้ลองดูที่ http://localhost:5173
-
 ## VS Code Tasks
 ใน `Visual Studio Code (VS Code)` คำสั่ง `Run Tasks` คือฟีเจอร์ที่ช่วยให้เราสามารถรันงานหรือสคริปต์ที่กำหนดไว้ในไฟล์ `tasks.json` ซึ่งอยู่ในโฟลเดอร์ `.vscode` เพื่อทำการคอมไพล์โค้ด, รันทดสอบ, ทำการ linting หรือการทำงานอื่นๆ ที่จำเป็น
 
@@ -64,7 +62,6 @@ npm run docs:dev
 3.	เลือกงานที่ต้องการรันจากรายการที่ปรากฏดังนี้
    3.1. เลือก `Install VitePress` เพื่อติดตั้ง VitePress
    3.2. เลือก `Run VitePress` เพื่อรัน VitePress
-4. ถ้ารันขึ้นแล้วให้ลองดูที่ http://localhost:5173
 
 ![](./images/vscodetasks.jpg)
 
