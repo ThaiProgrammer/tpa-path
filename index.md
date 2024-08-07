@@ -20,6 +20,12 @@ hero:
   }
 
 features:
+  - title: Practices
+    details: กระบวนการ วิธีการ และหลักการที่ใช้ในการพัฒนาและดูแลรักษาซอฟต์แวร์ที่ใช้กันอย่างแพร่หลายในปัจจุบัน
+    link: /paths/practices
+  - title: Software Architecture
+    details: เนื้อหาเกี่ยวกับ Software Architecture รูปแบบต่างๆที่ใช้ในการพัฒนาซอฟต์แวร์
+    link: /paths/software-architecture
   - title: Web Development Guideline
     details: รวบรวมเนื้อหาที่คิดว่าเป็นประโยชน์ให้เห็นภาพกว้างในการเข้ามาทำงานในสาย Web Developers
     link: /paths/web-guideline
@@ -32,6 +38,9 @@ features:
   - title: Source Code Control
     details: แนวทางการดูแลและควบคุม Source Code ที่เราทำงานกันเป็นทีมได้อย่างมีประสิทธิภาพครับ
     link: /paths/sourcecodecontrol 
+  - title: TypeScript
+    details: เนื้อหาที่เกี่ยวกับ TypeScript การใช้งาน Type ในชีวิตจริง และคู่มือการใช้งานและ Cookbook
+    link: /paths/typescript
   - title: ASP.Net Core
     details: ขั้นตอนแนะนำในการเตรียมความพร้อมเพื่อพัฒนา Website ด้วย ASP.NET Core ในปี 2024
     link: /paths/aspnet-core
@@ -48,4 +57,3 @@ features:
     details: รวบรวมเนื้อหาที่เกี่ยวกับการใช้งาน Microsoft Cloud - Azure ในการพัฒนาระบบ
     link: /paths/azure
 ---
-
