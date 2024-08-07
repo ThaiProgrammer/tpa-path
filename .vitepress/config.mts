@@ -522,6 +522,10 @@ function sidebarCareer(): DefaultTheme.SidebarItem[] {
           items: [
             { text: "CTO", link: "cto" },
             { text: "CIO", link: "cio" },
+            { text: "IT Director", link: "director" },
+            { text: "IT Project Manager", link: "pm" },
+            { text: "IT Security Manager", link: "securitymanager" },
+            { text: "IT Auditor", link: "auditor" },
           ],
         },
         {
@@ -529,8 +533,18 @@ function sidebarCareer(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           base: "/paths/career/developer/",
           items: [
+            { text: "Software Engineer", link: "engineer" },
             { text: "Front-end Developer", link: "frontend" },
             { text: "Back-end Developer", link: "backend" },
+            { text: "Full-stack Developer", link: "fullstack" },
+            { text: "Mobile Developer", link: "mobile" },
+            { text: "Game Developer", link: "game" },
+             { text: "IoT Developer", link: "iot" },
+             { text: "DevOps", link: "devops" },
+             { text: "Platform Engineer", link: "platform" },
+             { text: "Data Engineer", link: "dataengineer" },
+             { text: "Data Scientist", link: "datascientist" },
+             { text: "AI Engineer", link: "aiengineer" },
           ],
         }
       ],
