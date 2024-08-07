@@ -20,6 +20,9 @@ hero:
   }
 
 features:
+  - title: ตำแหน่งสายงาน IT
+    details:  แนะนำสายงาน IT ทั้งตำแหน่งและหน้าที่โดยแบ่งเป็น 7 สาย Management, Developer, QA/Tester, Designer, Analyst, Data, Infrastructure และ Support 
+    link: /paths/career
   - title: Practices
     details: กระบวนการ วิธีการ และหลักการที่ใช้ในการพัฒนาและดูแลรักษาซอฟต์แวร์ที่ใช้กันอย่างแพร่หลายในปัจจุบัน
     link: /paths/practices

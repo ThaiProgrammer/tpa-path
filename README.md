@@ -68,6 +68,95 @@ npm run docs:dev
 
 ![](./images/vscodetasks.jpg)
 
+## วิธีการเพิ่มเนื้อหา
+
+### ศึกษาการเขียน Markdown 
+- [GitHub Docs: Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [VitePress: Markdown Extensions](https://vitepress.dev/guide/markdown)
+
+### เพิ่ม Path ใหม่
+![](./images/Path01.jpg)
+
+- ขั้นตอนแรกให้เราทำการเปิด File [index.md](./index.md)
+- ทำการเพิ่มเนื้อหาของ `Path` ใหม่ที่ต้องการ
+   - ตัวอย่างเช่น Path สำหรับตำแหน่งสายงาน IT
+   ```markdown
+    - title: ตำแหน่งสายงาน IT
+    details:  แนะนำสายงาน IT ทั้งตำแหน่งและหน้าที่โดยแบ่งเป็น 7 สาย Management, Developer, QA/Tester, Designer, Analyst, Data, Infrastructure และ Support 
+    link: /paths/career
+   ``` 
+- ผลลัพธ์ที่ได้
+ ![](./images/Path03.jpg)
+- เสร็จแล้วให้ทำการเพิ่ม Folder ใน [Paths](./paths/)
+  - ตัวอย่างของผมจะเพิ่มเป็น `career` เพื่อให้ตรงกับรายละเอียดที่ระบุใน [index.md](./index.md) ก่อนหน้านะครับ (`link: /paths/career`)
+- ให้ทำการเพิ่ม `index.md` มาเป็นหน้าต้อนรับผู้อ่านที่สนใจ `Path` ของเรานะครับ พร้อมกับระบุรายละเอียดในรูปแบบ Markdown
+  - ตัวอย่าง
+    ```markdown
+    ---
+    outline: deep
+    title: 'ตำแหน่งสายงาน IT'
+    description: แนะนำสายงาน IT ทั้งตำแหน่งและหน้าที่โดยแบ่งเป็น 7 สาย Management, Developer, QA/Tester, Designer, Analyst, Data, Infrastructure และ Support
+    ---
+    # ตำแหน่งสายงาน IT
+    ในแต่ละสายงานนั่นมีอาชีพที่หลากหลายและต่างก็มีความต้องการในตลาดเป็นอย่างสูง 
+    ```
+- ผลลัพธ์สุดท้ายจะเป็นดังนี้ครับ
+  ![](./images/Path04.jpg)
+- หน้าตาโครงสร้างจะประมาณนี้นะครับ
+  ![](./images/Path05.jpg)
+  
+### เพิ่มหมวดหมู่ของเนื้อหา
+![](./images/Path02.jpg)
+
+- ขั้นตอนแรกให้เราเปิดไฟล์ [.vitepress/config.mts](./.vitepress/config.mts) และทำการเพิ่มรายละเอียดของเมนูที่ต้องการ
+  - ทีมอยากขอยกตัวอย่างให้เห็นภาพมากขึ้นจากโค้ดชุดนี้นะครับ 
+    - โดยเป็นการเพิ่มเมนู `ตำแหน่งสายงาน IT` 
+    - และมีเมนูย่อย 
+      - `Management`: มีเมนูย่อย `CTO`, `CIO`
+      - `Developer`: มีเมนูย่อย `Front-end Developer`, `Back-end Developer`
+    - ให้ทำการเพิ่ม Function ใหม่ล่างสุดของไฟล์
+      ```javascript
+      function sidebarCareer(): DefaultTheme.SidebarItem[] {
+        return [
+          {
+            text: "ตำแหน่งสายงาน IT",
+            items: [
+              {
+                text: "Management",
+                collapsed: true,
+                base: "/paths/career/management/",
+                items: [
+                  { text: "CTO", link: "cto" },
+                  { text: "CIO", link: "cio" },
+                ],
+              },
+              {
+                text: "Developer",
+                collapsed: true,
+                base: "/paths/career/developer/",
+                items: [
+                  { text: "Front-end Developer", link: "frontend" },
+                  { text: "Back-end Developer", link: "backend" },
+                ],
+              }
+          },
+        ];
+      }
+      ```
+    - เสร็จแล้วให้ทำการ Register Function ใน `defineConfig()` ที่ Property  `sidebar`
+      ```javascript
+      export default defineConfig({
+        sidebar: {
+          "/paths/career": {
+            base: "/paths/career/",
+            items: sidebarCareer()
+          }
+        }});
+      ```
+    - หน้าตาโครงสร้างผลลัพธ์ที่ได้ตอนนี้
+      ![](./images/Path06.jpg)
+    - หน้าตาเว็บไซต์ผลลัพธ์ที่ได้ตอนนี้
+      ![](./images/Path07.jpg)
 ## ขอบคุณผู้ร่วมพัฒนาทุกคน ❤
 
  <a href = "https://contrib.rocks/image?repo=ThaiProgrammer/tpa-path">

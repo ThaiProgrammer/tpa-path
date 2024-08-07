@@ -45,6 +45,10 @@ export default defineConfig({
       "/paths/software-architecture": {
         base: "/paths/software-architecture/",
         items: sidebarSoftwareArchitecture()
+      },
+      "/paths/career": {
+        base: "/paths/career/",
+        items: sidebarCareer()
       }
     },
     socialLinks: [
@@ -500,6 +504,34 @@ function sidebarTypeScript(): DefaultTheme.SidebarItem[] {
             { text: "เพิ่ม Prefix ในแต่ละ Property Key ใน Object", link: "append-prefix-object-property-key" },
             { text: "Data Validation ด้วย Zod ใช้คู่กับ TypeScript ได้", link: "zod-typescript-integration" },
           ]
+        }
+      ],
+    },
+  ];
+}
+
+function sidebarCareer(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "ตำแหน่งสายงาน IT",
+      items: [
+        {
+          text: "Management",
+          collapsed: true,
+          base: "/paths/career/management/",
+          items: [
+            { text: "CTO", link: "cto" },
+            { text: "CIO", link: "cio" },
+          ],
+        },
+        {
+          text: "Developer",
+          collapsed: true,
+          base: "/paths/career/developer/",
+          items: [
+            { text: "Front-end Developer", link: "frontend" },
+            { text: "Back-end Developer", link: "backend" },
+          ],
         }
       ],
     },
