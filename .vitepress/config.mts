@@ -520,12 +520,34 @@ function sidebarCareer(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           base: "/paths/career/management/",
           items: [
-            { text: "CTO", link: "cto" },
-            { text: "CIO", link: "cio" },
+            { text: "Chief Technology Officer", link: "cto" },
+            { text: "Chief Information Officer", link: "cio" },
+            { text: "Cyber Security Officer", link: "cso" },
             { text: "IT Director", link: "director" },
             { text: "IT Project Manager", link: "pm" },
             { text: "IT Security Manager", link: "securitymanager" },
             { text: "IT Auditor", link: "auditor" },
+          ],
+        },
+        {
+          text: "Designer",
+          collapsed: true,
+          base: "/paths/career/designer/",
+          items: [
+            { text: "Product Owner", link: "po" },
+            { text: "Product Designer", link: "product" },
+            { text: "UX Designer ", link: "ux" },
+            { text: "UI Designer", link: "ui" },
+            
+          ],
+        },
+        {
+          text: "Analyst",
+          collapsed: true,
+          base: "/paths/career/analyst/",
+          items: [
+            { text: "Business Analyst", link: "ba" },
+            { text: "System Analyst", link: "sa" },
           ],
         },
         {
@@ -540,11 +562,63 @@ function sidebarCareer(): DefaultTheme.SidebarItem[] {
             { text: "Mobile Developer", link: "mobile" },
             { text: "Game Developer", link: "game" },
              { text: "IoT Developer", link: "iot" },
-             { text: "DevOps", link: "devops" },
+             { text: "DevOps Engineer", link: "devops" },
              { text: "Platform Engineer", link: "platform" },
              { text: "Data Engineer", link: "dataengineer" },
              { text: "Data Scientist", link: "datascientist" },
              { text: "AI Engineer", link: "aiengineer" },
+             { text: "Blockchain Developer", link: "blockchain" },
+          ],
+        },
+        {
+          text: "Data",
+          collapsed: true,
+          base: "/paths/career/data/",
+          items: [
+            { text: "Data Engineer", link: "de" },
+            { text: "Data Scientist", link: "ds" },
+            { text: "Data Analyst", link: "da" },
+            { text: "Business Intelligence Analyst", link: "bi" },
+          ],
+        },
+        {
+          text: "QA/Tester",
+          collapsed: true,
+          base: "/paths/career/qa/",
+          items: [
+            { text: "Quality Assurance Engineer", link: "qa" },
+          ],
+        },
+        {
+          text: "Security",
+          collapsed: true,
+          base: "/paths/career/security/",
+          items: [
+            { text: "Security Analyst", link: "analyst" },
+            { text: "Security Engineer", link: "engineer" },
+            { text: "Security Consultant", link: "consultant" },
+            { text: "Security Architect", link: "architect" },
+            { text: "Penetration Tester", link: "pentest" },
+          ],
+        },
+        {
+          text: "Infrastructure",
+          collapsed: true,
+          base: "/paths/career/infrastructure/",
+          items: [
+            { text: "System Administrator", link: "systemadministrator" },
+            { text: "Network Administrator", link: "networkadministrator" },
+            { text: "Database Administrator", link: "dba" },
+            { text: "Cloud Engineer", link: "cloudengineer" },
+          ],
+        },
+        {
+          text: "Support",
+          collapsed: true,
+          base: "/paths/career/support/",
+          items: [
+            { text: "IT Support", link: "it" },
+            { text: "IT Helpdesk", link: "helpdesk" },
           ],
         }
       ],
