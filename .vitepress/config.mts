@@ -586,7 +586,10 @@ function sidebarCareer(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           base: "/paths/career/qa/",
           items: [
-            { text: "Quality Assurance Engineer", link: "qa" },
+            { text: "Manual Tester", link: "manual" },
+            { text: "Automation Tester", link: "automation" },
+            { text: "QA Lead / QA Manager", link: "manager" },
+            { text: "Performance Tester", link: "performance" },
           ],
         },
         {
