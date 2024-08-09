@@ -524,6 +524,7 @@ function sidebarCareer(): DefaultTheme.SidebarItem[] {
             { text: "Chief Information Officer", link: "cio" },
             { text: "Cyber Security Officer", link: "cso" },
             { text: "IT Director", link: "director" },
+            { text: "Product Owner", link: "po" },
             { text: "IT Project Manager", link: "pm" },
             { text: "IT Security Manager", link: "securitymanager" },
             { text: "IT Auditor", link: "auditor" },
@@ -534,7 +535,6 @@ function sidebarCareer(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           base: "/paths/career/designer/",
           items: [
-            { text: "Product Owner", link: "po" },
             { text: "Product Designer", link: "product" },
             { text: "UX Designer ", link: "ux" },
             { text: "UI Designer", link: "ui" },
