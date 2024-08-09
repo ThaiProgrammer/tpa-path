@@ -617,9 +617,21 @@ function sidebarCareer(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           base: "/paths/career/support/",
           items: [
+            { text: "Application Support", link: "application" },
             { text: "IT Support", link: "it" },
             { text: "IT Helpdesk", link: "helpdesk" },
           ],
+        },
+        {
+          text: "Consulting & Sales",
+          collapsed: true,
+          base: "/paths/career/consulting/",
+          items: [
+            { text: "Pre-sale Consultant", link: "presale" },
+            { text: "Sales Engineer", link: "sale" },
+            { text: "Solution Architect", link: "solution" },
+            { text: "Technical Consultant", link: "technical" },
+          ],  
         }
       ],
     },
