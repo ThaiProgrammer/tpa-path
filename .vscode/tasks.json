@@ -9,6 +9,11 @@
       "command": "npm add -D vitepress"
     },
     {
+      "label": "Install Dependencies",
+      "type": "shell",
+      "command": "npm install"
+    },
+    {
       "label": "Run VitePress",
       "type": "shell",
       "command": "npm run docs:dev"

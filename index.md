@@ -10,9 +10,18 @@ hero:
     - theme: brand
       text: Contribute
       link: /contrib/contributing.md
+    - theme: Home
+      text: FB Page
+      link: https://www.facebook.com/ThaiProgrammerSociety
     - theme: alt
-      text: Home
-      link: /
+      text: FB Group
+      link: https://www.facebook.com/groups/240703846140892
+    - theme: Home
+      text: FB Job
+      link: https://www.facebook.com/groups/647718825333067
+    - theme: alt
+      text: Youtube
+      link: https://www.youtube.com/@thaiprogrammerassociation6772
   image: {
       light: 'https://res.cloudinary.com/dqizuot8q/image/upload/v1719638410/black-tpa_jehxeu.png',
       dark: 'https://res.cloudinary.com/dqizuot8q/image/upload/v1719638410/white-tpa_ye4q4l.png',
