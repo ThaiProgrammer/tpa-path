@@ -49,7 +49,11 @@ export default defineConfig({
       "/paths/career": {
         base: "/paths/career/",
         items: sidebarCareer()
-      }
+      },
+      "/paths/meetup": {
+        base: "/paths/meetup/",
+        items: sidebarTechMeetup()
+      },
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/ThaiProgrammer/tpa-path" },
@@ -636,6 +640,116 @@ function sidebarCareer(): DefaultTheme.SidebarItem[] {
             { text: "Technical Consultant", link: "technical" },
           ],  
         }
+      ],
+    },
+  ];
+}
+function sidebarTechMeetup(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "ตำแหน่งสายงาน IT",
+      items: [
+        {
+          text: "AI",
+          collapsed: true,
+          base: "/paths/meetup/ai/",
+          items: [
+            { text: "MLOps in action", link: "20240718.mlops" },
+            { text: "AI ทำให้โปรแกรมเมอร์ตกงานจริงหรือ", link: "20240530.humanandai" },
+            { "text": "เจาะลึก Generative AI", "link": "20231028.generativeai" },
+            { "text": "Finetune OpenThaiGPT", "link": "20231010.finetuneopenthaigpt" },
+            { "text": "ChatGPT Advanced Data Analysis", "link": "20231028.advanceddataanalysis" }
+          ],
+        },
+        {
+          text: "Developer",
+          collapsed: true,
+          base: "/paths/meetup/dev/",
+          items: [
+            { text: "Elysia Maintainer Meetup", link: "20240524.elysia" },
+            { text: "นายก็เป็นได้นะ คนทำงานสายงานไอทีน่ะ", link: "20240430.itlife" },
+            { text: "Webmaster ยังมีอยู่ไหม", link: "20240423.webmaster" },
+            { text: "Software Dev and Game Dev", link: "20240326.gamedev" },
+          ],
+        },
+        {
+          text: "Data",
+          collapsed: true,
+          base: "/paths/meetup/data/",
+          items: [
+            { text: "Data Analyst เทรน 2024", link: "20240306.datatrend" },
+            { "text": "Data Science เพื่อภาครัฐ", "link": "20231003.datasciencegov" },
+          ],
+        },
+        {
+          text: "Designer",
+          collapsed: true,
+          base: "/paths/meetup/designer/",
+          items: [
+            { text: "Exploring Tech Careers in the VFX Industry", link: "20240227.vfxcareer" },
+            { text: "กระบวนการผลิต Animation จาก Script to Screen", link: "20240220.animation.md" },
+          ],
+        },
+        {
+          text: "IoT",
+          collapsed: true,
+          base: "/paths/meetup/iot/",
+          items: [
+            { text: "เรียนรู้ IoT และเทคโนโลยีเกี่ยวข้อง", link: "20240129.iot101.md" },
+            { text: "การเรียนรู้เทคโนโลยีไอโอที", link: "20240119.iotintro" },
+          ],
+        },
+        {
+          text: "Infrastructure",
+          collapsed: true,
+          base: "/paths/meetup/infra/",
+          items: [
+            { "text": "Bangkok HashiCorp User Group Meetup", "link": "20231030.hashicorp" }
+          ],
+        },
+        {
+          text: "Management",
+          collapsed: true,
+          base: "/paths/meetup/management/",
+          items: [
+            { "text": "Project Estimation", "link": "20231015.projectestimation" },
+          ],
+        },
+        {
+          text: "MarTech",
+          collapsed: true,
+          base: "/paths/meetup/martech/",
+          items: [
+            { "text": "งานสาย MarTech EP.2", "link": "20231114.martech02" },
+            { "text": "งานสาย MarTech EP.1", "link": "20231107.martech01" }
+          ],
+        },
+        {
+          text: "Open Source",
+          collapsed: true,
+          base: "/paths/meetup/opensource/",
+          items: [
+            { "text": "ThaiUI Introduction", "link": "20231014.thaiui" }
+          ],
+        },
+        {
+          text: "QA / Tester",
+          collapsed: true,
+          base: "/paths/meetup/qa/",
+          items: [
+            { text: "QA Meetup 2024", link: "20240528.qameetup" },
+          ],
+        },
+        {
+          text: "Soft Skills",
+          collapsed: true,
+          base: "/paths/meetup/softskills/",
+          items: [
+            { text: "จิตวิทยากับการเขียนโปรแกรม", link: "20240521.happyprogrammer" },
+            { text: "การปรับตัวในยุค Digital Disruption", link: "20231219.digitallife"},
+            { text: "การ Learning Path ของสายงาน Tech", link: "20231212.techreskill"}
+          ],
+        },
       ],
     },
   ];

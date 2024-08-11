@@ -29,6 +29,9 @@ hero:
   }
 
 features:
+  - title: Tech Meetup
+    details:  รวบรวมเนื้อหาที่สมาคมจัดงาน Tech Meetup ร่วมกับ Tech Community ในประเทศไทย
+    link: /paths/meetup
   - title: ตำแหน่งสายงาน IT
     details:  แนะนำสายงาน IT ทั้งตำแหน่งและหน้าที่ในปี 2024
     link: /paths/career
