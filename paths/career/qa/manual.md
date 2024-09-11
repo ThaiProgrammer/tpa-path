@@ -88,3 +88,9 @@
 
 5. **การฝึกอบรมและการรับใบรับรอง (Training and Certification)**:
     - เข้าร่วมการฝึกอบรมและการรับใบรับรองเพิ่มเติม เช่น ISTQB Certified Tester เพื่อเพิ่มความน่าเชื่อถือและความสามารถในการแข่งขันในตลาดงาน
+
+## [ShareEXP] แบ่งปัน: อยากเป็น Tester ควรรู้อะไรบ้าง กับ ควรทำอะไรได้บ้าง ฉบับ Novice Tester
+>  ขอบคุณเนื้อหาดีๆจาก **[Tan Kanteera Kongyuen](https://medium.com/@tanjaik)**
+> 
+![](./images/qa-01.jpg)
+[[ShareEXP] แบ่งปัน: อยากเป็น Tester ควรรู้อะไรบ้าง กับ ควรทำอะไรได้บ้าง ฉบับ Novice Tester](https://tanjailittletester.com/shareexp-%E0%B9%81%E0%B8%9A%E0%B9%88%E0%B8%87%E0%B8%9B%E0%B8%B1%E0%B8%99-%E0%B8%AD%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99-tester-%E0%B8%84%E0%B8%A7%E0%B8%A3%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%81%E0%B8%B1%E0%B8%9A-%E0%B8%84%E0%B8%A7%E0%B8%A3%E0%B8%97%E0%B8%B3%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A-novice-tester-89c6f4f695d8)

@@ -106,3 +106,9 @@
 
 5. **การฝึกอบรมและการรับใบรับรอง**:
     - เข้าร่วมการฝึกอบรมและการรับใบรับรองเพิ่มเติม เช่น Google Cloud Professional Data Engineer, AWS Certified Big Data - Specialty เพื่อเพิ่มความน่าเชื่อถือและความสามารถในการแข่งขันในตลาดงาน
+
+## อยากเป็น Data Engineer ต้องรู้ภาษาอะไรบ้าง
+>  ขอบคุณเนื้อหาดีๆจาก **[DataRockie](https://datarockie.com/)**
+> 
+![](https://i0.wp.com/datarockie.com/wp-content/uploads/2023/10/Data-Engineer-Career-Guide-Clear-Cover.jpg?w=1600&ssl=1)
+[อยากเป็น Data Engineer ต้องรู้ภาษาอะไรบ้าง](https://datarockie.com/blog/data-engineering-foundation/)

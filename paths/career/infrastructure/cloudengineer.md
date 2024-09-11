@@ -96,3 +96,9 @@
 
 5. **การฝึกอบรมและการรับใบรับรอง (Training and Certification)**:
     - เข้าร่วมการฝึกอบรมและการรับใบรับรองเพิ่มเติม เช่น AWS Certified Solutions Architect, Microsoft Certified: Azure Solutions Architect Expert, Google Cloud Professional Cloud Architect เพื่อเพิ่มความน่าเชื่อถือและความสามารถในการแข่งขันในตลาดงาน
+
+## แนะนำ 3 Platforms เรียนฟรีอัพสกิล Cloud Computing สำหรับผู้เริ่มต้น
+>  ขอบคุณเนื้อหาดีๆจาก **[DataRockie](https://datarockie.com/)**
+> 
+![](https://i0.wp.com/datarockie.com/wp-content/uploads/2023/01/free-cloud-learning-paths-on-aws-microsoft-learn-and-gcp.jpg?zoom=2&resize=740%2C430&ssl=1)
+[แนะนำ 3 Platforms เรียนฟรีอัพสกิล Cloud Computing สำหรับผู้เริ่มต้น](https://datarockie.com/blog/free-cloud-computing-courses/)

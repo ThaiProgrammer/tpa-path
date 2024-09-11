@@ -568,8 +568,6 @@ function sidebarCareer(): DefaultTheme.SidebarItem[] {
              { text: "IoT Developer", link: "iot" },
              { text: "DevOps Engineer", link: "devops" },
              { text: "Platform Engineer", link: "platform" },
-             { text: "Data Engineer", link: "dataengineer" },
-             { text: "Data Scientist", link: "datascientist" },
              { text: "AI Engineer", link: "aiengineer" },
              { text: "Blockchain Developer", link: "blockchain" },
           ],

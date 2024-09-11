@@ -105,3 +105,9 @@
 
 5. **การฝึกอบรมและการรับใบรับรอง**:
     - เข้าร่วมการฝึกอบรมและการรับใบรับรองเพิ่มเติม เช่น Google Data Analytics Professional Certificate, Microsoft Certified: Azure Data Scientist Associate, เพื่อเพิ่มความน่าเชื่อถือและความสามารถในการแข่งขันในตลาดงาน
+
+## เคล็ดลับย้ายสาย เข้าสู่งาน Data เริ่มได้ทันที
+>  ขอบคุณเนื้อหาดีๆจาก **[มาลองเรียน - Malonglearn](https://www.malonglearn.com)**
+> 
+![](https://www.malonglearn.com/content/images/size/w1140/2024/04/Move-to-Data.png)
+[เคล็ดลับย้ายสาย เข้าสู่งาน Data เริ่มได้ทันที](https://www.malonglearn.com/step-to-data-career/)

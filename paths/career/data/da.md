@@ -102,3 +102,9 @@
 
 5. **การฝึกอบรมและการรับใบรับรอง**:
     - เข้าร่วมการฝึกอบรมและการรับใบรับรองเพิ่มเติม เช่น Google Data Analytics Professional Certificate, Microsoft Certified: Data Analyst Associate, เพื่อเพิ่มความน่าเชื่อถือและความสามารถในการแข่งขันในตลาดงาน
+
+## Data Analyst Career Guide แนะนำงานสาย Data ฉบับสมบูรณ์
+>  ขอบคุณเนื้อหาดีๆจาก **[DataRockie](https://datarockie.com/)**
+> 
+![](https://i0.wp.com/datarockie.com/wp-content/uploads/2024/01/Updated-New-Data-Analyst-Career-Guide-2024.jpg?w=1600&ssl=1)
+[Data Analyst Career Guide แนะนำงานสาย Data ฉบับสมบูรณ์](https://datarockie.com/blog/data-analyst-complete-career-guide/)
