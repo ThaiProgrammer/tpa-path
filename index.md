@@ -10,13 +10,13 @@ hero:
     - theme: brand
       text: Contribute
       link: /contrib/contributing.md
-    - theme: Home
+    - theme: alt
       text: FB Page
       link: https://www.facebook.com/ThaiProgrammerSociety
     - theme: alt
       text: FB Group
       link: https://www.facebook.com/groups/240703846140892
-    - theme: Home
+    - theme: alt
       text: FB Job
       link: https://www.facebook.com/groups/647718825333067
     - theme: alt
