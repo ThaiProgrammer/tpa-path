@@ -2,12 +2,15 @@ import { defineConfig, type DefaultTheme } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Thai Programmer Paths",
+  title: "🚀 เส้นทางโปรแกรมเมอร์",
   description: "Paths of Thai Programmer",
   themeConfig: {
-    logo: "https://res.cloudinary.com/dqizuot8q/image/upload/v1719638409/logo_c9ju7d.svg",
+    // logo: "https://res.cloudinary.com/dqizuot8q/image/upload/v1719638409/logo_c9ju7d.svg",
     // https://vitepress.dev/reference/default-theme-config
-    nav: [{ text: "Home", link: "/" }],
+    nav: [
+      { text: "จุดเริ่มต้น", link: "/" },
+      { text: "ร่วมพัฒนา", link: "/contrib/contributing.md" },
+    ],
 
     sidebar: {
       "/paths/aspnet-core": {
@@ -58,6 +61,7 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/ThaiProgrammer/tpa-path" },
       { icon: "facebook", link: "https://www.facebook.com/ThaiProgrammerSociety" },
+      { icon: "youtube", link: "https://www.youtube.com/@thaiprogrammerassociation6772" }
     ],
     search: {
       provider: "local",
