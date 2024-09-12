@@ -45,7 +45,15 @@ export default defineConfig({
       "/paths/software-architecture": {
         base: "/paths/software-architecture/",
         items: sidebarSoftwareArchitecture()
-      }
+      },
+      "/paths/career": {
+        base: "/paths/career/",
+        items: sidebarCareer()
+      },
+      "/paths/meetup": {
+        base: "/paths/meetup/",
+        items: sidebarTechMeetup()
+      },
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/ThaiProgrammer/tpa-path" },
@@ -501,6 +509,245 @@ function sidebarTypeScript(): DefaultTheme.SidebarItem[] {
             { text: "Data Validation ด้วย Zod ใช้คู่กับ TypeScript ได้", link: "zod-typescript-integration" },
           ]
         }
+      ],
+    },
+  ];
+}
+
+function sidebarCareer(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "ตำแหน่งสายงาน IT",
+      items: [
+        {
+          text: "Management",
+          collapsed: true,
+          base: "/paths/career/management/",
+          items: [
+            { text: "Chief Technology Officer", link: "cto" },
+            { text: "Chief Information Officer", link: "cio" },
+            { text: "Cyber Security Officer", link: "cso" },
+            { text: "IT Director", link: "director" },
+            { text: "Product Owner", link: "po" },
+            { text: "IT Project Manager", link: "pm" },
+            { text: "IT Security Manager", link: "securitymanager" },
+            { text: "IT Auditor", link: "auditor" },
+          ],
+        },
+        {
+          text: "Designer",
+          collapsed: true,
+          base: "/paths/career/designer/",
+          items: [
+            { text: "Product Designer", link: "product" },
+            { text: "UX Designer ", link: "ux" },
+            { text: "UI Designer", link: "ui" },
+            
+          ],
+        },
+        {
+          text: "Analyst",
+          collapsed: true,
+          base: "/paths/career/analyst/",
+          items: [
+            { text: "Business Analyst", link: "ba" },
+            { text: "System Analyst", link: "sa" },
+          ],
+        },
+        {
+          text: "Developer",
+          collapsed: true,
+          base: "/paths/career/developer/",
+          items: [
+            { text: "Software Engineer", link: "engineer" },
+            { text: "Front-end Developer", link: "frontend" },
+            { text: "Back-end Developer", link: "backend" },
+            { text: "Full-stack Developer", link: "fullstack" },
+            { text: "Mobile Developer", link: "mobile" },
+            { text: "Game Developer", link: "game" },
+             { text: "IoT Developer", link: "iot" },
+             { text: "DevOps Engineer", link: "devops" },
+             { text: "Platform Engineer", link: "platform" },
+             { text: "AI Engineer", link: "aiengineer" },
+             { text: "Blockchain Developer", link: "blockchain" },
+          ],
+        },
+        {
+          text: "Data",
+          collapsed: true,
+          base: "/paths/career/data/",
+          items: [
+            { text: "Data Engineer", link: "de" },
+            { text: "Data Scientist", link: "ds" },
+            { text: "Data Analyst", link: "da" },
+            { text: "Business Intelligence Analyst", link: "bi" },
+          ],
+        },
+        {
+          text: "QA/Tester",
+          collapsed: true,
+          base: "/paths/career/qa/",
+          items: [
+            { text: "Manual Tester", link: "manual" },
+            { text: "Automation Tester", link: "automation" },
+            { text: "QA Lead / QA Manager", link: "manager" },
+            { text: "Performance Tester", link: "performance" },
+          ],
+        },
+        {
+          text: "Security",
+          collapsed: true,
+          base: "/paths/career/security/",
+          items: [
+            { text: "Security Analyst", link: "analyst" },
+            { text: "Security Engineer", link: "engineer" },
+            { text: "Security Consultant", link: "consultant" },
+            { text: "Security Architect", link: "architect" },
+            { text: "Penetration Tester", link: "pentest" },
+          ],
+        },
+        {
+          text: "Infrastructure",
+          collapsed: true,
+          base: "/paths/career/infrastructure/",
+          items: [
+            { text: "System Administrator", link: "systemadministrator" },
+            { text: "Network Administrator", link: "networkadministrator" },
+            { text: "Database Administrator", link: "dba" },
+            { text: "Cloud Engineer", link: "cloudengineer" },
+          ],
+        },
+        {
+          text: "Support",
+          collapsed: true,
+          base: "/paths/career/support/",
+          items: [
+            { text: "Application Support", link: "application" },
+            { text: "IT Support", link: "it" },
+            { text: "IT Helpdesk", link: "helpdesk" },
+          ],
+        },
+        {
+          text: "Consulting & Sales",
+          collapsed: true,
+          base: "/paths/career/consulting/",
+          items: [
+            { text: "Pre-sale Consultant", link: "presale" },
+            { text: "Sales Engineer", link: "sale" },
+            { text: "Solution Architect", link: "solution" },
+            { text: "Technical Consultant", link: "technical" },
+          ],  
+        }
+      ],
+    },
+  ];
+}
+function sidebarTechMeetup(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "ตำแหน่งสายงาน IT",
+      items: [
+        {
+          text: "AI",
+          collapsed: true,
+          base: "/paths/meetup/ai/",
+          items: [
+            { text: "MLOps in action", link: "20240718.mlops" },
+            { text: "AI ทำให้โปรแกรมเมอร์ตกงานจริงหรือ", link: "20240530.humanandai" },
+            { "text": "เจาะลึก Generative AI", "link": "20231028.generativeai" },
+            { "text": "Finetune OpenThaiGPT", "link": "20231010.finetuneopenthaigpt" },
+            { "text": "ChatGPT Advanced Data Analysis", "link": "20231028.advanceddataanalysis" }
+          ],
+        },
+        {
+          text: "Developer",
+          collapsed: true,
+          base: "/paths/meetup/dev/",
+          items: [
+            { text: "Elysia Maintainer Meetup", link: "20240524.elysia" },
+            { text: "นายก็เป็นได้นะ คนทำงานสายงานไอทีน่ะ", link: "20240430.itlife" },
+            { text: "Webmaster ยังมีอยู่ไหม", link: "20240423.webmaster" },
+            { text: "Software Dev and Game Dev", link: "20240326.gamedev" },
+          ],
+        },
+        {
+          text: "Data",
+          collapsed: true,
+          base: "/paths/meetup/data/",
+          items: [
+            { text: "Data Analyst เทรน 2024", link: "20240306.datatrend" },
+            { "text": "Data Science เพื่อภาครัฐ", "link": "20231003.datasciencegov" },
+          ],
+        },
+        {
+          text: "Designer",
+          collapsed: true,
+          base: "/paths/meetup/designer/",
+          items: [
+            { text: "Exploring Tech Careers in the VFX Industry", link: "20240227.vfxcareer" },
+            { text: "กระบวนการผลิต Animation จาก Script to Screen", link: "20240220.animation.md" },
+          ],
+        },
+        {
+          text: "IoT",
+          collapsed: true,
+          base: "/paths/meetup/iot/",
+          items: [
+            { text: "เรียนรู้ IoT และเทคโนโลยีเกี่ยวข้อง", link: "20240129.iot101.md" },
+            { text: "การเรียนรู้เทคโนโลยีไอโอที", link: "20240119.iotintro" },
+          ],
+        },
+        {
+          text: "Infrastructure",
+          collapsed: true,
+          base: "/paths/meetup/infra/",
+          items: [
+            { "text": "Bangkok HashiCorp User Group Meetup", "link": "20231030.hashicorp" }
+          ],
+        },
+        {
+          text: "Management",
+          collapsed: true,
+          base: "/paths/meetup/management/",
+          items: [
+            { "text": "Project Estimation", "link": "20231015.projectestimation" },
+          ],
+        },
+        {
+          text: "MarTech",
+          collapsed: true,
+          base: "/paths/meetup/martech/",
+          items: [
+            { "text": "งานสาย MarTech EP.2", "link": "20231114.martech02" },
+            { "text": "งานสาย MarTech EP.1", "link": "20231107.martech01" }
+          ],
+        },
+        {
+          text: "Open Source",
+          collapsed: true,
+          base: "/paths/meetup/opensource/",
+          items: [
+            { "text": "ThaiUI Introduction", "link": "20231014.thaiui" }
+          ],
+        },
+        {
+          text: "QA / Tester",
+          collapsed: true,
+          base: "/paths/meetup/qa/",
+          items: [
+            { text: "QA Meetup 2024", link: "20240528.qameetup" },
+          ],
+        },
+        {
+          text: "Soft Skills",
+          collapsed: true,
+          base: "/paths/meetup/softskills/",
+          items: [
+            { text: "จิตวิทยากับการเขียนโปรแกรม", link: "20240521.happyprogrammer" },
+            { text: "การปรับตัวในยุค Digital Disruption", link: "20231219.digitallife"},
+            { text: "การ Learning Path ของสายงาน Tech", link: "20231212.techreskill"}
+          ],
+        },
       ],
     },
   ];
