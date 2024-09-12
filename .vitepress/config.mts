@@ -67,6 +67,23 @@ export default defineConfig({
       provider: "local",
     },
   },
+  lang: 'th-TH',
+  lastUpdated: true,
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.webp' }],
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-9C4TR30ETP' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-9C4TR30ETP');`
+    ]
+  ]
 });
 
 function sidebarASPNetCore(): DefaultTheme.SidebarItem[] {
@@ -546,7 +563,7 @@ function sidebarCareer(): DefaultTheme.SidebarItem[] {
             { text: "Product Designer", link: "product" },
             { text: "UX Designer ", link: "ux" },
             { text: "UI Designer", link: "ui" },
-            
+
           ],
         },
         {
@@ -569,11 +586,11 @@ function sidebarCareer(): DefaultTheme.SidebarItem[] {
             { text: "Full-stack Developer", link: "fullstack" },
             { text: "Mobile Developer", link: "mobile" },
             { text: "Game Developer", link: "game" },
-             { text: "IoT Developer", link: "iot" },
-             { text: "DevOps Engineer", link: "devops" },
-             { text: "Platform Engineer", link: "platform" },
-             { text: "AI Engineer", link: "aiengineer" },
-             { text: "Blockchain Developer", link: "blockchain" },
+            { text: "IoT Developer", link: "iot" },
+            { text: "DevOps Engineer", link: "devops" },
+            { text: "Platform Engineer", link: "platform" },
+            { text: "AI Engineer", link: "aiengineer" },
+            { text: "Blockchain Developer", link: "blockchain" },
           ],
         },
         {
@@ -640,7 +657,7 @@ function sidebarCareer(): DefaultTheme.SidebarItem[] {
             { text: "Sales Engineer", link: "sale" },
             { text: "Solution Architect", link: "solution" },
             { text: "Technical Consultant", link: "technical" },
-          ],  
+          ],
         }
       ],
     },
@@ -748,8 +765,8 @@ function sidebarTechMeetup(): DefaultTheme.SidebarItem[] {
           base: "/paths/meetup/softskills/",
           items: [
             { text: "จิตวิทยากับการเขียนโปรแกรม", link: "20240521.happyprogrammer" },
-            { text: "การปรับตัวในยุค Digital Disruption", link: "20231219.digitallife"},
-            { text: "การ Learning Path ของสายงาน Tech", link: "20231212.techreskill"}
+            { text: "การปรับตัวในยุค Digital Disruption", link: "20231219.digitallife" },
+            { text: "การ Learning Path ของสายงาน Tech", link: "20231212.techreskill" }
           ],
         },
       ],
