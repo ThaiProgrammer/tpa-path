@@ -3,24 +3,24 @@
 layout: home
 
 hero:
-  name: 'TPA Paths'
-  text: 'Thai Programmer Career Paths '
-  tagline: เส้นทางการเติบโตสำหรับโปรแกรมเมอร์ (Programmer Career Paths)
+  name: 'Thai Programmer'
+  text: 'Career Paths '
+  tagline: เส้นทางการเติบโตสำหรับโปรแกรมเมอร์
   actions:
     - theme: brand
-      text: Contribute
+      text: + เพิ่มเนื้อหา
       link: /contrib/contributing.md
-    - theme: Home
-      text: FB Page
+    - theme: alt
+      text: ข่าวสาร
       link: https://www.facebook.com/ThaiProgrammerSociety
     - theme: alt
-      text: FB Group
+      text: พูดคุย
       link: https://www.facebook.com/groups/240703846140892
-    - theme: Home
-      text: FB Job
+    - theme: alt
+      text: หางาน
       link: https://www.facebook.com/groups/647718825333067
     - theme: alt
-      text: Youtube
+      text: ดูวิดีโอ
       link: https://www.youtube.com/@thaiprogrammerassociation6772
   image: {
       light: 'https://res.cloudinary.com/dqizuot8q/image/upload/v1719638410/black-tpa_jehxeu.png',
@@ -72,3 +72,6 @@ features:
     details: รวบรวมเนื้อหาที่เกี่ยวกับการใช้งาน Microsoft Cloud - Azure ในการพัฒนาระบบ
     link: /paths/azure
 ---
+
+## ผู้ร่วมพัฒนา
+<img src = "https://contrib.rocks/image?repo=ThaiProgrammer/tpa-path"/>
