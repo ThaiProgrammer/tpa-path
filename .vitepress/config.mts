@@ -3,13 +3,14 @@ import { defineConfig, type DefaultTheme } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "🚀 เส้นทางโปรแกรมเมอร์",
-  description: "Paths of Thai Programmer",
+  description: "Programmer's Roadmap & Career Paths · เส้นทางการเรียนรู้และการเติบโตสำหรับโปรแกรมเมอร์",
   themeConfig: {
     // logo: "https://res.cloudinary.com/dqizuot8q/image/upload/v1719638409/logo_c9ju7d.svg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "จุดเริ่มต้น", link: "/" },
       { text: "ร่วมพัฒนา", link: "/contrib/contributing.md" },
+      { text: "Tech Calendar", link: "https://th.techcal.dev/" },
     ],
 
     sidebar: {
@@ -61,16 +62,20 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/ThaiProgrammer/tpa-path" },
       { icon: "facebook", link: "https://www.facebook.com/ThaiProgrammerSociety" },
-      { icon: "youtube", link: "https://www.youtube.com/@thaiprogrammerassociation6772" }
+      { icon: "youtube", link: "https://www.youtube.com/@ThaiProgrammer" }
     ],
     search: {
       provider: "local",
     },
+    footer: {
+      message: 'สร้างด้วย <a href="https://vitepress.dev" target="blank">VitePress</a>  ·  ให้บริการโดย<a href="https://thaiprogrammer.org?ref=tpa-roadmap" target="blank">สมาคมโปรแกรมเมอร์ไทย</a>  ·  ร่วมพัฒนาโดยคนไทย 🇹🇭',
+      copyright: '· ไม่สงวนลิขสิทธิ์ ·'
+    }
   },
   lang: 'th-TH',
   lastUpdated: true,
   head: [
-    ['link', { rel: 'icon', href: '/favicon.webp' }],
+    ['link', { rel: 'icon', href: '/assets/favicon.ico' }],
     [
       'script',
       { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-9C4TR30ETP' }
