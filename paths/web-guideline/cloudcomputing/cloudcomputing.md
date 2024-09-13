@@ -11,7 +11,7 @@
 5. **ความปลอดภัย**: มีมาตรการความปลอดภัยและการสำรองข้อมูลที่ทันสมัย ช่วยปกป้องข้อมูลสำคัญของธุรกิจ
 
 ## แนะนำเนื้อหาแบบแน่นๆ เน้นๆ
-[Introduction to Cloud Computing - TPA Paths](https://roadmap.thaiprogrammer.org/paths/cloud-computing/fundamental/fundamental.html)
+[Introduction to Cloud Computing - Programmer's Roadmap & Career Paths](https://roadmap.thaiprogrammer.org/paths/cloud-computing/fundamental/fundamental.html)
 
 ![](./cloud-002.jpg)
 
