@@ -25,4 +25,4 @@
 
 ![](./images/meetup01.jpg)
 
-> [Youtube สมาคมโปรแกรมเมอร์ไทย](https://www.youtube.com/@thaiprogrammerassociation6772/streams)
+> [Youtube สมาคมโปรแกรมเมอร์ไทย](https://www.youtube.com/@ThaiProgrammer/streams)

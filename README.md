@@ -1,10 +1,10 @@
-# ยินดีต้อนรับสู่ Thai Programmer Career Paths 
-แนวทางแนะนำสำหรับเส้นทางการเติบโตสำหรับโปรแกรมเมอร์ (Programmer Career Paths) ในประเทศไทยนะครับ
+# ยินดีต้อนรับสู่ Programmer's Roadmap & Career Paths
+แนวทางแนะนำสำหรับเส้นทางการเติบโตสำหรับโปรแกรมเมอร์ในประเทศไทยนะครับ
 
-## เข้าเยี่ยมชม Thai Programmer Career Paths Website
-https://roadmap.thaiprogrammer.org/
+เว็บไซต์: https://roadmap.thaiprogrammer.org
 
-## VitePress คืออะไร?
+## เราพัฒนาโปรเจคนี้ด้วย VitePress
+### VitePress คืออะไร
 `VitePress` เป็นเครื่องมือสร้างเว็บไซต์แบบ Static Site Generator (SSG) ที่ออกแบบมาเพื่อสร้างเว็บไซต์ที่รวดเร็วและเน้นเนื้อหา โดย VitePress จะนำเนื้อหาที่เขียนในรูปแบบ Markdown มาปรับใช้กับธีมแล้วสร้างหน้า HTML แบบ static ที่สามารถเผยแพร่ได้ง่าย
 
 ## ได้บันดาลใจในการใช้ VitePress มาจากไหน
@@ -159,7 +159,7 @@ npm run docs:dev
       ![](./images/Path06.jpg)
     - หน้าตาเว็บไซต์ผลลัพธ์ที่ได้ตอนนี้
       ![](./images/Path07.jpg)
-## ขอบคุณผู้ร่วมพัฒนาทุกคน ❤
+## ขอบคุณผู้ร่วมพัฒนาทุกคนและคุณ ❤
 
  <a href = "https://contrib.rocks/image?repo=ThaiProgrammer/tpa-path">
    <img src = "https://contrib.rocks/image?repo=ThaiProgrammer/tpa-path"/>
