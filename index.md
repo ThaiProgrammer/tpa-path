@@ -97,6 +97,12 @@ features:
     icon: {
       src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/150px-Microsoft_Azure.svg.png"
     }
+  - title: WordPress
+    details: เนื้อหาเกี่ยวกับการพัฒนาเว็บไซต์ด้วย WordPress ทั้งการพัฒนาเว็บไซต์ด้วย WordPress และการพัฒนา Plugin และ Theme
+    link: /paths/wordpress
+    icon: {
+      src: "https://upload.wikimedia.org/wikipedia/commons/0/09/Wordpress-Logo.svg"
+    }
 ---
 
 ## ผู้ร่วมพัฒนา

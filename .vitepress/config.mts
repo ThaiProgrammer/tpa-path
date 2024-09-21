@@ -58,6 +58,10 @@ export default defineConfig({
         base: "/paths/meetup/",
         items: sidebarTechMeetup()
       },
+      "/paths/wordpress": {
+        base: "/paths/wordpress/",
+        items: sidebarWordPress()
+      },
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/ThaiProgrammer/tpa-path" },
@@ -428,7 +432,6 @@ function sidebarAIApplicationDevelopment(): DefaultTheme.SidebarItem[] {
     },
   ];
 }
-
 function sidebarMobileApplicationDevelopment(): DefaultTheme.SidebarItem[] {
   return [
     {
@@ -451,7 +454,6 @@ function sidebarMobileApplicationDevelopment(): DefaultTheme.SidebarItem[] {
     },
   ];
 }
-
 function sidebarPractices(): DefaultTheme.SidebarItem[] {
   return [
     {
@@ -469,7 +471,6 @@ function sidebarPractices(): DefaultTheme.SidebarItem[] {
     }
   ]
 }
-
 function sidebarSoftwareArchitecture(): DefaultTheme.SidebarItem[] {
   return [
     {
@@ -488,7 +489,6 @@ function sidebarSoftwareArchitecture(): DefaultTheme.SidebarItem[] {
     }
   ]
 }
-
 function sidebarTypeScript(): DefaultTheme.SidebarItem[] {
   return [
     {
@@ -539,7 +539,6 @@ function sidebarTypeScript(): DefaultTheme.SidebarItem[] {
     },
   ];
 }
-
 function sidebarCareer(): DefaultTheme.SidebarItem[] {
   return [
     {
@@ -774,6 +773,24 @@ function sidebarTechMeetup(): DefaultTheme.SidebarItem[] {
             { text: "การ Learning Path ของสายงาน Tech", link: "20231212.techreskill" }
           ],
         },
+      ],
+    },
+  ];
+}
+function sidebarWordPress(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "WordPress",
+      base: "/paths/wordpress/",
+      items: [
+        { text: "WordPress คืออะไร?", link: "what-is-wordpress" },
+        { text: "โครงสร้างของ WordPress", link: "structures" },
+        { text: "การติดตั้ง WordPress", link: "installation" },
+        { text: "เครื่องมือสำหรับนักพัฒนา", link: "developer-tools" },
+        { text: "การพัฒนาเทมเพลต", link: "theme-development" },
+        { text: "การพัฒนาเอกสารประกอบ", link: "plugin-development" },
+        { text: "การปรับแต่งระบบจัดการเนื้อหา", link: "customization" },
+        { text: "การป้องกันระบบจัดการเนื้อหา", link: "security" },
       ],
     },
   ];
