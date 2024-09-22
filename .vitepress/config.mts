@@ -58,6 +58,10 @@ export default defineConfig({
         base: "/paths/meetup/",
         items: sidebarTechMeetup()
       },
+      "/paths/wordpress": {
+        base: "/paths/wordpress/",
+        items: sidebarWordPress()
+      },
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/ThaiProgrammer/tpa-path" },
@@ -428,7 +432,6 @@ function sidebarAIApplicationDevelopment(): DefaultTheme.SidebarItem[] {
     },
   ];
 }
-
 function sidebarMobileApplicationDevelopment(): DefaultTheme.SidebarItem[] {
   return [
     {
@@ -451,7 +454,6 @@ function sidebarMobileApplicationDevelopment(): DefaultTheme.SidebarItem[] {
     },
   ];
 }
-
 function sidebarPractices(): DefaultTheme.SidebarItem[] {
   return [
     {
@@ -469,7 +471,6 @@ function sidebarPractices(): DefaultTheme.SidebarItem[] {
     }
   ]
 }
-
 function sidebarSoftwareArchitecture(): DefaultTheme.SidebarItem[] {
   return [
     {
@@ -488,7 +489,6 @@ function sidebarSoftwareArchitecture(): DefaultTheme.SidebarItem[] {
     }
   ]
 }
-
 function sidebarTypeScript(): DefaultTheme.SidebarItem[] {
   return [
     {
@@ -539,7 +539,6 @@ function sidebarTypeScript(): DefaultTheme.SidebarItem[] {
     },
   ];
 }
-
 function sidebarCareer(): DefaultTheme.SidebarItem[] {
   return [
     {
@@ -772,6 +771,79 @@ function sidebarTechMeetup(): DefaultTheme.SidebarItem[] {
             { text: "จิตวิทยากับการเขียนโปรแกรม", link: "20240521.happyprogrammer" },
             { text: "การปรับตัวในยุค Digital Disruption", link: "20231219.digitallife" },
             { text: "การ Learning Path ของสายงาน Tech", link: "20231212.techreskill" }
+          ],
+        },
+      ],
+    },
+  ];
+}
+function sidebarWordPress(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "WordPress",
+      items: [
+        { 
+          text: "WordPress คืออะไร?", 
+          collapsed: true,
+          base: "/paths/wordpress/what-is-wordpress/",
+          items: [
+            { text: "WordPress คืออะไร?", link: "index.html" }
+          ],
+        },
+        { 
+          text: "โครงสร้างของ WordPress", 
+          collapsed: true,
+          base: "/paths/wordpress/structures/",
+          items: [
+            { text: "โครงสร้างของ WordPress คืออะไร?", link: "index.html" }
+          ],
+        },
+        { 
+          text: "การติดตั้ง WordPress", 
+          collapsed: true,
+          base: "/paths/wordpress/installation/",
+          items: [
+            { text: "การติดตั้ง WordPress คืออะไร?", link: "index.html" }
+          ],
+        },
+        { 
+          text: "เครื่องมือสำหรับนักพัฒนา", 
+          collapsed: true,
+          base: "/paths/wordpress/developer-tools/",
+          items: [
+            { text: "เครื่องมือสำหรับนักพัฒนา คืออะไร?", link: "index.html" }
+          ],
+        },
+        { 
+          text: "การพัฒนา Theme", 
+          collapsed: true,
+          base: "/paths/wordpress/theme-development/",
+          items: [
+            { text: "การพัฒนา Theme คืออะไร?", link: "index.html" }
+          ],
+        },
+        { 
+          text: "การพัฒนา Plugin", 
+          collapsed: true,
+          base: "/paths/wordpress/plugin-development/",
+          items: [
+            { text: "การพัฒนา Plugin คืออะไร?", link: "index.html" }
+          ],
+        },
+        { 
+          text: "การปรับแต่งระบบ", 
+          collapsed: true,
+          base: "/paths/wordpress/customization/",
+          items: [
+            { text: "การปรับแต่งระบบ คืออะไร?", link: "index.html" }
+          ],
+        },
+        { 
+          text: "Security", 
+          collapsed: true,
+          base: "/paths/wordpress/security/",
+          items: [
+            { text: "Security คืออะไร?", link: "index.html" }
           ],
         },
       ],
