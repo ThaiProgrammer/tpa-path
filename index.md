@@ -101,7 +101,7 @@ features:
     details: ความรู้พื้นฐานด้านความปลอดภัยทางไซเบอร์ ไปจนถึงการใช้ M365 / Azure และโซลูชั่นความปลอดภัยของ Microsoft
     link: /paths/MicrosoftSecurity
     icon: {
-      src: "https://commons.wikimedia.org/wiki/Category:Microsoft_software_logos#/media/File:Windows_Defender_logo.svg"
+      src: "./images/Windows_Defender_logo.svg"
     }
 ---
 
