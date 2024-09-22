@@ -781,16 +781,71 @@ function sidebarWordPress(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "WordPress",
-      base: "/paths/wordpress/",
       items: [
-        { text: "WordPress คืออะไร?", link: "what-is-wordpress" },
-        { text: "โครงสร้างของ WordPress", link: "structures" },
-        { text: "การติดตั้ง WordPress", link: "installation" },
-        { text: "เครื่องมือสำหรับนักพัฒนา", link: "developer-tools" },
-        { text: "การพัฒนา Theme", link: "theme-development" },
-        { text: "การพัฒนา Plugin", link: "plugin-development" },
-        { text: "การปรับแต่งระบบ", link: "customization" },
-        { text: "Security", link: "security" },
+        { 
+          text: "WordPress คืออะไร?", 
+          collapsed: true,
+          base: "/paths/wordpress/what-is-wordpress/",
+          items: [
+            { text: "WordPress คืออะไร?", link: "index.html" }
+          ],
+        },
+        { 
+          text: "โครงสร้างของ WordPress", 
+          collapsed: true,
+          base: "/paths/wordpress/structures/",
+          items: [
+            { text: "โครงสร้างของ WordPress คืออะไร?", link: "index.html" }
+          ],
+        },
+        { 
+          text: "การติดตั้ง WordPress", 
+          collapsed: true,
+          base: "/paths/wordpress/installation/",
+          items: [
+            { text: "การติดตั้ง WordPress คืออะไร?", link: "index.html" }
+          ],
+        },
+        { 
+          text: "เครื่องมือสำหรับนักพัฒนา", 
+          collapsed: true,
+          base: "/paths/wordpress/developer-tools/",
+          items: [
+            { text: "เครื่องมือสำหรับนักพัฒนา คืออะไร?", link: "index.html" }
+          ],
+        },
+        { 
+          text: "การพัฒนา Theme", 
+          collapsed: true,
+          base: "/paths/wordpress/theme-development/",
+          items: [
+            { text: "การพัฒนา Theme คืออะไร?", link: "index.html" }
+          ],
+        },
+        { 
+          text: "การพัฒนา Plugin", 
+          collapsed: true,
+          base: "/paths/wordpress/plugin-development/",
+          items: [
+            { text: "การพัฒนา Plugin คืออะไร?", link: "index.html" }
+          ],
+        },
+        { 
+          text: "การปรับแต่งระบบ", 
+          collapsed: true,
+          base: "/paths/wordpress/customization/",
+          items: [
+            { text: "การปรับแต่งระบบ คืออะไร?", link: "index.html" }
+          ],
+        },
+        { 
+          text: "Security", 
+          collapsed: true,
+          base: "/paths/wordpress/security/",
+          items: [
+            { text: "Security คืออะไร?", link: "index.html" }
+          ],
+        },
       ],
     },
   ];
