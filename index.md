@@ -97,6 +97,12 @@ features:
     icon: {
       src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/150px-Microsoft_Azure.svg.png"
     }
+  - title: Microsoft Cybersecurity
+    details: ความรู้พื้นฐานด้านความปลอดภัยทางไซเบอร์ ไปจนถึงการใช้ M365 / Azure และโซลูชั่นความปลอดภัยของ Microsoft
+    link: /paths/MicrosoftSecurity
+    icon: {
+      src: "./images/Windows_Defender_logo.svg"
+    }
 ---
 
 ## ผู้ร่วมพัฒนา
