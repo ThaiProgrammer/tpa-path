@@ -12,6 +12,7 @@
 | ![Seed Stat Pro](https://th.seedwebs.com/wp-content/uploads/2023/04/seed-stat-pro.webp)  | **[Seed Stat Pro](https://th.seedwebs.com/product/seed-stat-pro/)**  ปลั๊กอินเก็บสถิติผู้เยี่ยมชม นำไปแสดงหน้าเว็บได้ เก็บข้อมูลผ่าน AJAX หรือ Google Analytics | [Seed Webs Co., Ltd.](https://th.seedwebs.com/) | 899 |
 | ![ปลั๊กอิน WP LINE Connect](/paths/wordpress/images/line-connect.jpg)  | **[WP LINE Connect](https://wpdevthai.com/product/line-connect/)**  เชื่อมต่อเว็บไซต์เวิร์ดเพรสของคุณกับไลน์ LINE Login +LINE Notify + LINE Messaging API เชื่อมต่อกับ LINE OA ได้อย่างง่ายดาย | [WPDevThai](https://wpdevthai.com/product/line-connect/) | 1,280 |
 | ![Cookie Wow PDPA Banner](https://ps.w.org/cookie-wow-banner/assets/icon-256x256.png?rev=2557543)  | **[Cookie Wow PDPA Banner](https://cookiewow.com/)**  ทำให้การขอความยินยอมในการใช้คุกกี้บนหน้าเว็บเป็นเรื่องง่าย | [Cookie Wow](https://cookiewow.com/) | 259 |
+| ![Thai Woocommerce All in one](https://store.doaction.co.th/wp-content/uploads/2024/01/twaio-min-rz-1.svg)  | **[Thai Woocommerce All in one](https://store.doaction.co.th/thai-woocommerce-all-in-one/)**  ปลั๊กอินครบวงจรสำหรับ WooCommerce เพื่อคนไทยโดยมีฟีเจอร์ ที่รวมความสามารถเอาไว้มากที่สุด มีทั้ง: การแจ้งโอนเงิน, Promptpay QR-Code, ทำให้ Package slip เป็นภาษาไทย, โซเชียลแชร์, ไลน์ล็อกอิน, แจ้งเตือนไลน์ | [Do Action's](https://store.doaction.co.th/) | 1,490 |
 
 ## แบบฟรี
 | ชื่อ | ลักษณะเด่น | ผู้พัฒนา | ดาวน์โหลด |
