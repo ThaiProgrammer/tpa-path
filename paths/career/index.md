@@ -10,6 +10,13 @@ description: แนะนำสายงาน IT ทั้งตำแหน่
 
 เพื่อทำให้เข้าใจได้ง่ายขึ้นว่างานในสายนี้มีตำแหน่งและหน้าที่ทำอะไรบ้าง เราจึงขอรวบรวมสายงาน IT ต่างๆ มาไว้ในนี้ ครบ จบ ในที่เดียว เพื่อเป็นความรู้และข้อมูลสำหรับผู้ที่สนใจ 
 
+## Road to Software Engineer
+ขั้นตอนแรกที่ผมอยากจะแนะนำที่สุดคืออยากให้เรารู้เส้นทางสายงาน IT ที่เรากำลังจะเดินทางไปด้วยกันนี้ก่อนครับผมว่ามีอะไรบ้าง เราอยู่ที่จุดไหนของสายงาน และเราอยากเติบโตไปในแนวทางไหนครับ ผมได้ทำ Video สรุปมาให้ตามนี้นะครับ
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W7SzHtGEtyg?si=kib60gegi6kFu64H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+> ขอบคุณเนื้อหาดีๆจาก **[T. T. Software Solution](https://www.tt-ss.net/)**
+
 ## Web Development Guideline
 
 ทางสมาคมโปรแกรมเมอร์ไทยทำการรวบรวมเนื้อหาที่คิดว่าเป็นประโยชน์ให้เห็นภาพกว้างในการเข้ามาทำงานในสาย Web Developers นะครับ

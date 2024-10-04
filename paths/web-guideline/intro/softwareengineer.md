@@ -2,6 +2,10 @@
 
 ขั้นตอนแรกที่ผมอยากจะแนะนำที่สุดคืออยากให้เรารู้เส้นทางสายงาน IT ที่เรากำลังจะเดินทางไปด้วยกันนี้ก่อนครับผมว่ามีอะไรบ้าง เราอยู่ที่จุดไหนของสายงาน และเราอยากเติบโตไปในแนวทางไหนครับ ผมได้ทำ Video สรุปมาให้ตามนี้นะครับ
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W7SzHtGEtyg?si=kib60gegi6kFu64H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+> ขอบคุณเนื้อหาดีๆจาก **[T. T. Software Solution](https://www.tt-ss.net/)**
+
 ## **คำถามที่สำคัญอย่างนึงคือ การเขียนโปรแกรมจะอยู่ที่จุดไหนของขั้นตอนในการพัฒนาระบบ**
 
 การแก้ปัญหาด้วยคอมพิวเตอร์มีขั้นตอนสำคัญหลายขั้นตอน:

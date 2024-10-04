@@ -1,6 +1,10 @@
 # Software Engineer
 คือผู้เชี่ยวชาญด้านการออกแบบ, พัฒนา, ทดสอบ, และบำรุงรักษาซอฟต์แวร์ โดยใช้หลักการทางวิศวกรรมและเทคโนโลยีต่างๆ เพื่อสร้างแอปพลิเคชันและระบบซอฟต์แวร์ที่ตอบสนองความต้องการของผู้ใช้และองค์กร
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W7SzHtGEtyg?si=kib60gegi6kFu64H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+> ขอบคุณเนื้อหาดีๆจาก **[T. T. Software Solution](https://www.tt-ss.net/)**
+
 ## หน้าที่ของ Software Engineer
 
 1. **การออกแบบและพัฒนาซอฟต์แวร์**: ออกแบบสถาปัตยกรรมระบบและพัฒนาโค้ดซอฟต์แวร์ตามความต้องการของผู้ใช้และองค์กร
