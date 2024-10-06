@@ -3,7 +3,8 @@ import { defineConfig, type DefaultTheme } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "🚀 เส้นทางโปรแกรมเมอร์",
-  description: "Programmer's Roadmap & Career Paths · เส้นทางการเรียนรู้และการเติบโตสำหรับโปรแกรมเมอร์",
+  description:
+    "Programmer's Roadmap & Career Paths · เส้นทางการเรียนรู้และการเติบโตสำหรับโปรแกรมเมอร์",
   themeConfig: {
     // logo: "https://res.cloudinary.com/dqizuot8q/image/upload/v1719638409/logo_c9ju7d.svg",
     // https://vitepress.dev/reference/default-theme-config
@@ -19,7 +20,10 @@ export default defineConfig({
         items: sidebarASPNetCore(),
       },
       "/paths/devops": { base: "/paths/devops/", items: sidebarDevOps() },
-      "/paths/typescript": { base: "/paths/typescript/", items: sidebarTypeScript() },
+      "/paths/typescript": {
+        base: "/paths/typescript/",
+        items: sidebarTypeScript(),
+      },
       "/paths/java": { base: "/paths/java/", items: sidebarJava() },
       "/paths/azure": { base: "/paths/azure/", items: sidebarAzure() },
       "/paths/cloud-computing": {
@@ -44,55 +48,62 @@ export default defineConfig({
       },
       "/paths/practices": {
         base: "/paths/practices/",
-        items: sidebarPractices()
+        items: sidebarPractices(),
       },
       "/paths/software-architecture": {
         base: "/paths/software-architecture/",
-        items: sidebarSoftwareArchitecture()
+        items: sidebarSoftwareArchitecture(),
       },
       "/paths/career": {
         base: "/paths/career/",
-        items: sidebarCareer()
+        items: sidebarCareer(),
       },
       "/paths/meetup": {
         base: "/paths/meetup/",
-        items: sidebarTechMeetup()
+        items: sidebarTechMeetup(),
       },
       "/paths/wordpress": {
         base: "/paths/wordpress/",
-        items: sidebarWordPress()
+        items: sidebarWordPress(),
       },
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/ThaiProgrammer/tpa-path" },
-      { icon: "facebook", link: "https://www.facebook.com/ThaiProgrammerSociety" },
-      { icon: "youtube", link: "https://www.youtube.com/@ThaiProgrammer" }
+      {
+        icon: "facebook",
+        link: "https://www.facebook.com/ThaiProgrammerSociety",
+      },
+      { icon: "youtube", link: "https://www.youtube.com/@ThaiProgrammer" },
     ],
     search: {
       provider: "local",
     },
     footer: {
-      message: 'สร้างด้วย <a href="https://vitepress.dev" target="blank">VitePress</a>  ·  ให้บริการโดย<a href="https://thaiprogrammer.org?ref=tpa-roadmap" target="blank">สมาคมโปรแกรมเมอร์ไทย</a>  ·  ร่วมพัฒนาโดยคนไทย 🇹🇭',
-      copyright: '· ไม่สงวนลิขสิทธิ์ ·'
-    }
+      message:
+        'สร้างด้วย <a href="https://vitepress.dev" target="blank">VitePress</a>  ·  ให้บริการโดย<a href="https://thaiprogrammer.org?ref=tpa-roadmap" target="blank">สมาคมโปรแกรมเมอร์ไทย</a>  ·  ร่วมพัฒนาโดยคนไทย 🇹🇭',
+      copyright: "· ไม่สงวนลิขสิทธิ์ ·",
+    },
   },
-  lang: 'th-TH',
+  lang: "th-TH",
   lastUpdated: true,
   head: [
-    ['link', { rel: 'icon', href: '/assets/favicon.ico' }],
+    ["link", { rel: "icon", href: "/assets/favicon.ico" }],
     [
-      'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-9C4TR30ETP' }
+      "script",
+      {
+        async: "",
+        src: "https://www.googletagmanager.com/gtag/js?id=G-9C4TR30ETP",
+      },
     ],
     [
-      'script',
+      "script",
       {},
       `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-9C4TR30ETP');`
-    ]
-  ]
+      gtag('config', 'G-9C4TR30ETP');`,
+    ],
+  ],
 });
 
 function sidebarASPNetCore(): DefaultTheme.SidebarItem[] {
@@ -303,6 +314,7 @@ function sidebarWebGuideline(): DefaultTheme.SidebarItem[] {
             { text: "Typescript", link: "typescript" },
             { text: "React", link: "react" },
             { text: "Next.js", link: "nextjs" },
+            { text: "Angular", link: "angular" },
           ],
         },
         {
@@ -463,13 +475,11 @@ function sidebarPractices(): DefaultTheme.SidebarItem[] {
           text: "Design Practices",
           collapsed: true,
           base: "/paths/practices/design/",
-          items: [
-            { text: "Design Patterns", link: "design-patterns" }
-          ]
+          items: [{ text: "Design Patterns", link: "design-patterns" }],
         },
-      ]
-    }
-  ]
+      ],
+    },
+  ];
 }
 function sidebarSoftwareArchitecture(): DefaultTheme.SidebarItem[] {
   return [
@@ -481,13 +491,16 @@ function sidebarSoftwareArchitecture(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           base: "/paths/software-architecture/introduction/",
           items: [
-            { text: "What is software architecture?", link: "software-architecture-intro" },
+            {
+              text: "What is software architecture?",
+              link: "software-architecture-intro",
+            },
             { text: "Styles & Patterns", link: "styles-n-patterns" },
-          ]
-        }
-      ]
-    }
-  ]
+          ],
+        },
+      ],
+    },
+  ];
 }
 function sidebarTypeScript(): DefaultTheme.SidebarItem[] {
   return [
@@ -513,28 +526,49 @@ function sidebarTypeScript(): DefaultTheme.SidebarItem[] {
           items: [
             { text: "Generics", link: "generics" },
             { text: "Utility Types", link: "utility-types" },
-            { text: "conditional types (แบบมีเงื่อนไข)", link: "conditional-types" },
+            {
+              text: "conditional types (แบบมีเงื่อนไข)",
+              link: "conditional-types",
+            },
             { text: "Function Overload", link: "function-overload" },
             { text: "Enum", link: "enum" },
             { text: "Keyof", link: "keyof" },
             { text: "Narrowing Type", link: "narrowing-type" },
             { text: "Mapped Types", link: "mapped-types" },
             { text: "การปรับแต่ง Type", link: "type-manipulation" },
-          ]
+          ],
         },
         {
           text: "Cookbook",
           collapsed: true,
           base: "/paths/typescript/cookbook/",
           items: [
-            { text: "สร้าง enum ใช้เอง แบบที่ Key กับ Value เหมือกัน", link: "create-own-enum-string" },
-            { text: "เลือกบาง Property จาก Record", link: "filter-some-property-of-record" },
-            { text: "สร้าง Builder Pattern แบบ Type-Safe ", link: "type-safe-builder-pattern" },
-            { text: "สร้าง union type from array", link: "create-union-type-from-array" },
-            { text: "เพิ่ม Prefix ในแต่ละ Property Key ใน Object", link: "append-prefix-object-property-key" },
-            { text: "Data Validation ด้วย Zod ใช้คู่กับ TypeScript ได้", link: "zod-typescript-integration" },
-          ]
-        }
+            {
+              text: "สร้าง enum ใช้เอง แบบที่ Key กับ Value เหมือกัน",
+              link: "create-own-enum-string",
+            },
+            {
+              text: "เลือกบาง Property จาก Record",
+              link: "filter-some-property-of-record",
+            },
+            {
+              text: "สร้าง Builder Pattern แบบ Type-Safe ",
+              link: "type-safe-builder-pattern",
+            },
+            {
+              text: "สร้าง union type from array",
+              link: "create-union-type-from-array",
+            },
+            {
+              text: "เพิ่ม Prefix ในแต่ละ Property Key ใน Object",
+              link: "append-prefix-object-property-key",
+            },
+            {
+              text: "Data Validation ด้วย Zod ใช้คู่กับ TypeScript ได้",
+              link: "zod-typescript-integration",
+            },
+          ],
+        },
       ],
     },
   ];
@@ -567,7 +601,6 @@ function sidebarCareer(): DefaultTheme.SidebarItem[] {
             { text: "Product Designer", link: "product" },
             { text: "UX Designer ", link: "ux" },
             { text: "UI Designer", link: "ui" },
-
           ],
         },
         {
@@ -662,7 +695,7 @@ function sidebarCareer(): DefaultTheme.SidebarItem[] {
             { text: "Solution Architect", link: "solution" },
             { text: "Technical Consultant", link: "technical" },
           ],
-        }
+        },
       ],
     },
   ];
@@ -678,10 +711,19 @@ function sidebarTechMeetup(): DefaultTheme.SidebarItem[] {
           base: "/paths/meetup/ai/",
           items: [
             { text: "MLOps in action", link: "20240718.mlops" },
-            { text: "AI ทำให้โปรแกรมเมอร์ตกงานจริงหรือ", link: "20240530.humanandai" },
-            { "text": "เจาะลึก Generative AI", "link": "20231028.generativeai" },
-            { "text": "Finetune OpenThaiGPT", "link": "20231010.finetuneopenthaigpt" },
-            { "text": "ChatGPT Advanced Data Analysis", "link": "20231028.advanceddataanalysis" }
+            {
+              text: "AI ทำให้โปรแกรมเมอร์ตกงานจริงหรือ",
+              link: "20240530.humanandai",
+            },
+            { text: "เจาะลึก Generative AI", link: "20231028.generativeai" },
+            {
+              text: "Finetune OpenThaiGPT",
+              link: "20231010.finetuneopenthaigpt",
+            },
+            {
+              text: "ChatGPT Advanced Data Analysis",
+              link: "20231028.advanceddataanalysis",
+            },
           ],
         },
         {
@@ -690,7 +732,10 @@ function sidebarTechMeetup(): DefaultTheme.SidebarItem[] {
           base: "/paths/meetup/dev/",
           items: [
             { text: "Elysia Maintainer Meetup", link: "20240524.elysia" },
-            { text: "นายก็เป็นได้นะ คนทำงานสายงานไอทีน่ะ", link: "20240430.itlife" },
+            {
+              text: "นายก็เป็นได้นะ คนทำงานสายงานไอทีน่ะ",
+              link: "20240430.itlife",
+            },
             { text: "Webmaster ยังมีอยู่ไหม", link: "20240423.webmaster" },
             { text: "Software Dev and Game Dev", link: "20240326.gamedev" },
           ],
@@ -701,7 +746,10 @@ function sidebarTechMeetup(): DefaultTheme.SidebarItem[] {
           base: "/paths/meetup/data/",
           items: [
             { text: "Data Analyst เทรน 2024", link: "20240306.datatrend" },
-            { "text": "Data Science เพื่อภาครัฐ", "link": "20231003.datasciencegov" },
+            {
+              text: "Data Science เพื่อภาครัฐ",
+              link: "20231003.datasciencegov",
+            },
           ],
         },
         {
@@ -709,8 +757,14 @@ function sidebarTechMeetup(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           base: "/paths/meetup/designer/",
           items: [
-            { text: "Exploring Tech Careers in the VFX Industry", link: "20240227.vfxcareer" },
-            { text: "กระบวนการผลิต Animation จาก Script to Screen", link: "20240220.animation.md" },
+            {
+              text: "Exploring Tech Careers in the VFX Industry",
+              link: "20240227.vfxcareer",
+            },
+            {
+              text: "กระบวนการผลิต Animation จาก Script to Screen",
+              link: "20240220.animation.md",
+            },
           ],
         },
         {
@@ -718,7 +772,10 @@ function sidebarTechMeetup(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           base: "/paths/meetup/iot/",
           items: [
-            { text: "เรียนรู้ IoT และเทคโนโลยีเกี่ยวข้อง", link: "20240129.iot101.md" },
+            {
+              text: "เรียนรู้ IoT และเทคโนโลยีเกี่ยวข้อง",
+              link: "20240129.iot101.md",
+            },
             { text: "การเรียนรู้เทคโนโลยีไอโอที", link: "20240119.iotintro" },
           ],
         },
@@ -727,7 +784,10 @@ function sidebarTechMeetup(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           base: "/paths/meetup/infra/",
           items: [
-            { "text": "Bangkok HashiCorp User Group Meetup", "link": "20231030.hashicorp" }
+            {
+              text: "Bangkok HashiCorp User Group Meetup",
+              link: "20231030.hashicorp",
+            },
           ],
         },
         {
@@ -735,7 +795,7 @@ function sidebarTechMeetup(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           base: "/paths/meetup/management/",
           items: [
-            { "text": "Project Estimation", "link": "20231015.projectestimation" },
+            { text: "Project Estimation", link: "20231015.projectestimation" },
           ],
         },
         {
@@ -743,34 +803,39 @@ function sidebarTechMeetup(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           base: "/paths/meetup/martech/",
           items: [
-            { "text": "งานสาย MarTech EP.2", "link": "20231114.martech02" },
-            { "text": "งานสาย MarTech EP.1", "link": "20231107.martech01" }
+            { text: "งานสาย MarTech EP.2", link: "20231114.martech02" },
+            { text: "งานสาย MarTech EP.1", link: "20231107.martech01" },
           ],
         },
         {
           text: "Open Source",
           collapsed: true,
           base: "/paths/meetup/opensource/",
-          items: [
-            { "text": "ThaiUI Introduction", "link": "20231014.thaiui" }
-          ],
+          items: [{ text: "ThaiUI Introduction", link: "20231014.thaiui" }],
         },
         {
           text: "QA / Tester",
           collapsed: true,
           base: "/paths/meetup/qa/",
-          items: [
-            { text: "QA Meetup 2024", link: "20240528.qameetup" },
-          ],
+          items: [{ text: "QA Meetup 2024", link: "20240528.qameetup" }],
         },
         {
           text: "Soft Skills",
           collapsed: true,
           base: "/paths/meetup/softskills/",
           items: [
-            { text: "จิตวิทยากับการเขียนโปรแกรม", link: "20240521.happyprogrammer" },
-            { text: "การปรับตัวในยุค Digital Disruption", link: "20231219.digitallife" },
-            { text: "การ Learning Path ของสายงาน Tech", link: "20231212.techreskill" }
+            {
+              text: "จิตวิทยากับการเขียนโปรแกรม",
+              link: "20240521.happyprogrammer",
+            },
+            {
+              text: "การปรับตัวในยุค Digital Disruption",
+              link: "20231219.digitallife",
+            },
+            {
+              text: "การ Learning Path ของสายงาน Tech",
+              link: "20231212.techreskill",
+            },
           ],
         },
       ],
@@ -782,57 +847,61 @@ function sidebarWordPress(): DefaultTheme.SidebarItem[] {
     {
       text: "WordPress",
       items: [
-        { 
-          text: "WordPress คืออะไร?", 
+        {
+          text: "WordPress คืออะไร?",
           collapsed: true,
           base: "/paths/wordpress/",
           items: [
-            { text: "WordPress คืออะไร?", link: "what-is-wordpress/index.html" },
-            { text: "โครงสร้างของ WordPress", link: "structures/index.html" }
+            {
+              text: "WordPress คืออะไร?",
+              link: "what-is-wordpress/index.html",
+            },
+            { text: "โครงสร้างของ WordPress", link: "structures/index.html" },
           ],
         },
-        { 
-          text: "การติดตั้ง WordPress", 
+        {
+          text: "การติดตั้ง WordPress",
           collapsed: true,
           base: "/paths/wordpress/installation/",
-          items: [
-            { text: "การติดตั้ง WordPress", link: "index.html" }
-          ],
+          items: [{ text: "การติดตั้ง WordPress", link: "index.html" }],
         },
-        { 
-          text: "เครื่องมือสำหรับนักพัฒนา", 
+        {
+          text: "เครื่องมือสำหรับนักพัฒนา",
           collapsed: true,
           base: "/paths/wordpress/developer-tools/",
           items: [
             { text: "เครื่องมือสำหรับนักพัฒนา Local", link: "index.html" },
-            { text: "เครื่องมือติดตั้งเว็บไซต์ใน Server", link: "server.md" }
+            { text: "เครื่องมือติดตั้งเว็บไซต์ใน Server", link: "server.md" },
           ],
         },
-        { 
-          text: "การพัฒนา Theme", 
+        {
+          text: "การพัฒนา Theme",
           collapsed: true,
           items: [
             { text: "การพัฒนา Theme", link: "theme-development/index.html" },
-            { text: "การพัฒนา Plugin", link: "plugin-development/index.html" }
+            { text: "การพัฒนา Plugin", link: "plugin-development/index.html" },
           ],
         },
-        { 
-          text: "การปรับแต่งระบบและความปลอดภัย", 
+        {
+          text: "การปรับแต่งระบบและความปลอดภัย",
           collapsed: true,
           base: "/paths/wordpress/",
           items: [
-            { text: "การปรับแต่งระบบ คืออะไร?", link: "customization/index.html" },
+            {
+              text: "การปรับแต่งระบบ คืออะไร?",
+              link: "customization/index.html",
+            },
             { text: "Security คืออะไร?", link: "security/index.html" },
             { text: "การ Backup ระบบ", link: "security/backup.html" },
           ],
         },
-        { 
-          text: "พัฒนาโดยคนไทย 🔌", 
+        {
+          text: "พัฒนาโดยคนไทย 🔌",
           collapsed: true,
           base: "/paths/wordpress/thai/",
           items: [
             { text: "Themes ที่พัฒนาโดยคนไทย?", link: "themes.md" },
-            { text: "Plugins ที่พัฒนาโดยคนไทย?", link: "plugins.md" }
+            { text: "Plugins ที่พัฒนาโดยคนไทย?", link: "plugins.md" },
           ],
         },
       ],
