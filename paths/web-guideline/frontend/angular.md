@@ -533,7 +533,7 @@ Angular มี [release cycle ที่ค่อนข้างถี่](https:
 - 🇹🇭 **[เรียนรู้พื้นฐานการทำเว็บด้วย Angular + Material UI](https://www.youtube.com/watch?v=VPvcJtn3Zyc)**
 - **[Angular 17 Crash Course Playlist](https://youtube.com/playlist?list=PL3i9po_eXL_px7fJ7nv8MtfP1ZmKD8UMV&si=1jDTUekEl9Fb8pz_)**
 - **[freeCodeCamp | Angular and Supabase Course – Build a Realtime Chat Application](https://www.youtube.com/watch?v=Dg7bZUFopUo&pp=ygUtZnJlZWNvZGVjYW1wIGFuZ3VsYXIgY2hhbm5lbDpmcmVlQ29kZUNhbXAub3Jn "Angular and Supabase Course – Build a Realtime Chat Application")**
-- **[freeCodeCamp | Code a Chess Game with Stockfish API – JavaScript Tutorial](<[freeCodeCamp | ](https://www.youtube.com/watch?v=fJIsqZmQVZQ&t=235s&pp=ygUUZnJlZWNvZGVjYW1wIGFuZ3VsYXI%3D)>)**
+- **[freeCodeCamp | Code a Chess Game with Stockfish API – JavaScript Tutorial](https://www.youtube.com/watch?v=fJIsqZmQVZQ&t=235s&pp=ygUUZnJlZWNvZGVjYW1wIGFuZ3VsYXI%3D)**
 - **[Angular Course with NgRx - Building Angular Project From Scratch](https://www.youtube.com/watch?v=vcfZ0EQpYTA)**
 - **[Egghead.io Angular Basics](https://egghead.io/courses/angular-basics)**
 
