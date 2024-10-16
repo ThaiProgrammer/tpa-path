@@ -477,6 +477,12 @@ function sidebarPractices(): DefaultTheme.SidebarItem[] {
           base: "/paths/practices/design/",
           items: [{ text: "Design Patterns", link: "design-patterns" }],
         },
+        {
+          text: "Coding Practices",
+          collapsed: true,
+          base: "/paths/practices/coding/",
+          items: [{ text: "Code Refactoring", link: "code-refactoring" }],
+        },
       ],
     },
   ];
