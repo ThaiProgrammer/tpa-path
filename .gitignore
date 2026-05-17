@@ -10,3 +10,6 @@ dist
 # Mac Configuration
 .DS_Store
 .direnv
+
+#Ignore vscode AI rules
+.github/instructions/codacy.instructions.md
