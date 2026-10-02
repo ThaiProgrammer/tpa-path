@@ -1,8 +1,10 @@
 import { defineConfig, type DefaultTheme } from "vitepress";
+import { withMermaid } from "vitepress-plugin-mermaid";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
-  title: "🚀 เส้นทางโปรแกรมเมอร์",
+export default withMermaid(
+  defineConfig({
+    title: "🚀 เส้นทางโปรแกรมเมอร์",
   description:
     "Programmer's Roadmap & Career Paths · เส้นทางการเรียนรู้และการเติบโตสำหรับโปรแกรมเมอร์",
   themeConfig: {
@@ -10,11 +12,16 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "จุดเริ่มต้น", link: "/" },
+      { text: "ก้าวแรกสู่สายงาน IT", link: "/paths/getting-started/" },
       { text: "ร่วมพัฒนา", link: "/contrib/contributing.md" },
       { text: "Tech Calendar", link: "https://th.techcal.dev/" },
     ],
 
     sidebar: {
+      "/paths/getting-started": {
+        base: "/paths/getting-started/",
+        items: sidebarGettingStarted(),
+      },
       "/paths/aspnet-core": {
         base: "/paths/aspnet-core/",
         items: sidebarASPNetCore(),
@@ -104,7 +111,7 @@ export default defineConfig({
       gtag('config', 'G-9C4TR30ETP');`,
     ],
   ],
-});
+}))
 
 function sidebarASPNetCore(): DefaultTheme.SidebarItem[] {
   return [
@@ -204,7 +211,7 @@ function sidebarJava(): DefaultTheme.SidebarItem[] {
       items: [
         {
           text: "Java fundamentals",
-          collapsed: true,
+          collapsed: false,
           base: "/paths/java/100-java-fundamentals/",
           items: [
             { text: "Basic Syntax", link: "100-basic-syntax" },
@@ -217,6 +224,14 @@ function sidebarJava(): DefaultTheme.SidebarItem[] {
             { text: "Packages", link: "106-packages" },
             { text: "loops", link: "107-loops" },
             { text: "Exception Handling", link: "108-exception-handling" },
+          ],
+        },
+        {
+          text: "คอร์สและเวิร์กช็อปแนะนำ",
+          collapsed: false,
+          base: "/paths/java/bootcamp/",
+          items: [
+            { text: "Java Bootcamp (คุณมาร์ท)", link: "mart-bootcamp" },
           ],
         },
       ],
@@ -433,11 +448,19 @@ function sidebarAIApplicationDevelopment(): DefaultTheme.SidebarItem[] {
       items: [
         {
           text: "Introduction",
-          collapsed: true,
+          collapsed: false,
           base: "/paths/ai-application-development/introduction/",
           items: [
             { text: "Introduction", link: "introduction" },
             { text: "Tools and Services", link: "tools-and-services" },
+          ],
+        },
+        {
+          text: "Generative AI & RAG",
+          collapsed: false,
+          base: "/paths/ai-application-development/rag/",
+          items: [
+            { text: "OpenAI, RAG & Vector Search", link: "rag-vector-search" },
           ],
         },
       ],
@@ -473,15 +496,22 @@ function sidebarPractices(): DefaultTheme.SidebarItem[] {
       items: [
         {
           text: "Design Practices",
-          collapsed: true,
+          collapsed: false,
           base: "/paths/practices/design/",
-          items: [{ text: "Design Patterns", link: "design-patterns" }],
+          items: [
+            { text: "Design Patterns", link: "design-patterns" },
+            { text: "Domain-Driven Design (DDD)", link: "domain-driven-design" },
+            { text: "Microservices Architecture", link: "microservices" },
+          ],
         },
         {
           text: "Coding Practices",
-          collapsed: true,
+          collapsed: false,
           base: "/paths/practices/coding/",
-          items: [{ text: "Code Refactoring", link: "code-refactoring" }],
+          items: [
+            { text: "Code Refactoring", link: "code-refactoring" },
+            { text: "Test-Driven Development (TDD)", link: "test-driven-development" },
+          ],
         },
       ],
     },
@@ -910,6 +940,17 @@ function sidebarWordPress(): DefaultTheme.SidebarItem[] {
             { text: "Plugins ที่พัฒนาโดยคนไทย?", link: "plugins.md" },
           ],
         },
+      ],
+    },
+  ];
+}
+
+function sidebarGettingStarted(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "เริ่มต้นสายงาน IT",
+      items: [
+        { text: "คำแนะนำและการใช้งาน TPA Roadmap", link: "index" },
       ],
     },
   ];

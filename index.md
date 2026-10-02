@@ -8,6 +8,9 @@ hero:
   tagline: เส้นทางการเรียนรู้และการเติบโตสำหรับโปรแกรมเมอร์
   actions:
     - theme: brand
+      text: 🚀 ก้าวแรกสู่สายงาน IT
+      link: /paths/getting-started/
+    - theme: alt
       text: + เพิ่มเนื้อหา
       link: /contrib/contributing.md
     - theme: alt
@@ -29,6 +32,10 @@ hero:
   }
 
 features:
+  - title: 🚀 ก้าวแรกสู่สายงาน IT
+    details: คำแนะนำสำหรับผู้เริ่มต้นหรือย้ายสายงาน และวิธีการใช้งาน TPA Roadmap ให้เกิดประโยชน์สูงสุด
+    link: /paths/getting-started/
+    icon: 🧭
   - title: 🔥🔥 ตำแหน่งสายงาน IT 🔥🔥
     details:  แนะนำสายงาน IT ทั้งตำแหน่งและหน้าที่ในปี 2024
     link: /paths/career
