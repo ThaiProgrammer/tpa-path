@@ -16,7 +16,14 @@ description: Contribution to Programmer's Roadmap & Career Paths
 
 ## Steps to Contribute
 
-<!-- ![how to contribute flow diagram](assets/images/how-to-contribute.png) -->
+```mermaid
+flowchart LR
+    A["1. Create Issue / Discuss"] --> B["2. Fork & Branch"]
+    B --> C["3. Add / Edit Content"]
+    C --> D["4. Test Locally"]
+    D --> E["5. Open PR"]
+    E --> F["6. Merged! 🎉"]
+```
 
 ### 0. Go To the Repository: 
 https://github.com/ThaiProgrammer/tpa-path

@@ -11,6 +11,9 @@ hero:
       text: 🚀 ก้าวแรกสู่สายงาน IT
       link: /paths/getting-started/
     - theme: alt
+      text: ⚡️ AI Agent Skills
+      link: /paths/skills/
+    - theme: alt
       text: + เพิ่มเนื้อหา
       link: /contrib/contributing.md
     - theme: alt
@@ -26,12 +29,16 @@ hero:
       text: ดูวิดีโอ
       link: https://www.youtube.com/@ThaiProgrammer
   image: {
-      light: 'https://res.cloudinary.com/dqizuot8q/image/upload/v1719638410/black-tpa_jehxeu.png',
-      dark: 'https://res.cloudinary.com/dqizuot8q/image/upload/v1719638410/white-tpa_ye4q4l.png',
+      light: '/assets/black-tpa.png',
+      dark: '/assets/white-tpa.png',
       alt: Thai Programmer Association
   }
 
 features:
+  - title: ⚡️ AI Agent Skills Hub
+    details: คัดลอกและดาวน์โหลด Agent Skills (SKILL.md) สำหรับ Claude Code, Cursor, Antigravity, Copilot ครบทุกหัวข้อ
+    link: /paths/skills/
+    icon: ⚡️
   - title: 🚀 ก้าวแรกสู่สายงาน IT
     details: คำแนะนำสำหรับผู้เริ่มต้นหรือย้ายสายงาน และวิธีการใช้งาน TPA Roadmap ให้เกิดประโยชน์สูงสุด
     link: /paths/getting-started/
@@ -68,31 +75,31 @@ features:
     details: แนวทางการดูแลและควบคุม Source Code ที่เราทำงานกันเป็นทีมได้อย่างมีประสิทธิภาพครับ
     link: /paths/sourcecodecontrol
     icon: {
-      src: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+      src: "/logos/github.svg"
     }
   - title: TypeScript
     details: เนื้อหาที่เกี่ยวกับ TypeScript การใช้งาน Type ในชีวิตจริง และคู่มือการใช้งานและ Cookbook
     link: /paths/typescript
     icon: {
-      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/1024px-Typescript.svg.png"
+      src: "/logos/typescript.svg"
     }
   - title: ASP.Net Core
     details: ขั้นตอนแนะนำในการเตรียมความพร้อมเพื่อพัฒนา Website ด้วย ASP.NET Core ในปี 2024
     link: /paths/aspnet-core
     icon: {
-      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/150px-Microsoft_.NET_logo.svg.png"
+      src: "/logos/dotnet.svg"
     }
   - title: DevOps
     details: ขั้นตอนแนะนำในการเตรียมความพร้อมในการเข้าสู่เส้นทาง DevOps, SRE และ operations ในปี 2024
     link: /paths/devops
     icon: {
-      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/512px-Devops-toolchain.svg.png?20160907192548"
+      src: "/logos/devops.svg"
     }
   - title: Java
     details: ขั้นตอนการเตรียมความพร้อมสู่การเป็นนักพัฒนา Java ในปี 2024
     link: /paths/java
     icon: {
-      src: "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/800px-Java_programming_language_logo.svg.png"
+      src: "/logos/java.svg"
     }
   - title: Cloud Computing
     details: ทำความเข้าใจเกี่ยวกับ Cloud Computing เพื่อเตรียมความพร้อมในการใช้ Cloud ในปี 2024 
@@ -102,7 +109,7 @@ features:
     details: รวบรวมเนื้อหาที่เกี่ยวกับการใช้งาน Microsoft Cloud - Azure ในการพัฒนาระบบ
     link: /paths/azure
     icon: {
-      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/150px-Microsoft_Azure.svg.png"
+      src: "/logos/azure.svg"
     }
   - title: Microsoft Cybersecurity
     details: ความรู้พื้นฐานด้านความปลอดภัยทางไซเบอร์ ไปจนถึงการใช้ M365 / Azure และโซลูชั่นความปลอดภัยของ Microsoft
@@ -114,7 +121,7 @@ features:
     details: เนื้อหาเกี่ยวกับการพัฒนาเว็บไซต์ด้วย WordPress ทั้งการพัฒนาเว็บไซต์ด้วย WordPress และการพัฒนา Plugin และ Theme
     link: /paths/wordpress
     icon: {
-      src: "https://upload.wikimedia.org/wikipedia/commons/0/09/Wordpress-Logo.svg"
+      src: "/logos/wordpress.svg"
     }
 ---
 

@@ -8,6 +8,9 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "skills:build": "node scripts/build-skills-json.mjs",
+    "skills:generate": "node scripts/generate-skills.mjs",
+    "assets:sync": "node scripts/download-logos.mjs"
   }
 }
