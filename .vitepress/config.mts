@@ -1,20 +1,33 @@
 import { defineConfig, type DefaultTheme } from "vitepress";
+import { withMermaid } from "vitepress-plugin-mermaid";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
-  title: "🚀 เส้นทางโปรแกรมเมอร์",
+export default withMermaid(
+  defineConfig({
+    srcExclude: ['**/public/**'],
+    title: "🚀 เส้นทางโปรแกรมเมอร์",
   description:
     "Programmer's Roadmap & Career Paths · เส้นทางการเรียนรู้และการเติบโตสำหรับโปรแกรมเมอร์",
   themeConfig: {
-    // logo: "https://res.cloudinary.com/dqizuot8q/image/upload/v1719638409/logo_c9ju7d.svg",
+    logo: "/assets/logo.svg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "จุดเริ่มต้น", link: "/" },
+      { text: "ก้าวแรกสู่สายงาน IT", link: "/paths/getting-started/" },
+      { text: "⚡️ AI Skills", link: "/paths/skills/" },
       { text: "ร่วมพัฒนา", link: "/contrib/contributing.md" },
       { text: "Tech Calendar", link: "https://th.techcal.dev/" },
     ],
 
     sidebar: {
+      "/paths/skills": {
+        base: "/paths/skills/",
+        items: sidebarSkills(),
+      },
+      "/paths/getting-started": {
+        base: "/paths/getting-started/",
+        items: sidebarGettingStarted(),
+      },
       "/paths/aspnet-core": {
         base: "/paths/aspnet-core/",
         items: sidebarASPNetCore(),
@@ -104,7 +117,7 @@ export default defineConfig({
       gtag('config', 'G-9C4TR30ETP');`,
     ],
   ],
-});
+}))
 
 function sidebarASPNetCore(): DefaultTheme.SidebarItem[] {
   return [
@@ -204,7 +217,7 @@ function sidebarJava(): DefaultTheme.SidebarItem[] {
       items: [
         {
           text: "Java fundamentals",
-          collapsed: true,
+          collapsed: false,
           base: "/paths/java/100-java-fundamentals/",
           items: [
             { text: "Basic Syntax", link: "100-basic-syntax" },
@@ -217,6 +230,14 @@ function sidebarJava(): DefaultTheme.SidebarItem[] {
             { text: "Packages", link: "106-packages" },
             { text: "loops", link: "107-loops" },
             { text: "Exception Handling", link: "108-exception-handling" },
+          ],
+        },
+        {
+          text: "คอร์สและเวิร์กช็อปแนะนำ",
+          collapsed: false,
+          base: "/paths/java/bootcamp/",
+          items: [
+            { text: "Java Bootcamp (คุณมาร์ท)", link: "mart-bootcamp" },
           ],
         },
       ],
@@ -310,6 +331,7 @@ function sidebarWebGuideline(): DefaultTheme.SidebarItem[] {
             { text: "Front End", link: "intro" },
             { text: "HTML", link: "html" },
             { text: "CSS", link: "css" },
+            { text: "Web Accessibility (WCAG 2.2)", link: "accessibility-wcag" },
             { text: "JavaScript", link: "javascript" },
             { text: "Typescript", link: "typescript" },
             { text: "React", link: "react" },
@@ -433,11 +455,19 @@ function sidebarAIApplicationDevelopment(): DefaultTheme.SidebarItem[] {
       items: [
         {
           text: "Introduction",
-          collapsed: true,
+          collapsed: false,
           base: "/paths/ai-application-development/introduction/",
           items: [
             { text: "Introduction", link: "introduction" },
             { text: "Tools and Services", link: "tools-and-services" },
+          ],
+        },
+        {
+          text: "Generative AI & RAG",
+          collapsed: false,
+          base: "/paths/ai-application-development/rag/",
+          items: [
+            { text: "OpenAI, RAG & Vector Search", link: "rag-vector-search" },
           ],
         },
       ],
@@ -450,16 +480,51 @@ function sidebarMobileApplicationDevelopment(): DefaultTheme.SidebarItem[] {
       text: "Mobile Application Development",
       items: [
         {
-          text: "Frameworks",
-          collapsed: true,
-          base: "/paths/mobile-application-development/",
+          text: "ภาพรวมและโร้ดแมพ",
+          base: "/paths/mobile-development/",
           items: [
-            {
-              text: "Flutter Development",
-              collapsed: true,
-              base: "/paths/mobile-development/flutter-fundamentals/",
-              items: [{ text: "Flutter คืออะไร", link: "what-is-flutter" }],
-            },
+            { text: "Roadmap & Engineering Guideline", link: "index" },
+          ],
+        },
+        {
+          text: "Flutter Development (เจาะลึก)",
+          collapsed: false,
+          base: "/paths/mobile-development/flutter-fundamentals/",
+          items: [
+            { text: "1. สถาปัตยกรรม Flutter & Impeller", link: "what-is-flutter" },
+            { text: "2. พื้นฐานภาษา Dart 3", link: "dart-fundamentals" },
+            { text: "3. Widget Architecture & Lifecycle", link: "widget-architecture" },
+            { text: "4. การจัดการ State (Riverpod & BLoC)", link: "state-management" },
+            { text: "5. Routing & Deep Linking (GoRouter)", link: "navigation-and-routing" },
+            { text: "6. Networking & Offline-First Data", link: "networking-and-storage" },
+            { text: "7. Platform Channels & ฮาร์ดแวร์", link: "native-interop-and-hardware" },
+            { text: "8. การทดสอบ (Unit, Widget, Patrol)", link: "testing-and-quality" },
+            { text: "9. ประสิทธิภาพ & ความปลอดภัย (OWASP)", link: "performance-and-security" },
+            { text: "10. DevOps, CI/CD & การขึ้นสโตร์", link: "deployment-and-cicd" },
+          ],
+        },
+        {
+          text: "Native Android Development",
+          collapsed: true,
+          base: "/paths/mobile-development/android-fundamentals/",
+          items: [
+            { text: "Kotlin & Jetpack Compose Fundamentals", link: "what-is-android" },
+          ],
+        },
+        {
+          text: "Native iOS Development",
+          collapsed: true,
+          base: "/paths/mobile-development/iOS-fundamentals/",
+          items: [
+            { text: "Swift & SwiftUI Fundamentals", link: "what-is-ios" },
+          ],
+        },
+        {
+          text: "React Native Development",
+          collapsed: true,
+          base: "/paths/mobile-development/react-native-fundamentals/",
+          items: [
+            { text: "New Architecture & Expo Fundamentals", link: "what-is-react-native" },
           ],
         },
       ],
@@ -473,15 +538,22 @@ function sidebarPractices(): DefaultTheme.SidebarItem[] {
       items: [
         {
           text: "Design Practices",
-          collapsed: true,
+          collapsed: false,
           base: "/paths/practices/design/",
-          items: [{ text: "Design Patterns", link: "design-patterns" }],
+          items: [
+            { text: "Design Patterns", link: "design-patterns" },
+            { text: "Domain-Driven Design (DDD)", link: "domain-driven-design" },
+            { text: "Microservices Architecture", link: "microservices" },
+          ],
         },
         {
           text: "Coding Practices",
-          collapsed: true,
+          collapsed: false,
           base: "/paths/practices/coding/",
-          items: [{ text: "Code Refactoring", link: "code-refactoring" }],
+          items: [
+            { text: "Code Refactoring", link: "code-refactoring" },
+            { text: "Test-Driven Development (TDD)", link: "test-driven-development" },
+          ],
         },
       ],
     },
@@ -910,6 +982,28 @@ function sidebarWordPress(): DefaultTheme.SidebarItem[] {
             { text: "Plugins ที่พัฒนาโดยคนไทย?", link: "plugins.md" },
           ],
         },
+      ],
+    },
+  ];
+}
+
+function sidebarGettingStarted(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "เริ่มต้นสายงาน IT",
+      items: [
+        { text: "คำแนะนำและการใช้งาน TPA Roadmap", link: "index" },
+      ],
+    },
+  ];
+}
+
+function sidebarSkills(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "⚡️ AI Agent Skills Hub",
+      items: [
+        { text: "ศูนย์รวม SKILLs ทั้งหมด", link: "index" },
       ],
     },
   ];

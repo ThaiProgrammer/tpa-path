@@ -1,0 +1,306 @@
+{
+  "it-career-starter": {
+    "id": "it-career-starter",
+    "title": "IT Career Starter & Junior Developer Mentor",
+    "badge": "🧭 Career Starter",
+    "category": "Career & Fundamentals",
+    "description": "คู่มือคำแนะนำสำหรับผู้เริ่มต้นหรือย้ายสายงานสู่ IT: วิเคราะห์ Learning Roadmap, Logic & Problem Solving, พื้นฐาน Git, การทำ Portfolio และการเตรียมตัวสัมภาษณ์งาน",
+    "pathLink": "/paths/getting-started/",
+    "tags": [
+      "Career",
+      "Junior Dev",
+      "Roadmap",
+      "Fundamentals",
+      "Git",
+      "Interview Prep"
+    ],
+    "content": "---\nname: it-career-starter\ndescription: Mentors beginners and career switchers entering the IT industry. Provides roadmap guidance, learning strategies, logic building, portfolio planning, and interview preparation tailored to the Thai tech market.\n---\n\n# IT Career Starter & Junior Developer Mentor Skill\n\n## Overview\nThis skill guides aspiring software engineers, juniors, and career-switchers who want to build a sustainable, successful career in the IT industry.\n\n## Core Directives\n1. **Focus on Fundamentals First**: Prioritize Computer Science fundamentals (algorithms, data structures, HTTP/networking, Git) over chasing volatile framework trends.\n2. **Action-Oriented Learning**: 70% building projects, 20% reading/watching tutorials, 10% asking and networking.\n3. **Transparent Portfolio**: Teach candidates to showcase thought process, clean commits, problem-solving, and deployment rather than clone apps without original contribution.\n4. **Cultivate Soft Skills**: Emphasize communication, empathy, receptive feedback, asking good questions, and English comprehension.\n\n## Career Path Decision Matrix\n- **Web Frontend**: HTML5, Modern CSS/Tailwind, JavaScript ES6+, TypeScript, React/Vue, Web Vitals.\n- **Web Backend**: Node.js/Go/Java/C#, Relational Databases (PostgreSQL/MySQL), RESTful APIs, Auth (JWT/OAuth), Docker basics.\n- **Data & AI**: Python, SQL, Pandas, Vector DBs, LLM APIs, Data Wrangling.\n- **DevOps/Cloud**: Linux shell, Docker, CI/CD pipelines, Git, Cloud basics (AWS/Azure/GCP).\n\n## Code & Portfolio Review Standard\nWhen evaluating user code or portfolio ideas:\n- Ensure code is hosted on GitHub with clear README and live demo URL.\n- Verify semantic git commit history (\\`feat:\\`, \\`fix:\\`, \\`refactor:\\`).\n- Include test cases (even basic unit tests) to demonstrate quality awareness.\n- Avoid exposing API keys or secrets in public repositories."
+  },
+  "it-role-navigator": {
+    "id": "it-role-navigator",
+    "title": "IT Roles & Career Progression Navigator",
+    "badge": "💼 Career Roles",
+    "category": "Career & Fundamentals",
+    "description": "วิเคราะห์ตำแหน่งและหน้าที่ในสายงาน IT ครอบคลุม 7 สายหลัก (Management, Dev, QA, Design, Analyst, Data, Infra) พร้อมเกณฑ์ประเมินระดับ Junior, Middle, Senior, Staff",
+    "pathLink": "/paths/career/",
+    "tags": [
+      "Career Paths",
+      "Roles",
+      "Seniority",
+      "Salary",
+      "Job Description"
+    ],
+    "content": "---\nname: it-role-navigator\ndescription: Navigates IT roles, career tracks, job descriptions, and promotion paths across 7 major technology disciplines in the modern tech ecosystem.\n---\n\n# IT Roles & Career Progression Navigator Skill\n\n## Overview\nAssists developers, managers, and HR in understanding technical job descriptions, required core competencies, seniority ladders, and cross-functional role transitions.\n\n## 7 Major IT Career Tracks\n1. **Management**: Engineering Manager, Tech Lead, VP of Engineering, CTO, CIO.\n2. **Software Development**: Frontend, Backend, Fullstack, Mobile, Embedded, Game Dev.\n3. **Quality Assurance**: QA Manual, QA Automation Engineer, SDET, Performance Tester.\n4. **Design & Product**: UI/UX Designer, Product Designer, Product Manager, Product Owner.\n5. **Business & System Analysis**: Business Analyst (BA), System Analyst (SA), Solution Architect.\n6. **Data & AI**: Data Analyst, Data Engineer, Data Scientist, Machine Learning/AI Engineer.\n7. **Infrastructure & Security**: DevOps, SRE, Cloud Engineer, Network Engineer, Cybersecurity Analyst.\n\n## Seniority Competency Framework\n- **Junior (0-2 years)**: Delivers assigned tasks with guidance; focuses on syntax, local testing, and asking clear questions.\n- **Mid-Level (2-5 years)**: Autonomous end-to-end task execution; understands system trade-offs; writes tests; participates in code reviews.\n- **Senior (5+ years)**: Architects resilient solutions; mentors juniors; drives engineering standards; communicates effectively with non-technical stakeholders.\n- **Staff / Principal**: Cross-team architectural impact; identifies organizational bottlenecks; sets tech strategy and evaluates new paradigms."
+  },
+  "software-engineering-practices": {
+    "id": "software-engineering-practices",
+    "title": "Software Engineering Practices Specialist",
+    "badge": "☑️ Engineering Practices",
+    "category": "Engineering & Practices",
+    "description": "ผู้เชี่ยวชาญด้าน Best Practices วิศวกรรมซอฟต์แวร์: Test-Driven Development (TDD), Domain-Driven Design (DDD), Clean Architecture, Refactoring, CI/CD และ Code Review",
+    "pathLink": "/paths/practices/",
+    "tags": [
+      "TDD",
+      "DDD",
+      "Refactoring",
+      "Clean Code",
+      "CI/CD",
+      "Code Review"
+    ],
+    "content": "---\nname: software-engineering-practices\ndescription: Guides software teams in adopting elite engineering practices including Test-Driven Development (TDD), Domain-Driven Design (DDD), Code Refactoring, Clean Code, CI/CD, and peer reviews.\n---\n\n# Software Engineering Practices Specialist Skill\n\n## Core Practices\n\n### 1. Test-Driven Development (TDD)\nEnforce the strict **Red-Green-Refactor** cycle:\n1. **Red**: Write a failing unit test that specifies the expected behavior. Run it and watch it fail for the right reason.\n2. **Green**: Write the minimal amount of production code needed to pass the test.\n3. **Refactor**: Clean up the code, eliminate duplication, improve naming and abstraction while keeping all tests green.\n\n### 2. Domain-Driven Design (DDD)\n- **Ubiquitous Language**: Share exact business terms across developers and domain experts.\n- **Strategic Design**: Separate complex systems into Bounded Contexts with explicit Context Maps.\n- **Tactical Patterns**: Entities (identity), Value Objects (immutability), Aggregates (transaction boundaries), Repositories, and Domain Events.\n\n### 3. Code Refactoring Protocols\n- Never refactor without passing automated tests.\n- Separate refactoring commits from feature additions.\n- Apply Martin Fowler refactoring patterns: Extract Method, Replace Conditional with Polymorphism, Introduce Parameter Object.\n\n### 4. Code Review Checklist\n- **Correctness**: Does it meet business logic requirements and handle edge cases (nulls, timeouts, errors)?\n- **Readability**: Are identifiers descriptive? Is cognitive complexity low?\n- **Security**: Are inputs validated? Are secrets guarded? Is SQL/NoSQL injection prevented?\n- **Performance**: Are there N+1 query problems? Unindexed lookups? Unnecessary allocations?\n- **Accessibility (WCAG 2.2 AA)**: Is interactive UI operable via keyboard? Are focus states visible? Are target sizes >= 24x24px? Do inputs have semantic labels?\n\n### 5. Automated Quality Gates in CI/CD\n- Run unit and integration tests with coverage thresholds.\n- Enforce static analysis (ESLint, SonarQube, SpotBugs).\n- Automate accessibility regression tests using `@axe-core/playwright` or Lighthouse CI to catch WCAG violations before production deployment."
+  },
+  "software-architecture-designer": {
+    "id": "software-architecture-designer",
+    "title": "Software Architecture Designer",
+    "badge": "🏗️ Architecture",
+    "category": "Engineering & Practices",
+    "description": "ผู้ออกแบบสถาปัตยกรรมระบบซอฟต์แวร์: Clean Architecture, Hexagonal / Ports & Adapters, Microservices, Event-Driven Architecture, CQRS และ C4 Modeling",
+    "pathLink": "/paths/software-architecture/",
+    "tags": [
+      "Architecture",
+      "Clean Architecture",
+      "Microservices",
+      "CQRS",
+      "Event-Driven",
+      "C4"
+    ],
+    "content": "---\nname: software-architecture-designer\ndescription: Designs scalable, maintainable, and resilient software architectures. Covers Clean Architecture, Hexagonal/Ports & Adapters, CQRS, Event-Driven Systems, Microservices, and C4 Architecture Diagrams.\n---\n\n# Software Architecture Designer Skill\n\n## Architectural Principles\n1. **Dependency Inversion**: High-level business policies must not depend on low-level implementation details (databases, frameworks, UI). Both depend on abstractions.\n2. **High Cohesion & Loose Coupling**: Modules should have single well-defined purposes and interact through explicit contracts.\n3. **Design for Failure**: Assume networks will fail, databases will timeout, and third-party APIs will degrade. Use circuit breakers, retries with exponential backoff, and fallbacks.\n\n## Architecture Paradigms\n\n### Clean Architecture / Hexagonal Architecture\n- **Core Domain**: Enterprise business rules & entities (Zero external dependencies).\n- **Use Cases / Application**: Orchestrates business flow, interacts with Domain models.\n- **Adapters**: Controllers, Presenters, Gateways, Repository implementations.\n- **Infrastructure / Frameworks**: Web frameworks, Database drivers, Message queues.\n\n### Event-Driven & Microservices\n- Prefer **Asynchronous messaging** (Kafka, RabbitMQ, SQS) for inter-service communication when strong consistency is not strictly required.\n- Maintain separate databases per microservice (Database-per-Service pattern).\n- Use **Outbox Pattern** to reliably publish events along with database state changes.\n- Implement Distributed Tracing (OpenTelemetry) and structured JSON logging with correlation IDs.\n\n## Documentation Standard: C4 Model & ADRs\n- Document architectures using C4 levels: Context, Containers, Components, and Code.\n- Every major technical decision must have an **Architecture Decision Record (ADR)** detailing Context, Decision, Consequences, and Alternatives considered."
+  },
+  "ai-application-developer": {
+    "id": "ai-application-developer",
+    "title": "AI Application & LLM Engineer",
+    "badge": "🤖 AI Engineering",
+    "category": "AI & Data",
+    "description": "ผู้เชี่ยวชาญการสร้าง AI Application ด้วย LLMs: RAG (Retrieval-Augmented Generation), Vector Database, Embeddings, Prompt Engineering, Agentic Workflows และ Evaluation",
+    "pathLink": "/paths/ai-application-development/",
+    "tags": [
+      "AI",
+      "RAG",
+      "Vector Search",
+      "LLMs",
+      "Prompt Engineering",
+      "Agents"
+    ],
+    "content": "---\nname: ai-application-developer\ndescription: Guides the design, implementation, and evaluation of production-grade LLM applications, RAG pipelines, vector search systems, and agentic workflows.\n---\n\n# AI Application & LLM Engineer Skill\n\n## Core Competencies\n\n### 1. Retrieval-Augmented Generation (RAG) Architecture\n- **Ingestion Pipeline**: Loaders -> Cleaners -> Chunkers (Semantic / Recursive Character chunking with overlap) -> Embedding Model -> Vector Storage.\n- **Retrieval Optimization**:\n  - Hybrid Search (Dense Vector embeddings + BM25 keyword search with Reciprocal Rank Fusion - RRF).\n  - Cross-Encoder Re-ranking (Cohere Rerank, BGE Reranker) to elevate top-k precision.\n  - Metadata Filtering: Tenant ID, timestamp, category to restrict search scope.\n- **Generation & Synthesis**:\n  - Context stuffing minimization; provide clear citation requirements.\n  - Strict hallucination guards in system prompt.\n\n### 2. Vector Databases & Embeddings\n- Vector DBs: pgvector (PostgreSQL), Qdrant, Chroma, Pinecone, MongoDB Atlas Vector Search.\n- Models: text-embedding-3-small/large (OpenAI), Voyage AI, BAAI/bge-m3 (Multilingual & Thai support).\n- Similarity metrics: Cosine Similarity for normalized embeddings, Dot Product, Euclidean Distance.\n\n### 3. Agentic Workflows & Function Calling\n- Use Structured Outputs (JSON Schema / Pydantic / Zod) for reliable tool parameters.\n- Provide explicit tool descriptions, parameter types, and validation boundaries.\n- Limit max recursion steps and implement timeout/fallback mechanisms.\n\n### 4. Evaluation & Production Monitoring\n- Track metrics using Ragas / TruLens: Faithfulness, Answer Relevance, Context Precision, Context Recall.\n- Monitor token costs, latency (Time to First Token - TTFT), and rate limits."
+  },
+  "modern-web-developer": {
+    "id": "modern-web-developer",
+    "title": "Modern Fullstack Web Developer",
+    "badge": "💡 Web Development",
+    "category": "Web & Mobile",
+    "description": "แนวทางการพัฒนา Modern Web ครบวงจร: Frontend (HTML5, Modern CSS, Responsive), Web Accessibility (WCAG 2.2 AA), Backend REST APIs, Web Security (OWASP Top 10) และ Core Web Vitals",
+    "pathLink": "/paths/web-guideline/",
+    "tags": [
+      "Web Dev",
+      "Frontend",
+      "Backend",
+      "Security",
+      "WCAG 2.2",
+      "Performance",
+      "REST APIs"
+    ],
+    "content": "---\nname: modern-web-developer\ndescription: Delivers modern, secure, and accessible full-stack web development following current web standards, responsive design, performance optimization, and OWASP security practices.\n---\n\n# Modern Fullstack Web Developer Skill\n\n## Web Standards & Architecture\n\n### 1. Semantic HTML & Web Accessibility (WCAG 2.2 Level AA)\n- **POUR Principles**: Build interfaces that are Perceivable, Operable, Understandable, and Robust.\n- **Semantic Structure**: Use standard HTML5 elements (`<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<footer>`, `<dialog>`). Prefer native elements over ARIA hacks.\n- **Keyboard & Focus (SC 2.4.11 / 2.4.13)**: 100% keyboard navigable (`Tab`, `Shift+Tab`, `Enter`, `Space`, `Escape`). Never use `outline: none` without providing a high-contrast `:focus-visible` indicator (>= 3:1 contrast ratio, >= 2px thickness). Set `scroll-padding-top` to prevent sticky headers from obscuring focused items.\n- **Target Size (SC 2.5.8)**: Interactive pointer/touch targets must be at least **24x24 CSS pixels** or have sufficient spacing.\n- **Dragging Alternatives (SC 2.5.7)**: Any drag-and-drop or dragging control must offer a single-pointer alternative (buttons or keyboard controls).\n- **Accessible Authentication (SC 3.3.8)**: Never block copy-paste on password fields (`onpaste=\"return false\"` is prohibited); support password managers and WebAuthn.\n- **Redundant Entry (SC 3.3.7)**: Auto-populate or allow selection of previously entered data in multi-step workflows.\n- **Color Contrast**: At least **4.5:1** for body text and **3:1** for UI components and large text.\n- **Automated Validation**: Integrate `@axe-core/playwright` or `axe-core` in CI pipelines to guard against regressions.\n\n### 2. Modern CSS & Responsive Design\n- Mobile-first approach using CSS Grid, Flexbox, and Container Queries.\n- Use CSS Custom Properties (Variables) for tokens, theme switching (Light/Dark mode), and spacing.\n- Minimize layout shifts with aspect-ratio properties and explicit image dimensions.\n\n### 3. Web Performance & Core Web Vitals\n- **LCP (Largest Contentful Paint)**: Optimize hero images (modern WebP/AVIF formats, \\`fetchpriority=\"high\"\\`, CDN caching).\n- **INP (Interaction to Next Paint)**: Break up long JavaScript tasks into smaller chunks; avoid blocking the main thread.\n- **CLS (Cumulative Layout Shift)**: Reserve space for dynamic content, ads, and fonts with font-display: swap.\n\n### 4. Web Security (OWASP Top 10)\n- Guard against XSS by sanitizing untrusted inputs and avoiding dangerous DOM APIs (\\`innerHTML\\`).\n- Implement Content Security Policy (CSP), CORS, and HTTP security headers (HSTS, X-Content-Type-Options).\n- Secure Authentication: HttpOnly, Secure, SameSite cookies for session management."
+  },
+  "wcag-accessibility-specialist": {
+    "id": "wcag-accessibility-specialist",
+    "title": "WCAG 2.2 Web Accessibility Specialist",
+    "badge": "♿️ WCAG 2.2",
+    "category": "Web & Mobile",
+    "description": "คู่มือและมาตรฐานการพัฒนาเว็บและแอปพลิเคชันตาม WCAG 2.2 (Level AA & AAA): POUR Principles, 9 เกณฑ์ใหม่ของ WCAG 2.2, การทำ Focus State, Touch Target (24x24px), Accessible Auth, ARIA และ Automated a11y Testing",
+    "pathLink": "/paths/web-guideline/frontend/accessibility-wcag",
+    "tags": [
+      "Accessibility",
+      "a11y",
+      "WCAG 2.2",
+      "ARIA",
+      "Color Contrast",
+      "Inclusive Design",
+      "axe-core"
+    ],
+    "content": "---\nname: wcag-accessibility-specialist\ndescription: Audits and implements WCAG 2.2 Level AA accessibility standards across web and mobile applications. Covers keyboard navigation, screen reader compatibility, ARIA patterns, color contrast, and automated testing with axe-core.\n---\n\n# WCAG 2.2 Web Accessibility Specialist Skill\n\n## Overview\nThis skill provides comprehensive guidance for designing, implementing, and auditing digital products to meet the **W3C Web Content Accessibility Guidelines (WCAG) 2.2** at **Level AA** (and AAA where applicable), ensuring inclusive experiences for people with disabilities.\n\n---\n\n## The 4 Core Principles (POUR)\n\n1. **Perceivable (รับรู้ได้)**: Information and user interface components must be presentable to users in ways they can perceive.\n   - Text alternatives for non-text content (`alt` attributes on images, captions/transcripts for audio/video).\n   - Color contrast: At least **4.5:1** for regular text, **3:1** for large text (>= 18pt or 14pt bold) and active UI components.\n   - Responsive reflow: Support zoom up to 400% without horizontal scrolling or loss of content.\n\n2. **Operable (ใช้งานได้)**: Interface components and navigation must be operable via any input method.\n   - 100% keyboard navigable without keyboard traps.\n   - Visible focus indicator at all times.\n   - Sufficient time to read and use content; provide controls to pause/stop auto-updating carousels.\n\n3. **Understandable (เข้าใจได้)**: Information and the operation of the user interface must be understandable.\n   - Set document language: `<html lang=\"th\">` or `lang=\"en\"`.\n   - Predictable navigation and consistent UI placement.\n   - Input assistance: Descriptive error messages, error suggestions, and prevention of legal/financial errors.\n\n4. **Robust (คงทน/เข้ากันได้)**: Content must be robust enough to be interpreted by a wide variety of user agents, including assistive technologies.\n   - Valid semantic HTML; correct `name`, `role`, and `value` on custom components.\n\n---\n\n## 9 New Success Criteria in WCAG 2.2\n\n### 1. SC 2.4.11: Focus Not Obscured (Minimum) (Level AA)\nWhen a user interface component receives keyboard focus, it must **not be entirely hidden** by author-created content (such as sticky headers, footers, floating cookies, or chat widgets).\n- **Fix**: Use CSS `scroll-padding-top` or `scroll-margin` so the browser scrolls the element into a visible viewport area:\n```css\nhtml {\n  scroll-padding-top: 80px; /* Height of sticky navbar */\n  scroll-padding-bottom: 40px;\n}\n```\n\n### 2. SC 2.4.12: Focus Not Obscured (Enhanced) (Level AAA)\n**No part** of the focused component may be obscured by author-created content.\n\n### 3. SC 2.4.13: Focus Appearance (Level AAA)\nThe focus indicator must:\n- Have a contrast ratio of at least **3:1** between focused and unfocused states.\n- Have an area at least as large as a 2 CSS pixel perimeter of the component.\n- Never use `outline: none` without providing a high-contrast `:focus-visible` replacement:\n```css\n:focus-visible {\n  outline: 3px solid #2563eb;\n  outline-offset: 2px;\n}\n```\n\n### 4. SC 2.5.7: Dragging Movements (Level AA)\nAny functionality using a dragging movement (drag-and-drop file upload, reorderable Kanban cards, slider handles) must have a **single-pointer alternative** (such as buttons or dropdowns):\n- Provide \"Move Up\" / \"Move Down\" buttons alongside drag handles.\n- Allow file selection via standard `<input type=\"file\">` button in addition to drag-and-drop zones.\n\n### 5. SC 2.5.8: Target Size (Minimum) (Level AA)\nThe size of interactive targets for pointer inputs must be at least **24x24 CSS pixels**, or have sufficient spacing offset around them:\n```css\n.clickable-icon-button {\n  min-width: 24px;\n  min-height: 24px;\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  padding: 8px; /* Expands touch target to >= 40px */\n}\n```\n*(Exceptions: Inline targets within a sentence of text, browser default controls, or user-modified sizing).*\n\n### 6. SC 3.2.6: Consistent Help (Level A)\nIf help mechanisms (contact phone/email, live support chat, FAQ link, search) appear across multiple pages, they must appear in the **same relative order** in the DOM/page structure.\n\n### 7. SC 3.3.7: Redundant Entry (Level A)\nInformation previously entered by the user in the same multi-step process or session must either:\n- Be auto-populated.\n- Be selectable (e.g., \"Billing address same as shipping address\" checkbox).\n- Not require re-typing unless verification is essential (e.g., confirming password change).\n\n### 8. SC 3.3.8: Accessible Authentication (Minimum) (Level AA)\nUsers must **not be required to solve cognitive function tests** (memorizing passwords, transcribing CAPTCHA, solving math/logic puzzles) to log in, unless at least one of these is supported:\n- **Password Manager friendly**: Never disable paste on password fields (`onpaste=\"return false\"` is strictly prohibited).\n- **WebAuthn / Passkeys / Biometrics**: Support FIDO2 hardware keys or FaceID/TouchID.\n- **Magic Links / Email OTP**: One-click authentication link.\n- **Alternative Captcha**: Object recognition or 3rd-party non-cognitive verification (Cloudflare Turnstile, reCAPTCHA v3 Enterprise).\n\n### 9. SC 3.3.9: Accessible Authentication (Enhanced) (Level AAA)\nNo cognitive function test whatsoever, including object or image recognition.\n\n---\n\n## ARIA Best Practices (The First Rule of ARIA)\n- **Rule 1**: If you can use a native HTML element or attribute with the semantics and behavior you require, **do so instead of repurposing an element and adding ARIA**.\n  - Use `<button>` instead of `<div role=\"button\" tabindex=\"0\">`.\n  - Use `<dialog>` instead of `<div role=\"dialog\">`.\n  - Use native `<a href=\"...\">` for links.\n- When ARIA is required (custom tabs, accordions, comboboxes), follow the **W3C WAI-ARIA Authoring Practices Guide (APG)**.\n- Always connect labels with controls using `<label for=\"inputId\">` or `aria-labelledby`.\n\n---\n\n## Automated & Manual Testing Protocol\n\n### 1. Automated Testing with axe-core & Playwright\n```typescript\nimport { test, expect } from '@playwright/test';\nimport AxeBuilder from '@axe-core/playwright';\n\ntest('page should not have any automatically detectable WCAG 2.2 AA violations', async ({ page }) => {\n  await page.goto('/');\n  const accessibilityScanResults = await new AxeBuilder({ page })\n    .withTags(['wcag2a', 'wcag2aa', 'wcag22aa'])\n    .analyze();\n\n  expect(accessibilityScanResults.violations).toEqual([]);\n});\n```\n\n### 2. Manual Keyboard Navigation Checklist\n- [ ] Can you Tab through all interactive elements in logical visual order?\n- [ ] Is the focus indicator clearly visible on every focused element?\n- [ ] Can modal dialogs trap focus inside, and release focus upon closing with `Escape`?\n- [ ] Are there skip links (`Skip to main content`) as the first tabbable item?\n\n### 3. Screen Reader Verification\n- Test with **VoiceOver** (macOS/iOS) or **NVDA / JAWS** (Windows) or **TalkBack** (Android).\n- Confirm all images convey meaningful purpose or are marked decorative with `alt=\"\"`.\n- Confirm dynamic content updates are announced using `aria-live=\"polite\"` or `role=\"status\"`."
+  },
+  "mobile-app-developer": {
+    "id": "mobile-app-developer",
+    "title": "Mobile Application Developer (Flutter & React Native)",
+    "badge": "📱 Mobile Development",
+    "category": "Web & Mobile",
+    "description": "คู่มือพัฒนา Mobile Application ครอบคลุม Flutter (Dart 3, Riverpod/Bloc), React Native (Expo), iOS (Swift/SwiftUI) และ Android (Kotlin/Jetpack Compose)",
+    "pathLink": "/paths/mobile-development/",
+    "tags": [
+      "Mobile",
+      "Flutter",
+      "React Native",
+      "iOS",
+      "Android",
+      "Offline First"
+    ],
+    "content": "---\nname: mobile-app-developer\ndescription: Builds cross-platform and native mobile applications with Flutter, React Native, Swift (iOS), and Kotlin (Android). Enforces clean architecture, state management, and offline-first storage.\n---\n\n# Mobile Application Developer Skill\n\n## Core Frameworks & Approaches\n\n### 1. Flutter (Dart 3)\n- Use **Riverpod** or **BLoC** for deterministic, testable state management.\n- Prefer `const` constructors to prevent unnecessary widget rebuilds.\n- Isolate CPU-heavy tasks using `compute()` or worker Isolates to maintain 60/120 FPS.\n- Follow Material 3 and Cupertino platform conventions.\n\n### 2. React Native (Expo)\n- Use Expo Router for file-based routing and deep linking.\n- State management: Zustand or TanStack Query (React Query) for server state caching.\n- Optimize images using `expo-image` with caching and blurhash placeholders.\n- Avoid anonymous arrow functions in render loops.\n\n### 3. Native Platforms (SwiftUI & Jetpack Compose)\n- **iOS**: Swift 5.9+ / Swift 6 concurrency (Actors, async/await), SwiftUI declarative layouts, MVVM.\n- **Android**: Kotlin Coroutines, StateFlow, Jetpack Compose, Clean Architecture with Hilt DI.\n\n### 4. Offline-First & Storage\n- Local caching: SQLite (Room, drift), Realm, or MMKV for fast key-value storage.\n- Implement queue-and-sync synchronization for offline mutations with background workers.\n\n### 5. Mobile Accessibility (WCAG 2.2 & Mobile Standards)\n- **Touch Target Sizing (SC 2.5.8)**: Minimum 48x48dp on Android and 44x44pt on iOS for all tappable icons and buttons.\n- **Screen Reader Support**: Provide explicit accessibility labels (`Semantics` in Flutter, `accessibilityLabel` in React Native, `.accessibilityLabel()` in SwiftUI).\n- **Dynamic Type & Font Scaling**: Support system font magnification without clipping or broken layouts.\n- **Color Contrast & Theme Support**: Satisfy >= 4.5:1 text contrast in both light and dark mode appearances."
+  },
+  "typescript-expert": {
+    "id": "typescript-expert",
+    "title": "Advanced TypeScript Architect",
+    "badge": "📘 TypeScript",
+    "category": "Languages & Frameworks",
+    "description": "การเขียน TypeScript คุณภาพสูงระดับโปรดักชัน: Type-Safe Programming, Generics, Discriminated Unions, Strict tsconfig, Zod Schema Validation และ Utility Types",
+    "pathLink": "/paths/typescript/",
+    "tags": [
+      "TypeScript",
+      "Type Safety",
+      "Generics",
+      "Zod",
+      "Utility Types"
+    ],
+    "content": "---\nname: typescript-expert\ndescription: Applies advanced TypeScript patterns, type-level programming, strict configuration, schema validation, and runtime safety across Node.js and browser applications.\n---\n\n# Advanced TypeScript Architect Skill\n\n## Configuration & Strictness\nAlways enable strict compiler checks in \\`tsconfig.json\\`:\n\\`\\`\\`json\n{\n  \"compilerOptions\": {\n    \"strict\": true,\n    \"noImplicitAny\": true,\n    \"strictNullChecks\": true,\n    \"noUncheckedIndexedAccess\": true,\n    \"exactOptionalPropertyTypes\": true\n  }\n}\n\\`\\`\\`\n\n## Key Architectural Patterns\n\n### 1. Discriminated Unions over Ambiguous Objects\n\\`\\`\\`typescript\ntype AsyncState<T> =\n  | { status: 'idle' }\n  | { status: 'loading' }\n  | { status: 'success'; data: T }\n  | { status: 'error'; error: Error };\n\\`\\`\\`\n\n### 2. Runtime Schema Validation with Zod\nNever trust external I/O (APIs, env vars, user inputs). Validate at system boundaries:\n\\`\\`\\`typescript\nimport { z } from 'zod';\n\nexport const UserSchema = z.object({\n  id: z.string().uuid(),\n  email: z.string().email(),\n  role: z.enum(['admin', 'member'])\n});\n\nexport type User = z.infer<typeof UserSchema>;\n\\`\\`\\`\n\n### 3. Avoid Dangerous Anti-Patterns\n- Never use \\`any\\`; use \\`unknown\\` and narrow with type guards or assertions.\n- Avoid non-null assertion operator (\\`!\\`) unless backed by invariant checks.\n- Prefer \\`type\\` aliases for unions/intersections and \\`interface\\` for object schemas intended for extension."
+  },
+  "aspnet-core-architect": {
+    "id": "aspnet-core-architect",
+    "title": "ASP.NET Core & Modern C# Architect",
+    "badge": "🟣 .NET & C#",
+    "category": "Languages & Frameworks",
+    "description": "สถาปัตยกรรมการพัฒนา Web API และ Enterprise Services ด้วย C# 12+ และ .NET 8/9, Entity Framework Core, Dependency Injection, Minimal APIs และ Clean Architecture",
+    "pathLink": "/paths/aspnet-core/",
+    "tags": [
+      ".NET",
+      "C#",
+      "ASP.NET Core",
+      "Web API",
+      "EF Core",
+      "Clean Architecture"
+    ],
+    "content": "---\nname: aspnet-core-architect\ndescription: Architects and develops high-performance, enterprise-grade ASP.NET Core applications using modern C# features, Minimal APIs, EF Core, and Clean Architecture patterns.\n---\n\n# ASP.NET Core & Modern C# Architect Skill\n\n## Core Principles\n\n### 1. Modern C# (C# 12 / .NET 8+)\n- Primary constructors, collection expressions, pattern matching, record types for DTOs and value objects.\n- Use \\`nullable\\` reference types enabled project-wide to eradicate \\`NullReferenceException\\`.\n\n### 2. API Design & Minimal APIs\n- Use Minimal APIs or Controller-based APIs with explicit TypedResults / Results (\\`Results.Ok(data)\\`, \\`Results.NotFound()\\`).\n- Implement Global Exception Handling using \\`IExceptionHandler\\` (.NET 8+) returning RFC 7807 Problem Details.\n- Validate incoming requests using FluentValidation or DataAnnotations before business execution.\n\n### 3. Entity Framework Core (EF Core) Best Practices\n- Always use \\`AsNoTracking()\\` for read-only queries.\n- Avoid Cartesian product issues with \\`AsSplitQuery()\\` on multi-collection includes.\n- Prevent N+1 queries; inspect generated SQL via logging or EF Core interceptors.\n- Use explicit database migrations; never run auto-migrations in multi-instance production.\n\n### 4. Dependency Injection & Service Lifetimes\n- \\`Transient\\`: Lightweight, stateless services.\n- \\`Scoped\\`: Per-request state (DbContext, Units of Work).\n- \\`Singleton\\`: Thread-safe, cached components, memory caches.\n- Never inject a Scoped service into a Singleton without explicit scope factories."
+  },
+  "devops-sre-engineer": {
+    "id": "devops-sre-engineer",
+    "title": "DevOps, SRE & Platform Engineer",
+    "badge": "⚙️ DevOps & SRE",
+    "category": "Cloud & DevOps",
+    "description": "ผู้เชี่ยวชาญด้าน DevOps & SRE: Docker Containerization, Kubernetes Orchestration, CI/CD Pipelines (GitHub Actions/GitLab), Terraform IaC และ Observability",
+    "pathLink": "/paths/devops/",
+    "tags": [
+      "DevOps",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "Terraform",
+      "Observability"
+    ],
+    "content": "---\nname: devops-sre-engineer\ndescription: Guides DevOps, Site Reliability Engineering (SRE), containerization with Docker, Kubernetes orchestration, CI/CD pipelines, Infrastructure as Code, and observability.\n---\n\n# DevOps, SRE & Platform Engineer Skill\n\n## Engineering Guidelines\n\n### 1. Docker & Container Security\n- Multi-stage builds to create tiny, secure production images.\n- Always run containers as non-root users (\\`USER nonroot\\` or dedicated user ID).\n- Pin base image tags to specific digest or version (never \\`:latest\\` in production).\n- Scan images for vulnerabilities using Trivy or Grype in CI pipelines.\n\n### 2. Kubernetes Orchestration\n- Always configure \\`requests\\` and \\`limits\\` for CPU and Memory.\n- Configure \\`livenessProbe\\` and \\`readinessProbe\\` (and \\`startupProbe\\` for slow starts).\n- Use PodDisruptionBudgets (PDB) and HorizontalPodAutoscalers (HPA) for high availability.\n- Store secrets in external secret managers (Vault, AWS Secrets Manager, Azure Key Vault).\n\n### 3. CI/CD Pipelines (GitHub Actions / GitLab CI)\n- Fail fast: Run linting, static analysis, unit tests before container build.\n- Enforce Branch Protection: Require green CI and approvals before merging to main.\n- Implement GitOps (ArgoCD or Flux) for declarative Kubernetes cluster deployment.\n\n### 4. SRE & Observability (The Three Pillars)\n- **Metrics**: Prometheus metrics with Grafana dashboards (Four Golden Signals: Latency, Traffic, Errors, Saturation).\n- **Logs**: Structured JSON logging aggregated into Loki, Elasticsearch, or CloudWatch.\n- **Traces**: Distributed tracing via OpenTelemetry to identify microservice bottlenecks."
+  },
+  "java-spring-master": {
+    "id": "java-spring-master",
+    "title": "Modern Java & Spring Boot Specialist",
+    "badge": "☕️ Java & Spring",
+    "category": "Languages & Frameworks",
+    "description": "การพัฒนา Enterprise Application ด้วย Java 21+ (Virtual Threads, Records, Pattern Matching), Spring Boot 3+, Spring Data JPA, Microservices และ Unit Testing",
+    "pathLink": "/paths/java/",
+    "tags": [
+      "Java",
+      "Spring Boot",
+      "Java 21",
+      "JPA",
+      "Microservices",
+      "JUnit 5"
+    ],
+    "content": "---\nname: java-spring-master\ndescription: Implements enterprise-grade backend services with modern Java (Java 21 LTS), Spring Boot 3+, Spring Data JPA, Spring Security, and robust testing frameworks.\n---\n\n# Modern Java & Spring Boot Specialist Skill\n\n## Core Principles\n\n### 1. Modern Java (Java 21 LTS)\n- Use **Records** for immutable DTOs and data carriers.\n- Leverage **Virtual Threads (Project Loom)** for high-throughput I/O-bound microservices (\\`spring.threads.virtual.enabled=true\\`).\n- Use pattern matching for switch and sealed classes to model domain state machines.\n\n### 2. Spring Boot 3+ Standards\n- Use constructor injection instead of field injection (\\`@Autowired\\` on fields is prohibited).\n- Structure into layers: \\`Controller -> Service -> Repository -> Entity\\`.\n- Keep Controllers thin; place business rules inside domain services or aggregate roots.\n- Implement global error handling with \\`@RestControllerAdvice\\` returning ProblemDetail (RFC 7807).\n\n### 3. Spring Data JPA & Database\n- Prevent N+1 query traps using \\`@EntityGraph\\` or JPQL \\`JOIN FETCH\\`.\n- Use DTO projections for read-heavy operations instead of loading complete managed entities.\n- Configure connection pools (HikariCP) with tuned maximumPoolSize and leakDetectionThreshold.\n\n### 4. Testing Suite\n- Unit tests with **JUnit 5** and **Mockito**.\n- Integration tests with **Testcontainers** for real database/message queue validation.\n- Slice testing using \\`@WebMvcTest\\` or \\`@DataJpaTest\\` for fast feedback loops."
+  },
+  "cloud-solutions-architect": {
+    "id": "cloud-solutions-architect",
+    "title": "Cloud Solutions Architect",
+    "badge": "☁️ Cloud Computing",
+    "category": "Cloud & DevOps",
+    "description": "การออกแบบระบบบน Cloud Computing (AWS/Azure/GCP): High Availability, Scalability, Serverless, Disaster Recovery, Well-Architected Framework และ FinOps Cost Optimization",
+    "pathLink": "/paths/cloud-computing/",
+    "tags": [
+      "Cloud",
+      "AWS",
+      "GCP",
+      "Well-Architected",
+      "High Availability",
+      "FinOps"
+    ],
+    "content": "---\nname: cloud-solutions-architect\ndescription: Designs resilient, cost-effective, scalable, and secure cloud architectures across multi-cloud environments (AWS, Azure, GCP) following Well-Architected frameworks.\n---\n\n# Cloud Solutions Architect Skill\n\n## Well-Architected Framework Pillars\n1. **Operational Excellence**: Everything as code (IaC, policy as code), automated testing, observability.\n2. **Security**: Zero Trust, least privilege IAM policies, encryption at rest and in transit, private networking.\n3. **Reliability**: Multi-Availability Zone redundancy, automated self-healing, RTO/RPO targets.\n4. **Performance Efficiency**: Right-sizing compute, caching layers (Redis, CDN), serverless where appropriate.\n5. **Cost Optimization (FinOps)**: Auto-scaling down off-peak, reserved instances/savings plans, tag hygiene.\n6. **Sustainability**: Efficient resource utilization, serverless event-driven processing.\n\n## Architectural Trade-offs\n- **Monolith vs Serverless/Microservices**: Start modular; decompose only when organizational team boundaries or distinct scaling requirements demand it.\n- **RDBMS vs NoSQL**: Use relational (Postgres/MySQL) for transactional integrity and complex joins; use NoSQL (DynamoDB/Cosmos DB/Firestore) for high-scale key-value access.\n- **Synchronous vs Asynchronous**: Decouple workloads using managed queues (SQS, EventBridge, Cloud Pub/Sub) to handle traffic spikes."
+  },
+  "azure-cloud-specialist": {
+    "id": "azure-cloud-specialist",
+    "title": "Microsoft Azure Cloud Specialist",
+    "badge": "🔷 Azure Cloud",
+    "category": "Cloud & DevOps",
+    "description": "สถาปัตยกรรมและการพัฒนาบน Microsoft Azure: Azure App Services, Azure Functions, Container Apps, Entra ID (Azure AD), Cosmos DB และ Azure DevOps",
+    "pathLink": "/paths/azure/",
+    "tags": [
+      "Azure",
+      "Cloud",
+      "Entra ID",
+      "Serverless",
+      "Cosmos DB",
+      "Azure DevOps"
+    ],
+    "content": "---\nname: azure-cloud-specialist\ndescription: Designs and implements cloud solutions on Microsoft Azure. Covers App Service, Azure Functions, AKS, Azure SQL, Cosmos DB, Entra ID, and Bicep/ARM infrastructure.\n---\n\n# Microsoft Azure Cloud Specialist Skill\n\n## Core Azure Services & Best Practices\n\n### 1. Compute & Modern Apps\n- **Azure App Service**: Deploy web apps with deployment slots for zero-downtime blue/green releases.\n- **Azure Functions**: Serverless event-driven processing with Consumption or Premium plans.\n- **Azure Container Apps (ACA)**: Managed microservices with built-in KEDA autoscaling and Dapr support.\n- **Azure Kubernetes Service (AKS)**: Managed enterprise Kubernetes with Azure CNI and Entra ID integration.\n\n### 2. Identity & Security (Microsoft Entra ID)\n- Never hardcode connection strings or keys; use **Managed Identities** for Azure resources.\n- Retrieve secrets securely via **Azure Key Vault** integration.\n- Enforce Role-Based Access Control (RBAC) at the Resource Group or Subscription level.\n\n### 3. Storage & Databases\n- **Azure SQL**: Managed relational database with Automated Tuning and Threat Detection.\n- **Azure Cosmos DB**: Globally distributed NoSQL database; design partition keys carefully to avoid hot partitions.\n- **Azure Blob Storage**: Object storage with Lifecycle Management rules (Hot, Cool, Archive tiers).\n\n### 4. Infrastructure as Code (IaC)\n- Use **Bicep** for clean, modular, first-class Azure resource provisioning."
+  },
+  "microsoft-security-defender": {
+    "id": "microsoft-security-defender",
+    "title": "Microsoft Cybersecurity & Zero Trust Specialist",
+    "badge": "🛡️ Cybersecurity",
+    "category": "Security & Governance",
+    "description": "ความมั่นคงปลอดภัยไซเบอร์บน Microsoft Ecosystem: Zero Trust Architecture, Microsoft Defender XDR, Sentinel SIEM/SOAR, Entra ID Security และ Cloud Compliance",
+    "pathLink": "/paths/MicrosoftSecurity/",
+    "tags": [
+      "Security",
+      "Zero Trust",
+      "Microsoft Defender",
+      "Sentinel",
+      "Compliance"
+    ],
+    "content": "---\nname: microsoft-security-defender\ndescription: Specializes in Microsoft cybersecurity technologies, Zero Trust architecture, Microsoft Defender XDR suite, Microsoft Sentinel SIEM/SOAR, and cloud security posture.\n---\n\n# Microsoft Cybersecurity & Zero Trust Specialist Skill\n\n## The Zero Trust Model\n1. **Verify Explicitly**: Authenticate and authorize based on all available data points (identity, location, device health, service or workload).\n2. **Use Least Privilege Access**: Limit user access with Just-In-Time and Just-Enough-Access (JIT/JEA), risk-based adaptive policies, and data protection.\n3. **Assume Breach**: Minimize blast radius and segment access. Verify end-to-end encryption and utilize analytics to gain visibility and threat detection.\n\n## Microsoft Security Solution Architecture\n- **Microsoft Entra ID**: Conditional Access policies, Multi-Factor Authentication (MFA), Privileged Identity Management (PIM).\n- **Microsoft Defender for Cloud**: Cloud Security Posture Management (CSPM) and Cloud Workload Protection (CWPP).\n- **Microsoft Defender XDR**: Unified endpoint, identity, email, and cloud app threat protection.\n- **Microsoft Sentinel**: Cloud-native SIEM and SOAR with automated incident response playbooks using Azure Logic Apps.\n- **Microsoft Purview**: Data governance, data loss prevention (DLP), sensitive data discovery and classification."
+  },
+  "git-version-control-expert": {
+    "id": "git-version-control-expert",
+    "title": "Git & Version Control Workflow Expert",
+    "badge": "🐙 Source Control",
+    "category": "Engineering & Practices",
+    "description": "กลยุทธ์การบริหาร Source Code: GitFlow vs Trunk-based Development, Conventional Commits, Pull Request Review Standards, Interactive Rebase และ Conflict Resolution",
+    "pathLink": "/paths/sourcecodecontrol/",
+    "tags": [
+      "Git",
+      "Branching Strategy",
+      "Conventional Commits",
+      "Code Review",
+      "CI"
+    ],
+    "content": "---\nname: git-version-control-expert\ndescription: Master Git workflows, branching strategies (Trunk-based vs GitFlow), conventional commit standards, interactive rebase, merge conflict resolution, and PR review hygiene.\n---\n\n# Git & Version Control Workflow Expert Skill\n\n## Branching Strategies\n\n### Trunk-Based Development (Recommended for CI/CD)\n- Developers commit small, frequent changes directly to \\`main\\` or short-lived feature branches (< 1-2 days).\n- Protect production with Feature Flags / Feature Toggles.\n- Minimizes long merge conflicts and enables continuous deployment.\n\n### GitFlow (For scheduled release cycles)\n- Branches: \\`main\\` (production), \\`develop\\` (staging), \\`feature/*\\`, \\`release/*\\`, \\`hotfix/*\\`.\n- Suitable for mobile apps or enterprise software with strict quarterly release cadences.\n\n## Conventional Commits Protocol\nFormat: \\`<type>(<optional scope>): <description>\\`\n- \\`feat\\`: A new feature for the user\n- \\`fix\\`: A bug fix\n- \\`docs\\`: Documentation only changes\n- \\`style\\`: Code formatting, missing semi-colons (no code change)\n- \\`refactor\\`: Refactoring code without fixing bugs or adding features\n- \\`test\\`: Adding or refactoring tests\n- \\`chore\\`: Build tools, dependencies, or maintenance\n\n## Essential Terminal Commands\n\\`\\`\\`bash\n# Interactive rebase of last 3 commits\ngit rebase -i HEAD~3\n\n# Stash uncommitted changes including untracked files\ngit stash -u\n\n# Amend latest commit without changing commit message\ngit commit --amend --no-edit\n\n# Restore a specific file from main branch\ngit checkout main -- path/to/file\n\\`\\`\\`"
+  },
+  "wordpress-developer": {
+    "id": "wordpress-developer",
+    "title": "WordPress & WooCommerce Developer",
+    "badge": "🌐 WordPress",
+    "category": "Web & Mobile",
+    "description": "การพัฒนา WordPress ระดับมืออาชีพ: Custom Theme (Block Themes / FSE), Plugin Architecture, Hooks/Filters, REST API, Headless WordPress และ Performance Optimization",
+    "pathLink": "/paths/wordpress/",
+    "tags": [
+      "WordPress",
+      "PHP",
+      "Themes",
+      "Plugins",
+      "Headless WP",
+      "WooCommerce"
+    ],
+    "content": "---\nname: wordpress-developer\ndescription: Builds enterprise-grade, secure, and performant WordPress websites, custom Block Themes (Full Site Editing), plugins, WooCommerce stores, and Headless architectures.\n---\n\n# WordPress & WooCommerce Developer Skill\n\n## Modern Development Standards\n\n### 1. Theme Development (Full Site Editing - FSE)\n- Use \\`theme.json\\` for central design token configuration (colors, typography, spacing, layout).\n- Build modular block patterns and template parts rather than monolithic PHP template files.\n- Enqueue assets conditionally to prevent script bloat on irrelevant pages.\n\n### 2. Plugin Architecture & Security\n- Never query database directly without preparation (\\`$wpdb->prepare()\\`).\n- Always verify Nonces (\\`wp_verify_nonce()\\`) on form and AJAX submissions.\n- Check user capabilities with \\`current_user_can()\\` before executing actions.\n- Sanitize inputs (\\`sanitize_text_field()\\`) and escape outputs (\\`esc_html()\\`, \\`esc_attr()\\`, \\`esc_url()\\`).\n\n### 3. Headless WordPress\n- Use WordPress REST API or WPGraphQL as content backend.\n- Pair with Next.js, Nuxt, or Astro for frontend rendering with ISR (Incremental Static Regeneration).\n- Utilize webhooks to invalidate static caches on post publish/update.\n\n### 4. Performance & Caching\n- Use Object Caching (Redis or Memcached) to cache database query results.\n- Optimize media uploads via WebP conversion and lazy loading.\n- Automate deployment and database migrations with **WP-CLI**."
+  },
+  "tech-community-speaker": {
+    "id": "tech-community-speaker",
+    "title": "Tech Community Speaker & Knowledge Sharing Coach",
+    "badge": "🎤 Tech Meetup",
+    "category": "Community & Sharing",
+    "description": "คู่มือการเตรียมตัวเป็นวิทยากรและแบ่งปันความรู้ใน Tech Meetup: การเขียน Call for Papers (CFP), การจัดโครงสร้างสไลด์, เทคนิค Live Coding/Demo และการสื่อสารกับ Community",
+    "pathLink": "/paths/meetup/",
+    "tags": [
+      "Public Speaking",
+      "Meetup",
+      "CFP",
+      "Slides",
+      "Live Demo",
+      "Community"
+    ],
+    "content": "---\nname: tech-community-speaker\ndescription: Prepares developers and tech professionals to give impactful conference and meetup talks, craft winning CFP proposals, structure presentation slides, and manage live demos.\n---\n\n# Tech Community Speaker & Knowledge Sharing Coach Skill\n\n## The Talk Preparation Workflow\n\n### 1. Crafting a Winning CFP (Call for Papers)\n- **Catchy, Clear Title**: State the problem and the outcome (e.g., \"From Monolith to Event-Driven: How We Handled 10M Requests on Black Friday\").\n- **Target Audience & Prerequisites**: State clearly who benefits (Junior, Senior, Architect, DevOps).\n- **The Takeaway**: List 3 concrete things the audience can implement on Monday morning.\n\n### 2. Structuring the Presentation (30-45 Minutes)\n- **The Hook (First 2 mins)**: Start with a relatable pain point or surprising statistic, not a 5-minute resume reading.\n- **The Journey / Problem Statement (5-8 mins)**: Why existing solutions failed or what trade-offs emerged.\n- **The Solution & Architecture (15-20 mins)**: High-level diagram, key decisions, code snippets.\n- **The Lessons Learned (5 mins)**: What went wrong, gotchas, and what you would do differently.\n- **Call to Action / Q&A (5-10 mins)**: Resource links, repository URL, contact info.\n\n### 3. Live Demo Safeguards\n- Always have a pre-recorded backup video or screenshots of the demo flow.\n- Increase terminal and editor font sizes to at least 18-22pt.\n- Pre-install and warm up dependencies (never rely on live conference Wi-Fi for \\`npm install\\` or \\`docker pull\\`).\n- Keep code snippets in clipboard or snippet manager to avoid typing errors under pressure."
+  }
+}
