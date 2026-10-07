@@ -180,3 +180,6 @@ npm run docs:dev
 ## ขอบคุณผู้ร่วมพัฒนาทุกคนและคุณ ❤
 
  <a href = "https://contrib.rocks/image?repo=ThaiProgrammer/tpa-path">    </a>
+
+
+<!-- Security scan triggered at 2026-10-07 14:43:03 -->
